@@ -5,7 +5,7 @@ description: Forms can be dreadfully tricky to style and structure properly. Sev
 permalink: /articles/form-follows-function/
 ---
 
-Form Building Blocks
+## Form Building Blocks
 
 All input elements on a form must be tagged with labels. Labels describe what type of information the form may contain.
 
@@ -15,21 +15,21 @@ The subject of the field set may be marked by means of a legend. A legend descri
 
 In retrospect it could be said that there is the following list of most important building blocks for forms:
 
-Input elements (Free-form input fields, text areas, radio buttons, etc.)
-Labels
-Legends
-Fieldsets
-This article will illuminate which element has to be used when.
+- Input elements (Free-form input fields, text areas, radio buttons, etc.)
+- Labels
+- Legends
+- Fieldsets
 
-There are basically two types of forms in the world. Simple layout forms, and Complex layout forms.
+This article strives to elucidate which element has to be used when.
+
+There are basically two types of forms. Vertical forms and horizontal layout forms.
 
 Simple forms are the old fashioned type of forms that are popular for smaller patterns, such as a login dialogue.
 
-Complex forms have a bit more layout to them. This often means that the form is divided into two imaginary columns. There's each time a question on one side and one or more answers, or input fields for the answers, on the other side.
+Horizontal forms have a bit more layout to them. This often means that the form is divided into two imaginary columns. There's each time a question on one side and one or more answers, or input fields for the answers, on the other side.
 
-Complex Forms
+### Horizontal forms
 
-The Concise Pattern
 The following example displays a complex layout for where there's each time a short question on the left and room for an answer on the right. These questions are related towards each other and therefore grouped in a field set and tagged with a legend that says 'Personal Information'.
 
 
@@ -50,7 +50,7 @@ The only form element that's left to use is legend. Since the current group of e
 
 I like to call the pattern that has a legend on the left and the answers on the right the Comprehensive Form Pattern. The example above is a combination of the concise and the comprehensive pattern.
 
-Simple Forms
+### Vertical forms
 
 Simple forms don't differ from complex form by structure, only by layout. This is an example of a simple form:
 
@@ -60,7 +60,7 @@ The diagram below demonstrates how the universal structure of this form doesn't 
 
 
 
-Judge the Things by What They Are
+## Judge the Things by What They Are
 
 What becomes clear in this story is that visual layout of a form doesn't have to influence the structure of it. In a complex layout form, the things that are positioned as questions that are positioned on one side of the form may be labels, legends, or a mixture of both. The same principle applies to simple layout forms. The differences are merely cosmetic.
 
