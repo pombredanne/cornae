@@ -1,0 +1,377 @@
+body {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/pattern-ie.png', sizingMethod='crop');
+	background-image: none;
+}
+
+#contentBody {
+background: transparent url(labelBody.png) no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/labelBody.png', sizingMethod='crop');
+	background-image: none;
+}
+
+#top {
+	position: absolute;
+}
+
+#search input,
+#prologue #portletOtherLanguages {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/dim-ie.png', sizingMethod='crop');
+	background-image: none;
+	background-color: transparent;
+}
+
+#prologue #portletOtherLanguages {
+	height: 520px;
+}
+
+#contentBody .tileItem a.articleAvatar img {
+	position: absolute;
+	width: 132px;
+	height: 132px;
+}
+
+button {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/button.png', sizingMethod='crop');
+	background-image: none;
+	color: white;
+}
+
+/* @group Prologue */
+
+#prologue {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/pattern-ie.png', sizingMethod='crop');
+	background-image: none;
+	padding-bottom: 10px;
+}
+
+#prologue h1 {
+background: transparent url(labelBody.png) no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/labelTitle.png', sizingMethod='crop');
+	background-image: none;
+}
+
+#prologue p.byline {
+background: transparent url(labelBody.png) no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/labelCopyright.png', sizingMethod='crop');
+	background-image: none;
+}
+
+#prologue p.introduction {
+background: transparent url(labelBody.png) no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/labelDescription.png', sizingMethod='crop');
+	background-image: none;
+}
+
+/* @end */
+
+/* @group Main Menu */
+
+#mainMenu li#home a {
+background: transparent url(labelBody.png) no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/logo.png', sizingMethod='crop');
+	background-image: none;
+}
+
+#mainMenu li#portaltab-contact {
+	position: relative;
+	top: -127px;
+}
+
+#mainMenu ul li.current a {
+background: transparent url(labelBody.png) no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/menuItem-active.png', sizingMethod='crop');
+	background-image: none;
+}
+
+/* @end */
+
+#colours li strong {
+	filter:alpha(opacity=0)
+}
+
+div.hr {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/separator.png', sizingMethod='crop');
+	height: 20px;
+	float: left;
+	width: 100%;
+	background-image: none;
+}
+
+div.hr hr {
+	display: none;
+}
+
+#colours li strong {
+	top: 610px;
+}
+
+#top {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/top.png', sizingMethod='crop');
+background: none;
+}
+
+/* @group Portfolio */
+
+html {
+	
+}
+
+#portfolio {
+	padding: 0;
+	height: auto;
+	margin: 0;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/portfolio-ie.png', sizingMethod='crop');
+	background-image: none;
+	overflow: auto;
+}
+
+#portfolio p.controls {
+	position: absolute;
+	width: 145px;
+	top: 39px;
+	margin: 0;
+	padding: 0 0 0 40px;
+	float: left;
+	height: 50px;
+	left: 0;
+}
+
+#portfolio p.controls a {
+	width: 48px;
+	height: 0;
+	overflow: hidden;
+	border: 1px solid silver;
+	-webkit-transition: all 0.4s;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin: 0;
+}
+
+#portfolio p.controls a:hover {
+	border: 1px solid gray;
+}
+
+#portfolio .buttonPrevious {
+	background: url(iconsPortfolio.gif) 50px 0;
+	float: left;
+}
+
+#portfolio .buttonNext {
+	background: url(iconsPortfolio.gif) 100px 0;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#portfolio #header {
+	position: static;
+}
+
+#portfolio #prologue {
+	position: relative;
+	padding-top: 199px;
+	width: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/portfolio-ie.png', sizingMethod='crop');
+	padding-bottom: 0;
+	background-image: none;
+	border-bottom-style: none;
+	height: 98px;
+}
+
+#portfolio #portletOtherLanguages,
+#portfolio .introduction,
+#portfolio #top {
+	display: none;
+}
+
+#portfolio h1 {
+	position: static;
+	top: 199px;
+	left: 0;
+	z-index: 5;
+}
+
+#portfolio #main {
+	position: relative;
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 0;
+	height: auto;
+	width: 100%;
+}
+
+#portfolio #contentBody {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	position: static;
+	left: 0;
+	top: 0;
+	background-image: none;
+}
+
+#portfolio .project,
+#portfolio #introduction {
+	position: relative;
+	width: 924px;
+	float: left;
+	margin-bottom: 100px;
+	padding-left: 0;
+	overflow: hidden;
+	clear: left;
+}
+
+#portfolio #contentBody .media {
+	width: 10000px;
+	padding-top: 0;
+	padding-left: 210px;
+	position: static;
+}
+
+#portfolio #contentBody .media a.first {
+	float: left;
+	display: inline;
+	width: 714px;
+}
+
+#portfolio #contentBody .media a img {
+	float: left;
+	margin: 0;
+	padding-top: 0;
+	position: static;
+	background-color: silver;
+	padding: 0;
+	width: 712px;
+}
+
+#portfolio #contentBody .description {
+	width: 145px;
+	font-size: 10px;
+	line-height: 15px;
+	text-align: right;
+	position: absolute;
+	font-size: 10px;
+	line-height: 15px;
+	color: #7f7f7f;
+	padding: 0 0 0 40px;
+	margin: 0 0 20px;
+	top: 110px;
+	z-index: 1;
+	left: 0;
+}
+
+#portfolio #contentBody h2 {
+	z-index: 100;
+	position: static;
+	
+	margin: 0;
+	padding-left: 210px;
+	background: none 0 -2px;
+	letter-spacing: 2px;
+	float: none;
+	width: auto;
+	font-variant: normal;
+	font-style: normal;
+	line-height: 38px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #3d627e !important;
+	display: block;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+/* @group Introduction */
+
+#portfolio #introduction {
+	position: absolute;
+	width: 450px;
+background: none no-repeat left 9px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/labelDescription.png', sizingMethod='crop');
+	z-index: 100;
+	float: left;
+	padding: 0 0 0 210px;
+	top: 240px;
+}
+
+#portfolio #introduction a {
+	color: white;
+	position: static;
+	padding: 0;
+	background-color: transparent;
+}
+
+#portfolio #introduction a strong {
+	display: none;
+}
+
+#portfolio #introduction a:hover strong {
+	background: white url(iconsPortfolio.png) -50px 0;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Competences */
+
+#compentences #prologue {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/cornelis.png', sizingMethod='crop');
+	background-image: none;
+}
+
+
+
+/* @end */
+
+/* @group homepage */
+
+#welcome {
+	background: url(cornelis.jpg) no-repeat scroll;
+}
+
+#welcome #prologue {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/cornelis.png', sizingMethod='crop');
+	background-image: none;
+}
+
+blockquote#twitter {
+	margin-top: 0;
+}
+
+#colours li strong {
+	top: 750px;
+}
+
+
+
+/* @end */
+
+/* @group Contact */
+
+#contact #prologue,
+#contact {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/postStamp.png', sizingMethod='crop');
+	background-image: none;
+}
+
+#contact #contentBody {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/main/.png', sizingMethod='crop');
+}
+
+/* @end */
+
+/* @group Fieldsets */
+
+fieldset.concise input, fieldset.concise textarea {
+	float: left
+}
+
+
+
+/* @end */
