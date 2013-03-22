@@ -3,17 +3,14 @@ layout: layout
 title: "Main"
 ---
 	
-<div class="content">
-	<h2>I wrote</h2>
-	<div class="related">
+<div id="content">
 	  <ul>
-	  {% for post in site.posts %}
+	  {% for post in site.posts limit:3 %}
 	    <li>
 	      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	    </li>
 	  {% endfor %}
 	  </ul>
-	</div>
 <!--		
 <div id="post">
 {% for post in site.posts limit:1 %}
@@ -24,7 +21,7 @@ title: "Main"
 </div>
 -->
 
-<h2>Some Links</h2>
+<!--<h2>Some Links</h2>
 <div class="related">
 <ul>
 	<li>
@@ -33,4 +30,4 @@ title: "Main"
 </ul>
 </div>
 
-</div>
+</div>-->

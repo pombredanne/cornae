@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>
+      Welcome — Cornae
+    </title>
+    <meta name="Language" content="en" />
+    <link rel="stylesheet" href="style/main/screen.css" type="text/css" media="screen" charset="utf-8" />
+    
+    <!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie6.css" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie7.css" /><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie8.css" /><![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie9.css" /><![endif]-->
+    
+    <link rel="alternate stylesheet" href="style/blueberry/screen.css" type="text/css" media="screen" title="blueberry" charset="utf-8" />
+    <link rel="alternate stylesheet" href="style/topaz/screen.css" type="text/css" media="screen" title="topaz" charset="utf-8" />
+    <link rel="alternate stylesheet" href="style/orchid/screen.css" type="text/css" media="screen" title="orchid" charset="utf-8" />
+    <link rel="alternate stylesheet" href="style/mocha/screen.css" type="text/css" media="screen" title="mocha" charset="utf-8" />
+    <link rel="alternate stylesheet" href="style/avocado/screen.css" type="text/css" media="screen" title="avocado" charset="utf-8" />
+    
+    <script type="text/javascript" src="behaviour/jquery-1.4.2.min.js" charset="utf-8">
+</script>
+    <script src="behaviour/jquery.scrollTo.js" type="text/javascript" charset="utf-8">
+</script>
+    <script src="behaviour/jquery.localscroll.js" type="text/javascript" charset="utf-8">
+</script>
+    <script src="behaviour/behaviour.js" type="text/javascript" charset="utf-8">
+</script>
+    <script type="text/javascript" src="behaviour/jquery.twitter.js">
+</script>
+
+      <script src="behaviour/jquery.cookie.js" type="text/javascript" charset="utf-8">
+  </script>
+    <script src="behaviour/jquery.body-class-swap.js" type="text/javascript" charset="utf-8">
+</script>   
+    <script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('#colours').classSwapper();			
+		});
+		</script>
+    
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#twitter").getTwitter({
+					userName: "cornae",
+					numTweets: 1,
+					loaderText: "Loading tweet…",
+					slideIn: true,
+					slideDuration: 750,
+					showHeading: true,
+					headingText: "Latest tweet:",
+					showProfileLink: false,
+					showTimestamp: true
+				});
+			});
+		</script>
+		
+		<script src="http://www.patternslib.com/bundles/patterns-standalone.min.js" type="text/javascript"></script>
+  </head>
+  <body id="welcome" class="pat-auto-scale" data-pat-auto-scale="method: zoom">
+
+      <div id="prologue">
+        <h1>
+          Welcome
+        </h1>
+        <p>
+          Welcome to Cornae, a place about the <strong>user experience</strong> of modern websites. On this web site you will find <a href="articles.html">articles</a> on web standards, essays on usability and tutorials on creative CSS writing. This website is designed and maintained by <a href="#">Cornelis Kolbach</a>. A consultant in web technologies and the human dimension thereof.
+        </p>
+        <blockquote id="twitter">
+          Loading <a href="http://www.twitter.com/cornae">Tweets</a>…
+        </blockquote>
+        <p id="allTweets">
+          There are more tweets available on the <a href="tweets.html">tweet page</a>. 
+          <a href="http://twitter.com/cornae" class="twitter-follow-button" data-button="grey" data-text-color="#FFFFFF" data-link-color="#FFFFFF">Follow Cornelis on Twitter.</a>
+        </p>
+        
+        <ul id="colours">
+          <li class="blueberry">
+            <a href="#blueberry" rel="blueberry"><strong>Blueberry</strong></a>
+          </li>
+          <li class="topaz">
+            <a href="#topaz" class="styleswitch" rel="topaz"><strong>Topaz</strong></a>
+          </li>
+          <li class="orchid">
+            <a href="http://www.cornae.com?style=orchid" rel="orchid"><strong>Orchid</strong></a>
+          </li>
+          <li class="mocha">
+            <a href="#mocha" class="styleswitch" rel="mocha"><strong>Mocha</strong></a>
+          </li>
+          <li class="avocado">
+            <a href="#avocado" rel="avocado"><strong>Avocado</strong></a>
+          </li>
+        </ul>
+        
+      </div>
+      <div id="contentBody">
+        <div class="tileItem">
+          <a href="http://www.cornae.com/articles/form-follows-function/" class="articleAvatar"><img src="media/avatar-forms.png" alt="Form Follows Function and Achieving Thereof" title="Form Follows Function and Achieving Thereof" height="128" width="128" class="tileImage" /></a>
+          <h2 class="tileHeadline">
+            <a href="http://www.cornae.com/articles/form-follows-function/" class="summary url">Form Follows Function and Achieving Thereof</a> <span class="documentByLine"><span>by <a href="http://www.cornae.org/cornelis/">Cornelis Govert Adriaan Kolbach</a></span> — 2008-03-25 13:06</span>
+          </h2>
+          <p>
+            Forms can be dreadfully tricky to style and structure properly. Several articles that are out there focus on best practises for building forms using HTML en CSS. This article focusses in a non technical fashion on the use of meaningful&nbsp;nomenclature and how form semantics&nbsp;relate to elements that current markup standards have to offer. It may help you recognise structural patterns and to compose forms properly.
+          </p><a href="http://www.cornae.com/articles/form-follows-function/" class="read-more">Read More…</a>
+        </div>
+        <div class="tileItem">
+          <a href="http://www.cornae.com/articles/date-input-diversity/" class="articleAvatar"><img src="media/avatar-date-notation.png" alt="Gregorian Date Input Diversity" title="Gregorian Date Input Diversity" height="128" width="128" class="tileImage" /></a>
+          <h2 class="tileHeadline">
+            <a href="http://www.cornae.com/articles/date-input-diversity/" class="summary url">Gregorian Date Input Diversity</a> <span class="documentByLine"><span>by <a href="http://www.cornae.org/cornelis/">Cornelis Govert Adriaan Kolbach</a></span> — 2008-03-21 16:48</span>
+          </h2>
+          <p>
+            One of the most common interaction patterns one can find on forms is the date input group. They appear in all shapes and sizes in various applications and sign up forms on websites. Certain forms of appearance seem to be more popular in certain geographical areas than other. But other than that it is hard to find any pattern or rationale why one website has chosen for model X while the other has chosen model Y. The suspicion would rise that the date input method is often dictated by the way the backend would 'like' it. This is a situation which neither we, as interaction designers and consultants, nor the end user should settle for.
+          </p><a href="http://www.cornae.com/articles/date-input-diversity/" class="read-more">Read More…</a>
+        </div>
+      </div>
+
+        <ul id="globalNavigation">
+          <li id="portaltab-home" class="current">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="competences.html">Competences</a>
+          </li>
+          <li>
+            <a href="articles.html">Articles</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li id="portaltab-contact">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <form action="search-results.html" id="search">
+          <input type="text" name="search" placeholder="Search" />
+        </form>
+
+         <div class="addthis_toolbox addthis_default_style addthis_32x32_style" id="share">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+        </div>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=cornae"></script>
+        
+        <a href="#main" id="top" name="top">Back to top</a>
+      
+        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+      
+  </body>
+</html>
