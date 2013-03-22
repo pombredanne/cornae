@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Doing some jekyll tests
-permalink: /2011/08/doing-some-jekyll-tests/
+permalink: /articles/doing-some-jekyll-tests/
 ---
 
 This post is just a test but if you find something interesting inside, let me know!

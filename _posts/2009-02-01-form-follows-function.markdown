@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Form follows function and achieving thereof
-permalink: form-follows-function/
+permalink: /articles/form-follows-function/
 ---
 
 Forms can be dreadfully tricky to style and structure properly. Several articles that are out there focus on best practises for building forms using HTML en CSS. This article focusses in a non technical fashion on the use of meaningful nomenclature and how form semantics relate to elements that current markup standards have to offer. It may help you recognise structural patterns and to compose forms properly.
