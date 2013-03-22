@@ -1,106 +1,62 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{{ page.title }} — Cornæ</title>
-    <meta name="Language" content="en" />
-    <link rel="stylesheet" href="style/main/screen.css" type="text/css" media="screen" charset="utf-8" />
-    
-    <!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie6.css" /><![endif]-->
-    <!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie7.css" /><![endif]-->
-    <!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie8.css" /><![endif]-->
-    <!--[if IE 9]><link rel="stylesheet" type="text/css" media="screen" href="style/main/screen-ie9.css" /><![endif]-->
-    
-    <link rel="alternate stylesheet" href="style/blueberry/screen.css" type="text/css" media="screen" title="blueberry" charset="utf-8" />
-    <link rel="alternate stylesheet" href="style/topaz/screen.css" type="text/css" media="screen" title="topaz" charset="utf-8" />
-    <link rel="alternate stylesheet" href="style/orchid/screen.css" type="text/css" media="screen" title="orchid" charset="utf-8" />
-    <link rel="alternate stylesheet" href="style/mocha/screen.css" type="text/css" media="screen" title="mocha" charset="utf-8" />
-    <link rel="alternate stylesheet" href="style/avocado/screen.css" type="text/css" media="screen" title="avocado" charset="utf-8" />
-    
-    <script type="text/javascript" src="behaviour/jquery-1.4.2.min.js" charset="utf-8">
-</script>
-    <script src="behaviour/jquery.scrollTo.js" type="text/javascript" charset="utf-8">
-</script>
-    <script src="behaviour/jquery.localscroll.js" type="text/javascript" charset="utf-8">
-</script>
-    <script src="behaviour/behaviour.js" type="text/javascript" charset="utf-8">
-</script>
-    <script type="text/javascript" src="behaviour/jquery.twitter.js">
-</script>
-
-      <script src="behaviour/jquery.cookie.js" type="text/javascript" charset="utf-8">
-  </script>
-    <script src="behaviour/jquery.body-class-swap.js" type="text/javascript" charset="utf-8">
-</script>   
-    <script type="text/javascript" charset="utf-8">
-		$(document).ready(function() {
-			$('#colours').classSwapper();			
-		});
-		</script>
-    
-		<script type="text/javascript">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	    <meta name="viewport" content="width=device-width" />
+	    <title>{{ page.title }} — Cornæ</title>
+	    <meta name="Language" content="en" />
+	    <link rel="stylesheet" href="style/main/screen.css" type="text/css" media="screen" charset="utf-8" />   
+	    <script src="http://www.patternslib.com/bundles/patterns-standalone.min.js" type="text/javascript"></script> 
+	    <script type="text/javascript">
 			$(document).ready(function() {
-				$("#twitter").getTwitter({
-					userName: "cornae",
-					numTweets: 1,
-					loaderText: "Loading tweet…",
-					slideIn: true,
-					slideDuration: 750,
-					showHeading: true,
-					headingText: "Latest tweet:",
-					showProfileLink: false,
-					showTimestamp: true
-				});
+			{{ page.script }}
 			});
-		</script>
-		
-		<script src="http://www.patternslib.com/bundles/patterns-standalone.min.js" type="text/javascript"></script>
-  </head>
-  <body id="welcome" class="pat-auto-scale" data-pat-auto-scale="method: zoom">
+	    </script>   
+	</head>
+	<body class="pat-auto-scale" data-pat-auto-scale="method: zoom">
 
-      <div id="prologue">
-        <h1>
-          {{ page.title }}
-        </h1>        
-      </div>
-      <div id="contentBody">
+		<div id="prologue">
+			<h1>
+				{{ page.title }}
+			</h1>        
+		</div>
+		<div id="contentBody">
 			{{ page.content }}
-	  </div>
+		</div>
 
 		<ul id="globalNavigation">
-		  <li id="portaltab-home" class="current">
-		    <a href="index.html">Home</a>
-		  </li>
-		  <li>
-		    <a href="competences.html">Competences</a>
-		  </li>
-		  <li>
-		    <a href="articles.html">Articles</a>
-		  </li>
-		  <li>
-		    <a href="portfolio.html">Portfolio</a>
-		  </li>
-		  <li id="portaltab-contact">
-		    <a href="contact.html">Contact</a>
-		  </li>
+			<li id="portaltab-home" class="current">
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="competences.html">Competences</a>
+			</li>
+			<li>
+				<a href="articles.html">Articles</a>
+			</li>
+			<li>
+				<a href="portfolio.html">Portfolio</a>
+			</li>
+			<li id="portaltab-contact">
+				<a href="contact.html">Contact</a>
+			</li>
 		</ul>
 
         <form action="search-results.html" id="search">
-          <input type="text" name="search" placeholder="Search" />
+        	<input type="text" name="search" placeholder="Search" />
         </form>
 
-         <div class="addthis_toolbox addthis_default_style addthis_32x32_style" id="share">
-          <a class="addthis_button_preferred_1"></a>
-          <a class="addthis_button_preferred_2"></a>
+        <div class="addthis_toolbox addthis_default_style addthis_32x32_style" id="share">
+         	<a class="addthis_button_preferred_1"></a>
+         	<a class="addthis_button_preferred_2"></a>
         </div>
+        
         <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=cornae"></script>
         
         <a href="#main" id="top" name="top">Back to top</a>
       
         <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-      
   </body>
 </html>
