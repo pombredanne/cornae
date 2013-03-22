@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Doing some jekyll tests
 permalink: /2011/08/doing-some-jekyll-tests/
 ---
