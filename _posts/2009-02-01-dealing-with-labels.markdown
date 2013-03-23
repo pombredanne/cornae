@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Dealing with labels
-description: As suggested in the article Form Follows Function and Achieving Thereof, every input element on a form should ideally have a label. Labels give more meaning to input elements and makes them accessible. This article dives into dealing with labels and input fields for postal addresses on forms.
+summary: As suggested in the article Form Follows Function and Achieving Thereof, every input element on a form should ideally have a label. Labels give more meaning to input elements and makes them accessible. This article dives into dealing with labels and input fields for postal addresses on forms.
 ---
 
 A great example of a pattern that really requires the application of visible labels is the postal address entry. Postal address entries may easily contain four, five, or more fields to fill out. The many fields often lead to forms that are lengthier than necessary if all the labels are kept on the left. Another disadvantage of the left-label-layout is that it's far off of the layout of postal addresses on envelopes and letters in the real world.
