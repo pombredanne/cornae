@@ -36,6 +36,7 @@ body {
 	line-height: 1.5;
 	background: #fff;
 	margin: 0;
+	font-size: 16px;
 }
 
 /* Tables still need 'cellspacing="0"' in the markup. */
@@ -163,17 +164,18 @@ a img {
 body {
 	margin: 0;
 	padding: 0 180px 0 270px;
-	min-width: 990px;
 	background-color: #e1e6f0;
 	background-image: url(pattern.png), url(grain.png);
 	background-repeat: no-repeat, repeat;
 	background-attachment: fixed;
 	background-position: right 0;
+	background-size:  100% auto;
 	font: 20px/32px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: rgba(0,0,0,0.6);
 	text-shadow: white 0 1px 0;
 	overflow-x: hidden;
 	width: 830px;
+	display: block;
 }
 
 * {
@@ -1660,7 +1662,7 @@ p.geekAlert em {
 /* @group Main Content */
 
 #contentBody {
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 	padding-top: 20px;
 }
 
@@ -1910,6 +1912,7 @@ p.caption img {
 	margin-left: -270px;
 	margin-right: -180px;
 	padding: 310px 180px 0 270px;
+	background-size:  100% auto;
 }
 
 #prologue:after {
