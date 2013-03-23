@@ -1635,6 +1635,8 @@ p.caption img {
 }
 
 #search input {
+	-webkit-appearance: none;
+	appearance: none;
 	width: 132px;
 	position: absolute;
 	bottom: 3px;
