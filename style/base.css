@@ -184,7 +184,6 @@ body {
 
 a {
 	color: #3d607e;
-	transition: color 0.6s
 }
 
 img {
@@ -1319,6 +1318,15 @@ sup {
 	border-bottom: 1px dashed silver;
 }
 
+.posts .post a {
+	text-decoration: none;
+	display: block;
+}
+
+.posts .post a:hover {
+	color: black;
+}
+
 .posts .post a.articleAvatar {
 	float: left;
 	margin-left: -185px;
@@ -1365,41 +1373,6 @@ sup {
 
 .posts .post h2:after {
 	content: " —";
-}
-
-#sideBar .tileItem {
-	border-top: 1px dashed #a8bbc9;
-	padding-top: 9px;
-	margin-top: 10px;
-}
-
-#sideBar .tileItem a.articleAvatar {
-	
-}
-
-#sideBar .tileItem a.articleAvatar img {
-	width: 64px;
-	margin-left: 10px;
-	float: right;
-	background: #a8bbc9;
-	height: auto;
-}
-
-#sideBar .tileItem p {
-	display: compact;
-}
-
-#sideBar .tileItem h2 {
-	margin-bottom: 0;
-}
-
-#sideBar .tileItem h2 a {
-	text-decoration: none;
-}
-
-#sideBar .tileItem a.read-more {
-	font-size: 9px;
-	text-decoration: underline;
 }
 
 /* @end */
