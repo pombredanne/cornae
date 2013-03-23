@@ -1,0 +1,60 @@
+
+body
+{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a
+{
+	outline: none;
+}
+p
+{
+	margin-top: 13px;
+}
+img
+{
+	border: none;
+}
+
+h1
+{
+     font: 300 24.5px/1.7 'open sans', san-serif;
+	color: #080808;
+     text-rendering: optimizelegibility;
+     margin: 10px 0;
+}
+
+.low
+{
+     font: 300 14px/1.6 'segoe ui', lato, sans-serif;
+	color: #111;
+}
+.low a
+{
+	color: #39c;
+	text-decoration: none;
+}
+.low a:hover 
+{
+	color: #111;
+}
+
+.light_image:hover
+{
+	opacity: 0.8;
+}
+
+.block
+{
+	clear: both;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+
+
