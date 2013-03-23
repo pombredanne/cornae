@@ -1912,7 +1912,7 @@ p.caption img {
 	margin-left: -270px;
 	margin-right: -180px;
 	padding: 310px 180px 0 270px;
-	background-size:  100% auto;
+	background-size:  100% auto, 400px 400px;
 }
 
 #prologue:after {
