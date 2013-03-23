@@ -1,1 +1,7 @@
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", 
+twitter: cornae
+title: Cornae
+author: Cornelis G. A. Kolbach
 baseurl: /cornae
