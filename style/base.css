@@ -162,7 +162,7 @@ a img {
 
 body {
 	margin: 0;
-	padding: 0;
+	padding: 0 180px 0 270px;
 	min-width: 990px;
 	background-color: #e1e6f0;
 	background-image: url(pattern.png), url(grain.png);
@@ -173,7 +173,7 @@ body {
 	color: rgba(0,0,0,0.6);
 	text-shadow: white 0 1px 0;
 	overflow-x: hidden;
-	width: 1280px;
+	width: 830px;
 }
 
 * {
@@ -1661,9 +1661,7 @@ p.geekAlert em {
 
 #contentBody {
 	padding-bottom: 120px;
-	width: 830px;
 	padding-top: 20px;
-	padding-left: 270px;
 }
 
 p.caption img {
@@ -1900,11 +1898,6 @@ p.caption img {
 /* @group Prologue */
 
 #prologue {
-	/*
-
-background-color: #517693;*/
-	padding-top: 310px;
-	width: 100%;
 	z-index: 1;
 	background: #3d607e url(pattern.png) no-repeat fixed right 0;
 	background-image: url(pattern.png),url(grain.png) ;
@@ -1913,9 +1906,10 @@ background-color: #517693;*/
 	color: #aeb7c4;
 	text-shadow: #000 0 -1px 0;
 	display: block;
-	padding-left: 270px;
-	padding-bottom: 0;
 	font-family: NewCicleFina, HelveticaNeueLTStd25UltraLt;
+	margin-left: -270px;
+	margin-right: -180px;
+	padding: 310px 180px 0 270px;
 }
 
 #prologue:after {
