@@ -1619,7 +1619,7 @@ p.caption img {
 
 /* @group Search */
 
-#search {
+.gsc-search-box {
 	width: 137px;
 	height: 138px;
 	position: absolute;
@@ -1634,7 +1634,7 @@ p.caption img {
 	line-height: 32px;
 }
 
-#search input {
+.gsc-search-box input {
 	width: 132px;
 	position: absolute;
 	bottom: 3px;
@@ -1651,21 +1651,12 @@ p.caption img {
 	padding: 0 3px 0 6px;
 }
 
-#search input:focus {
+.gsc-search-box input:focus {
 	color: white;
 	border-color: rgba(255,254,255,0.36);
 }
 
-#search input::-webkit-input-placeholder {
-    color: rgba(252,255,255,0.4);
-	line-height: 20px;
-}
-#search input:-moz-placeholder {
-    color: rgba(252,255,255,0.4);
-	line-height: 20px;
-}
-
-#search input:placeholder {
+.gsc-search-box input:placeholder {
     color: rgba(252,255,255,0.4);
 	line-height: 20px;
 }
