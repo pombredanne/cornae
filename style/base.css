@@ -196,7 +196,7 @@ img {
 }
 
 #tipue_search_results_count {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .tipue_search_content_title {
@@ -223,12 +223,9 @@ dl.searchResults dd .avatar img {
 	background-color: rgba(0,0,0,0.13);
 }
 
-dl.searchResults dd .description {
-	margin-bottom: 0;
-}
-
 .tipue_search_content_loc {
 	font-size: 10px;
+	margin-bottom: 1em;
 }
 
 .tipue_search_content_loc a {
