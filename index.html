@@ -3,10 +3,12 @@ layout: frontpage
 title: Welcome
 ---
 	<h3>Most recent articles</h3>
+	<div class="posts">
 	{% for post in site.posts %}
-	  <section>
+	  <article class="post">
 	    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-	    {{ post.summary }}
-	  </section>
+	    <p class="summary">{{ post.summary }}</p>
+	  </article>
 	{% endfor %}
+	</div>
 
