@@ -1,0 +1,39 @@
+#globalNavigation li#portaltab-home a {
+	background: url(logo-inverted.png) no-repeat 57px 0;
+}
+
+#globalNavigation li a {
+	color: white;
+}
+
+#search {
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+#globalNavigation li#portaltab-contact {
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+#prologue p {
+	color: white;
+}
+
+#prologue #portletOtherLanguages {
+	background-image: url(dim.png);
+}
+
+#top {
+	background-image: url(social-icons.png);
+}
+
+#share a.addthis_button_facebook {
+	background: rgba(0,0,0,0.2) url(social-icons.png) 0 -30px;
+}
+
+#share a.addthis_button_twitter {
+	background: rgba(0,0,0,0.2) url(social-icons.png) 0 0;
+}
