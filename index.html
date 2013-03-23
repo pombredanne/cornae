@@ -6,8 +6,10 @@ title: Welcome
 	<div class="posts">
 	{% for post in site.posts %}
 	  <article class="post">
-	    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-	    <p class="summary">{{ post.summary }}</p>
+	  	<a href="{{ site.baseurl }}{{ post.url }}">
+		    <h2>{{ post.title }}</h2>
+		    <p class="summary">{{ post.summary }}</p>
+	    </a>
 	  </article>
 	{% endfor %}
 	</div>

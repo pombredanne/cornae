@@ -332,57 +332,6 @@ div.moreRecent ul li img {
 
 /* @end */
 
-/* @group Search results */
-
-dl.searchResults {
-	
-}
-
-dl.searchResults dt {
-	clear: left;
-	font-weight: bold;
-}
-
-dl.searchResults dt a {
-	display: block;
-}
-
-dl.searchResults dd {
-	font-style: italic;
-}
-
-dl.searchResults dd .avatar {
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-
-dl.searchResults dd .avatar img {
-	width: 70px;
-	background-color: rgba(0,0,0,0.13);
-}
-
-dl.searchResults dd .description {
-	margin-bottom: 0;
-}
-
-dl.searchResults dd .path {
-	font-size: 10px;
-}
-
-dl.searchResults dd .path a {
-	text-decoration: none;
-}
-
-dl.searchResults dd .path a:hover {
-	text-decoration: underline;
-	display: block;
-}
-
-
-
-/* @end */
-
 #top {
 	width: 29px;
 	padding-top: 28px;
@@ -1004,20 +953,20 @@ p strong {
 
 h1 {
 	letter-spacing: 2px;
-	font: normal normal 50px/55px NewCicleFina, HelveticaNeueLTStd25UltraLt, "Helvetica Neue Ultra Light", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	margin: 0 0 20px;
 	transition: all 0.4s;
 	width: 830px;
+	font: normal normal 2.8em/1.5 NewCicleFina, HelveticaNeueLTStd25UltraLt, "Helvetica Neue Ultra Light", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 h2 {
 	border-style: none;
-	font-size: 19px;
 	margin-top: 0;
 	transition: color 1s ease-out;
 	margin-bottom: 1em;
 	letter-spacing: 3px;
 	font-weight: bold;
+	font-size: 1.2em;
 }
 
 h2 a {
@@ -1363,14 +1312,14 @@ sup {
 
 /* @group Article Overview */
 
-#contentBody .tileItem {
+.posts .post {
 	float: left;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px dashed silver;
 }
 
-#contentBody .tileItem a.articleAvatar {
+.posts .post a.articleAvatar {
 	float: left;
 	margin-left: -185px;
 	margin-top: 5px;
@@ -1384,7 +1333,7 @@ sup {
 	overflow: hidden;
 }
 
-#contentBody .tileItem a.articleAvatar img {
+.posts .post a.articleAvatar img {
 	-webkit-transition: background-color 0.2s ease-out;
 	width: 148px;
 	height: 148px;
@@ -1396,21 +1345,26 @@ sup {
 	border: 1px solid white;
 }
 
-#contentBody .tileItem a.articleAvatar:hover img {
+.posts .post a.articleAvatar:hover img {
 	background-color: #fffeff;
 }
 
-#contentBody .tileItem a.articleAvatar:hover {
+.posts .post a.articleAvatar:hover {
 	border: 1px solid #54748e;
 }
 
-#contentBody .tileItem p {
+.posts .post p {
 	clear: none;
 	display: inline;
 }
 
-#contentBody .tileItem h2 {
+.posts .post h2 {
 	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.posts .post h2:after {
+	content: " —";
 }
 
 #sideBar .tileItem {
@@ -2340,7 +2294,7 @@ body.avocado #colours .avocado strong {
 
 body.avocado #prologue,
 body.avocado .emphasis,
-body.avocado #contentBody .tileItem a.articleAvatar:hover img,
+body.avocado .posts .post a.articleAvatar:hover img,
 body.avocado hr,
 body.avocado #shadowbox_overlay {
 	background-color: #777f58;
@@ -2378,9 +2332,9 @@ body.avocado a {
 	color: #777f58;
 }
 
-body.avocado #contentBody .tileItem a.articleAvatar,
+body.avocado .posts .post a.articleAvatar,
 body.avocado #sideBar,
-body.avocado #contentBody .shortMessage,#contentBody .tileItem {
+body.avocado #contentBody .shortMessage,.posts .post {
 	border-color: #a3ad75;
 }
 
@@ -2440,7 +2394,7 @@ body.mocha h1 {
 
 body.mocha hr,
 body.mocha .emphasis,
-body.mocha #contentBody .tileItem body.mocha a.articleAvatar:hover img {
+body.mocha .posts .post body.mocha a.articleAvatar:hover img {
 	background-color: #d2baa9;
 }
 
@@ -2466,11 +2420,11 @@ body.mocha #contentBody .shortMessage ul li {
 	color: #8b745f;
 }
 
-body.mocha #contentBody .tileItem a.articleAvatar,
+body.mocha .posts .post a.articleAvatar,
 body.mocha #contentBody .shortMessage,
 body.mocha #mainMenu li#portaltab-contact,
 body.mocha #search,
-body.mocha #contentBody .tileItem,
+body.mocha .posts .post,
 body.mocha #twitter ul li span {
 	border-color: #d2baa9;
 }
@@ -2528,7 +2482,7 @@ body.topaz #home #prologue ul#languages a:hover {
 
 body.topaz hr,
 body.topaz .emphasis,
-body.topaz #contentBody .tileItem body.topaz a.articleAvatar:hover img,
+body.topaz .posts .post body.topaz a.articleAvatar:hover img,
 body.topaz #sideBar .tileItem a.articleAvatar img {
 	background-color: #bddceb;;
 }
@@ -2553,11 +2507,11 @@ body.topaz #contentBody .shortMessage ul li {
 	color: #4e91cb;
 }
 
-body.topaz #contentBody .tileItem a.articleAvatar,
+body.topaz .posts .post a.articleAvatar,
 body.topaz #contentBody .shortMessage,
 body.topaz #mainMenu li#portaltab-contact,
 body.topaz #search,
-body.topaz #contentBody .tileItem {
+body.topaz .posts .post {
 	border-color: #bddceb;
 }
 
@@ -2604,7 +2558,7 @@ body.orchid div#contentBody p.geekAlert {
 body.orchid hr,
 body.orchid .emphasis,
 body.orchid div.hr,
-body.orchid #contentBody .tileItem a.articleAvatar:hover img,
+body.orchid .posts .post a.articleAvatar:hover img,
 body.orchid #sideBar .tileItem body.orchid a.articleAvatar img {
 	background-color: #fcb6e8;;
 }
