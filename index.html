@@ -1,12 +1,12 @@
 ---
-layout: shell
+layout: frontpage
 title: Welcome
 ---
-
-{% for post in site.posts %}
-  <section>
-    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.summary }}
-  </section>
-{% endfor %}
+	<h4>Most recent articles</h4>
+	{% for post in site.posts %}
+	  <section>
+	    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+	    {{ post.summary }}
+	  </section>
+	{% endfor %}
 

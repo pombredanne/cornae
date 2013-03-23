@@ -1,7 +1,15 @@
 ---
-layout: design
+layout: shell
 ---
-<div class="hero">
-  The frontpage content is put in a hero element.
-  {{ content }}
-</div>
+
+      <div id="prologue">
+        <h1>
+          Welcome…
+        </h1>
+        <p class="introduction">
+          … to the personal website of {{ site.author }}. This is where he likes to blog about his professional field (has been a while since blogs got out of fashion), show his work and where he may be contacted.
+        </p>
+      </div>
+      <div id="contentBody">
+        {{ content }}
+	  </div>
