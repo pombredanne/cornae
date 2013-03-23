@@ -1,14 +1,14 @@
 ---
 layout: shell
-title: "Home"
 ---
 
       <div id="prologue">
         <h1>
           {{ page.title }}
         </h1>
+        {{ page.summary }}
         <p class="byline">
-          Cornelis G.A. Kolbach, 1 December 2007
+          Cornelis G.A. Kolbach, {{ page.date | date: "%B, %e, %Y" }}
         </p>
         <p class="introduction">
           Lorem ipsum
