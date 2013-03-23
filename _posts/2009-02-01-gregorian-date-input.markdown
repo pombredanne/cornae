@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Gregorian date input diversity
-description: One of the most common interaction patterns one can find on forms is the date input group. They appear in all shapes and sizes in various applications and sign up forms on websites. Certain forms of appearance seem to be more popular in certain geographical areas than other. But other than that it is hard to find any pattern or rationale why one website has chosen for model X while the other has chosen model Y. The suspicion would rise that the date input method is often dictated by the way the backend would 'like' it. This is a situation which neither we, as interaction designers and consultants, nor the end user should settle for.
+summary: One of the most common interaction patterns one can find on forms is the date input group. They appear in all shapes and sizes in various applications and sign up forms on websites. Certain forms of appearance seem to be more popular in certain geographical areas than other. But other than that it is hard to find any pattern or rationale why one website has chosen for model X while the other has chosen model Y. The suspicion would rise that the date input method is often dictated by the way the backend would 'like' it. This is a situation which neither we, as interaction designers and consultants, nor the end user should settle for.
 ---
 
 ## International Formats
