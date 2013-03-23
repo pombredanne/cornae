@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: A very, very cold spring
 summary:
   A short story about this spring.
