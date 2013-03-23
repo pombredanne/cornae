@@ -1,8 +1,23 @@
 ---
-layout: design
+layout: shell
 ---
 
-<aside>Posted on {{ page.date | date: "%B, %e, %Y" }}</aside>
-
-{{ content }}
-
+      <div id="prologue">
+        <h1>
+          {{ page.title }}
+        </h1>
+        <p class="byline">
+          Cornelis G.A. Kolbach, {{ page.date | date: "%B, %e, %Y" }}
+        </p>
+        <p class="introduction">
+          {{ page.summary }}
+        </p>
+      </div>
+      <div id="contentBody">
+        {{ page.content }}
+	  </div>
+        
+      <div id="fb-root"></div>
+        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+        <fb:comments href="http://proto.griddeo.com/" num_posts="10" width="830"></fb:comments>
+      </div>
