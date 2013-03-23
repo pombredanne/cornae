@@ -2,44 +2,15 @@
 layout: frontpage
 title: Hello my dear
 ---
-	
-	This is my content.
-	Tralala
-	Twiedeldiedie
-	
-	{% for post in site.posts %}
-	  <section>
-	    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-	    {{ post.summary }}
-	  </section>
-	{% endfor %}
-	
-	
-	
-<!--	  <ul>
-	  {% for post in site.posts limit:3 %}
-	    <li>
-	      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	    </li>
-	  {% endfor %}
-	  </ul>-->
-<!--		
-<div id="post">
-{% for post in site.posts limit:1 %}
-<h1><a href="{{ post.url }}">Last post on {{ post.date | date: "%B %e, %Y" }} : {{ post.title }}</a></h1>
- {{ post.content }}
- <br>
+ 
+This is my content.
+Tralala
+Twiedeldiedie
+
+{% for post in site.posts %}
+  <section>
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.summary }}
+  </section>
 {% endfor %}
-</div>
--->
 
-<!--<h2>Some Links</h2>
-<div class="related">
-<ul>
-	<li>
-		<a href="http://twitter.com/{{ site.twitter }}">Tweeeeeeeeet!</a>
-	</li>
-</ul>
-</div>
-
-</div>-->
