@@ -173,7 +173,7 @@ body {
 	color: rgba(0,0,0,0.6);
 	text-shadow: white 0 1px 0;
 	overflow-x: hidden;
-	width: 1200px;
+	width: 1280px;
 }
 
 * {
@@ -188,6 +188,61 @@ a {
 img {
 	border-style: none;
 }
+
+/* @group Tipue search */
+
+#tipue_search_content {
+	
+}
+
+#tipue_search_results_count {
+	margin-bottom: 2em;
+}
+
+.tipue_search_content_title {
+	clear: left;
+	font-weight: bold;
+}
+
+.tipue_search_content_title a {
+	display: block;
+}
+
+.tipue_search_content_text {
+	font-style: italic;
+}
+
+dl.searchResults dd .avatar {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+dl.searchResults dd .avatar img {
+	width: 70px;
+	background-color: rgba(0,0,0,0.13);
+}
+
+dl.searchResults dd .description {
+	margin-bottom: 0;
+}
+
+.tipue_search_content_loc {
+	font-size: 10px;
+}
+
+.tipue_search_content_loc a {
+	text-decoration: none;
+}
+
+.tipue_search_content_loc a:hover {
+	text-decoration: underline;
+	display: block;
+}
+
+
+
+/* @end */
 
 /* @group Object */
 
