@@ -1200,37 +1200,21 @@ sup {
 /* @group Colour Switcher */
 
 #colours {
+	width: 138px;
+	height: 138px;
+	position: absolute;
+	top: 0;
+	left: 960px;
+	border-bottom: 2px solid rgba(254,255,254,0.5);
+	border-left: 2px solid rgba(254,255,254,0.5);
+	border-right: 2px solid rgba(254,255,254,0.5);
 	list-style-type: none;
-	float: left;
-	margin-bottom: -96px;
+	margin: 0;
+	display: block;
 	padding: 0;
-	margin-top: 67px;
-	margin-left: 150px;
-	clear: left;
 }
 
 #colours li {
-	margin: 5px 96px 0 0;
-	float: left;
-	width: 30px;
-	height: 24px;
-	cursor: pointer;
-	transition: all 0.4s;
-}
-
-#colours li:before {
-	content: " ";
-	width: 30px;
-	height: 30px;
-	display: block;
-	border: 3px solid rgba(255,254,255,0.17);
-	border-radius: 50px;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-	position: absolute;
-	z-index: -1;
-}
-
-#colours li a {
 	width: 30px;
 	height: 30px;
 	display: block;
@@ -1241,28 +1225,7 @@ sup {
 	transition: tranform 0.4s;
 	}
 
-#colours li a:hover {
-	border-color: rgba(255,254,255,0.41);
-}
-
-#colours li strong {
-	overflow: hidden;
-	display: block;
-	width: 300px;
-	height: 250px;
-	position: fixed;
-	right: 0;
-	text-indent: -1000px;
-	opacity: 0;
-	cursor: default;
-	-webkit-transition: opacity 3s linear;
-	-moz-transition: opacity 3s linear;
-	transition: opacity 3s linear;
-	z-index: 1000;
-	top: 470px;
-}
-
-#colours .blueberry a {
+#colours .blueberry {
 	background-color: #3d607e;
 	width: 60px;
 	height: 60px;
@@ -1270,41 +1233,20 @@ sup {
 	margin-left: -15px;
 }
 
-#colours .blueberry strong {
-	background: url(chameleon-blueberry.png) no-repeat right 0;
-	opacity: 1;
-}
-
-#colours .topaz a {
+#colours .topaz {
 	background-color: #4e91cb;
 }
 
-#colours .topaz strong {
-	background: url(chameleon-topaz.png) no-repeat right 0;
-}
-
-#colours .orchid a {
+#colours .orchid {
 	background-color: #cb4eab;
 }
 
-#colours .orchid strong {
-	background: url(chameleon-pink.png) no-repeat right 0;
-}
-
-#colours .mocha a {
+#colours .mocha {
 	background-color: #8b745f;
 }
 
-#colours .mocha strong {
-	background: url(chameleon-mocha.png) no-repeat right 0;
-}
-
-#colours .avocado a {
+#colours .avocado {
 	background-color: #bfcb8b;
-}
-
-#colours .avocado strong {
-	background: url(chameleon-avocado.png) no-repeat right 0;
 }
 
 /* @end */
