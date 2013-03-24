@@ -2189,17 +2189,6 @@ body.welcome #prologue,
 	background-image: url(cornelis.png), url(grain.png);
 	background-position: 0 0;
 	background-repeat: no-repeat, repeat;
-	box-shadow: 0 2px 10px rgba(0,0,0,0.3)
-}
-
-body.welcome #prologue {
-	padding-bottom: 90px;
-	margin-bottom: 0;
-}
-
-body.welcome #contentBody
- {
-	padding-top: 65px;
 }
 
 /* @end */
