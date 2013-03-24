@@ -1215,16 +1215,18 @@ sup {
 }
 
 #colours li {
-	width: 30px;
-	height: 30px;
-	display: block;
-	border: 3px solid rgba(255,254,255,0.17);
-	border-radius: 50px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border: 2px solid rgba(255,254,255,0.17);
+	border-radius: 50%;
 	box-shadow: inset 0 1px 6px rgba(0,0,0,0.3);	
 	position: relative;
 	transition: tranform 0.4s;
 	text-indent: -1000px;
 	overflow: hidden;
+	float: left;
+	margin: 14px;
 }
 
 #colours .blueberry {
