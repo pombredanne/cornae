@@ -1367,7 +1367,7 @@ sup {
 }
 
 .posts .post h2 {
-	margin-bottom: 10px;
+	margin-bottom: 0;
 	display: inline-block;
 }
 
