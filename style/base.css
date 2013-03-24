@@ -952,10 +952,10 @@ p strong {
 
 h1 {
 	letter-spacing: 2px;
-	margin: 0 0 20px;
 	transition: all 0.4s;
 	width: 830px;
-	font: normal normal 2.8em/1.5 NewCicleFina, HelveticaNeueLTStd25UltraLt, "Helvetica Neue Ultra Light", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: normal normal 2.8em/1 NewCicleFina, HelveticaNeueLTStd25UltraLt, "Helvetica Neue Ultra Light", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-bottom: 0.5em;
 }
 
 h2 {
