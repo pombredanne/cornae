@@ -1200,7 +1200,7 @@ sup {
 /* @group Colour Switcher */
 
 #colours {
-	width: 138px;
+	width: 128px;
 	height: 138px;
 	position: absolute;
 	top: 0;
@@ -1211,7 +1211,7 @@ sup {
 	list-style-type: none;
 	margin: 0;
 	display: block;
-	padding: 0;
+	padding: 0 10px 0 0;
 }
 
 #colours li {
