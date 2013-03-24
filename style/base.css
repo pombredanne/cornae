@@ -1939,7 +1939,7 @@ p.caption img {
 
 /* @end */
 
-/* @group Special Pages */
+/* @group Templates */
 
 /* @group Contact */
 
@@ -2179,13 +2179,12 @@ body#portfolio {
 
 /* @group Home */
 
-body#welcome,
-body#competences {
+body.welcome {
 	background-image: url(cornelis.png), url(grain.png);
 	background-position: 0 0;
 }
 
-#welcome #prologue,
+body.welcome #prologue,
 #competences #prologue {
 	background-image: url(cornelis.png), url(grain.png);
 	background-position: 0 0;
@@ -2193,12 +2192,12 @@ body#competences {
 	box-shadow: 0 2px 10px rgba(0,0,0,0.3)
 }
 
-#welcome #prologue {
+body.welcome #prologue {
 	padding-bottom: 90px;
 	margin-bottom: 0;
 }
 
-#welcome #contentBody
+body.welcome #contentBody
  {
 	padding-top: 65px;
 }
