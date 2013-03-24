@@ -2,6 +2,7 @@
 layout: post
 title: Form follows function and achieving thereof
 summary: Forms can be dreadfully tricky to style and structure properly. Several articles that are out there focus on best practises for building forms using HTML en CSS. This article focusses in a non technical fashion on the use of meaningful nomenclature and how form semantics relate to elements that current markup standards have to offer. It may help anyone to recognise structural patterns and to compose forms properly.
+avatar: avatar-forms.png
 ---
 
 ## Form Building Blocks
