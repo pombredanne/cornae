@@ -1294,8 +1294,9 @@ sup {
 	margin-top: 8px;
 }
 
-.posts .post:hover .avatar {
-	background-color: #fffeff;
+.posts .post:hover .avatar,
+#contentBody .posts .post:hover .avatar {
+	background-color: white;
 }
 
 .posts .post p {
