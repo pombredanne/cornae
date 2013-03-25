@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AJAX and the old world
-summary: Today, complex layout methods have made it possible to borrow from interaction patterns of desktop applications, including drop down menu bars, expanding trees and tabs.
+summary: Today, complex layout methods have made it possible to borrow from interaction patterns of desktop applications, including drop down menu bars, expanding trees and tabs. It's this exact inevitable shift of desktop application design patterns to the page metaphor that has more than often led to confusion amongst both web designers and end users. 
 avatar: avatar-ajax.png
 ---
 
