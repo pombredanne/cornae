@@ -978,7 +978,8 @@ h2 {
 	margin-bottom: 1em;
 	letter-spacing: 3px;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1em;
+	text-transform: uppercase;
 }
 
 h2 a {
@@ -991,12 +992,12 @@ h2 a:hover {
 }
 
 h3 {
-	margin: 0pt 0pt 32px;
+	margin: 0pt 0pt 1em;
 	letter-spacing: 3px;
-	font-size: 18px;
+	font-size: 1em;
 	font-weight: normal;
 	font-style: normal;
-	line-height: 24px;
+	text-transform: uppercase;
 }
 
 h4 {

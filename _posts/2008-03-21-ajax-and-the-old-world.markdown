@@ -5,11 +5,7 @@ summary: Today, complex layout methods have made it possible to borrow from inte
 avatar: avatar-ajax.png
 ---
 
-Most of us know that HTML was designed in such a way that it would enable one to (single) click on certain underlined words in a text, that would link to another page. Initially, these hyperlinks were the only clickable items on web pages. Soon enough, besides using hyperlinks in an inline fashion, they would be grouped on pages so they would form a menu which would help people to navigate between pages that belonged to a certain group of pages. The web site was born.
-
 ![Illustration]({{ site.media }}/Ajax-suicide.png)
-
-Today, complex layout methods have made it possible to borrow from interaction patterns of desktop applications, including drop down menu bars, expanding trees and tabs. It's this exact inevitable shift of desktop application design patterns to the page metaphor that has more than often led to confusion amongst both web designers and end users. In this era of AJAX and RIAs, the possibilities for user interface designers have become infinite. Hence the question arises: Have all of these developments actually led to an improved user experience?
 
 By means of a small number of examples will I try to give some convenient rules of thumb to all of the disciplines mentioned above and challenge you to join the community in standardising new patterns for some of the open ends.
 
