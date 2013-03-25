@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AJAX and the old world
-summary: Today, complex layout methods have made it possible to borrow from interaction patterns of desktop applications
+summary: Today, complex layout methods have made it possible to borrow from interaction patterns of desktop applications, including drop down menu bars, expanding trees and tabs.
 avatar: avatar-ajax.png
 ---
 
