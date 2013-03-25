@@ -172,7 +172,7 @@ body {
 	background-size:  100% auto, 400px 400px;
 	font: 20px/32px "NewCicleFina", Arial, Helvetica, Geneva, sans-serif;
 	color: rgba(0,0,0,0.6);
-	text-shadow: white 0 1px 0;
+	/*text-shadow: white 0 1px 0;*/
 	overflow-x: hidden;
 	width: 830px;
 	display: block;
