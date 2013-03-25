@@ -34,7 +34,7 @@ Horizontal forms have a bit more layout to them. This often means that the form 
 
 The following example displays a complex layout for where there's each time a short question on the left and room for an answer on the right. These questions are related towards each other and therefore grouped in a field set and tagged with a legend that says 'Personal Information'.
 
-
+![Illustration]({{ site.media }}/Fieldset-Comprehensive.png)
 
 Question doesn't mean that it looks 100% like a question sentence that ends with a question mark, but that it semantically IS a question. The author of the form is simply asking the user for all this information in the most concise fashion. This makes the short questions on the left hardly anything more than labels of the input fields, which is the reason that most site editors would choose the following structure of form elements to push the baby out:
 
