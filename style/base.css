@@ -5,7 +5,7 @@
 */
 
 @font-face {
-    font-family: 'new-cicle-semi';
+    font-family: new-cicle-semi;
     src: url('fonts/new-circle/new_cicle_semi-webfont.eot');
     src: url('fonts/new-circle/new_cicle_semi-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/new-circle/new_cicle_semi-webfont.woff') format('woff'),
@@ -119,7 +119,7 @@ body {
 	background-attachment: fixed;
 	background-position: right 0;
 	background-size:  100% auto, 400px 400px;
-	font: 20px/32px new-cicle-semi, Arial, Helvetica, Geneva, sans-serif;
+	font: 20px/32px new-cicle-semi;
 	color: rgba(0,0,0,0.6);
 	/*text-shadow: white 0 1px 0;*/
 	overflow-x: hidden;
@@ -912,8 +912,9 @@ h1 {
 	letter-spacing: 2px;
 	transition: all 0.4s;
 	width: 830px;
-	font: normal normal 2.8em/1 new-circle-fina;
 	margin-bottom: 0.5em;
+	line-height: 1;
+	font-size: 2.8em;
 }
 
 strong {
@@ -1722,7 +1723,6 @@ p.geekAlert em {
 	margin-right: -180px;
 	padding: 310px 180px 0 310px;
 	background-size:  100% auto, 400px 400px;
-	font-family: new-circle-fina;
 }
 
 #prologue:after {
