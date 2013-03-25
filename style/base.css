@@ -186,9 +186,22 @@ a {
 	color: #3d607e;
 }
 
+/* @group Images */
+
 img {
 	border-style: none;
 }
+
+#contentBody img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	max-width: 90%;
+}
+
+
+
+/* @end */
 
 /* @group Tipue search */
 
@@ -1533,10 +1546,6 @@ p.geekAlert em {
 #contentBody {
 	padding-bottom: 80px;
 	padding-top: 20px;
-}
-
-p.caption img {
-	margin-bottom: 20px;
 }
 
 /* @end */
