@@ -5,7 +5,7 @@ summary: Today, complex layout methods have made it possible to borrow from inte
 avatar: avatar-ajax.png
 ---
 
-By means of a small number of examples will I try to give some convenient rules of thumb to all of the disciplines mentioned above and challenge you to join the community in standardising new patterns for some of the open ends.
+By means of a small number of examples will I try to provide some convenient rules of thumb and challenge you to join the community in standardising new patterns for some of the open ends.
 
 ![Illustration]({{ site.media }}/Ajax-suicide.png)
 
