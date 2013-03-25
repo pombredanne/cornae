@@ -163,7 +163,7 @@ a img {
 
 body {
 	margin: 0;
-	padding: 0 180px 0 270px;
+	padding: 0 180px 0 310px;
 	background-color: #e1e6f0;
 	background-image: url(pattern.png), url(grain.png);
 	background-repeat: no-repeat, repeat;
@@ -1218,7 +1218,7 @@ sup {
 	height: 138px;
 	position: absolute;
 	top: 0;
-	left: 960px;
+	left: 1003px;
 	border-bottom: 2px solid rgba(254,255,254,0.5);
 	border-left: 2px solid rgba(254,255,254,0.5);
 	border-right: 2px solid rgba(254,255,254,0.5);
@@ -1541,7 +1541,7 @@ p.geekAlert em {
 	height: 138px;
 	position: absolute;
 	top: 0;
-	left: 818px;
+	left: 848px;
 	border-bottom: 2px solid rgba(254,255,254,0.5);
 	border-left: 2px solid rgba(254,255,254,0.5);
 	border-right: 2px solid rgba(254,255,254,0.5);
@@ -1598,7 +1598,7 @@ p.geekAlert em {
 	position: absolute;
 	z-index: 2;
 	top: 68px;
-	left: 250px;
+	left: 290px;
 	padding: 0;
 	list-style-type: none;
 	width: 545px;
@@ -1771,9 +1771,9 @@ p.geekAlert em {
 	text-shadow: #000 0 -1px 0;
 	display: block;
 	font-family: NewCicleFina, HelveticaNeueLTStd25UltraLt;
-	margin-left: -270px;
+	margin-left: -310px;
 	margin-right: -180px;
-	padding: 310px 180px 0 270px;
+	padding: 310px 180px 0 310px;
 	background-size:  100% auto, 400px 400px;
 }
 
