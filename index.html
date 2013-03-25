@@ -7,7 +7,7 @@ title: Welcome
 	{% for post in site.posts %}
 	  <article class="post">
 	  	<a href="{{ site.baseurl }}{{ post.url }}">
-	  		<img src="_posts/{{ post.avatar }}" alt="" />
+	  		<img src="{{ site.media }}/{{ post.avatar }}" alt="" />
 		    <h2>{{ post.title }}</h2>
 		    <p class="summary">{{ post.summary }}</p>
 	    </a>
