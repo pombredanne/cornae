@@ -5,8 +5,6 @@ summary: Today, complex layout methods have made it possible to borrow from inte
 avatar: avatar-ajax.png
 ---
 
-AJAX and the old world
-
 Most of us know that HTML was designed in such a way that it would enable one to (single) click on certain underlined words in a text, that would link to another page. Initially, these hyperlinks were the only clickable items on web pages. Soon enough, besides using hyperlinks in an inline fashion, they would be grouped on pages so they would form a menu which would help people to navigate between pages that belonged to a certain group of pages. The web site was born.
 
 ![Illustration]({{ site.media }}/Ajax-suicide.png)
