@@ -13,7 +13,6 @@
          url('fonts/new-circle/new_cicle_semi-webfont.svg#new_ciclesemi') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -28,7 +27,6 @@
          url('fonts/new-circle/new_cicle_gordita-webfont.svg#new_ciclegordita') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -43,7 +41,6 @@
          url('fonts/new-circle/new_cicle_fina-webfont.svg#new_ciclefina') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* @group Reset */
@@ -915,7 +912,7 @@ h1 {
 	letter-spacing: 2px;
 	transition: all 0.4s;
 	width: 830px;
-	font: normal normal 2.8em/1 new-circle-fina, HelveticaNeueLTStd25UltraLt, "Helvetica Neue Ultra Light", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: normal normal 2.8em/1 new-circle-fina;
 	margin-bottom: 0.5em;
 }
 
@@ -1721,11 +1718,11 @@ p.geekAlert em {
 	color: #aeb7c4;
 	text-shadow: #000 0 -1px 0;
 	display: block;
-	font-family: NewCicleFina, HelveticaNeueLTStd25UltraLt;
 	margin-left: -310px;
 	margin-right: -180px;
 	padding: 310px 180px 0 310px;
 	background-size:  100% auto, 400px 400px;
+	font-family: new-circle-fina;
 }
 
 #prologue:after {
