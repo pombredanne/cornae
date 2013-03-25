@@ -9,7 +9,7 @@ avatar: avatar-forms.png
 
 All input elements on a form must be tagged with labels. Labels describe what type of information the form may contain.
 
-![Illustration](Vioolsleutel-illustratie.png?raw=true)
+![Illustration](../media/Vioolsleutel-illustratie.png)
 
 All input elements on a form should also be logically grouped in field sets. A field set is a group of form elements that are related towards each other. For instance a yes/no answer with radio buttons or an address input fields group.
 
