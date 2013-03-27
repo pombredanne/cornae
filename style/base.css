@@ -1551,13 +1551,13 @@ p.geekAlert em {
 }
 
 #globalNavigation li.current:before,
-.post li.articles a:before {
+.post li.articles:before {
 	content: '>';
 	font: bold 20px "Courier New", Courier, mono;
 	width: 20px;
 	text-align: right;
 	color: white !important;
-	margin-left: -28px;
+	margin-left: -9px;
 	letter-spacing: 0;
 	float: left;
 	margin-top: 3px;
@@ -1581,42 +1581,6 @@ p.geekAlert em {
 
 #globalNavigation li#portaltab-home:before {
 	display: none !important;
-}
-
-#globalNavigation li#portaltab-contact {
-	width: 137px;
-	height: 138px;
-	position: absolute;
-	top: -68px;
-	left: 710px;
-	border-bottom: 2px solid rgba(254,255,254,0.5);
-	border-left: 2px solid rgba(254,255,254,0.5);
-	border-right: 2px solid rgba(254,255,254,0.5);
-	overflow: hidden;
-}
-
-#globalNavigation li#portaltab-contact a {
-	width: 128px;
-	padding-left: 9px;
-	margin-top: 0;
-	padding-top: 108px;
-	height: 31px;
-}
-
-#globalNavigation li#portaltab-contact a:hover {
-	background-color: rgba(254,255,254,0.5);
-	text-decoration: none;
-	color: rgba(0,0,0,0.7);
-	text-shadow: rgba(0,0,0,0) 0 -1px 0;
-}
-
-#globalNavigation li#portaltab-contact.selected a {
-	background-color: white;
-	text-decoration: none;
-	background-image: none;
-	border-color: white;
-	cursor: default;
-	color: rgba(0,0,0,0.5);
 }
 
 /* @end */
