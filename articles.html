@@ -7,7 +7,7 @@ title: Articles
 	  <article class="post">
 	  	<a href="{{ site.baseurl }}{{ post.url }}">
 	  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
-		    <h2>{{post.date}} — {{ post.title }}</h2>
+		    <h2>{{ post.date | date: "%d %B %Y" }}:{{ post.title }}</h2>
 		    <p class="summary">{{ post.summary }}</p>
 	    </a>
 	  </article>
