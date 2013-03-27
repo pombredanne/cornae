@@ -1155,6 +1155,10 @@ sup {
 	margin: 14px;
 }
 
+#colours li:hover {
+	border-color: white;
+}
+
 #colours .blueberry {
 	background-color: #3d607e;
 }
@@ -2085,14 +2089,14 @@ body.blueberry #colours .blueberry strong {
 	margin: 0 !important;
 }
 
-body.avocado #colours li.avocado a {
+body.mood-avocado #colours li.avocado a {
 	width: 60px !important;
 	height: 60px !important;
 	margin-top: -15px !important;
 	margin-left: -15px !important;
 }
 
-body.avocado #colours .avocado strong {
+body.mood-avocado #colours .avocado strong {
 	opacity: 1;	
 	filter:alpha(opacity=100)
 }
@@ -2101,63 +2105,63 @@ body.avocado #colours .avocado strong {
 
 /* @end */
 
-body.avocado #prologue,
-body.avocado .emphasis,
-body.avocado .posts .post a.articleAvatar:hover img,
-body.avocado hr,
-body.avocado #shadowbox_overlay {
+body.mood-avocado #prologue,
+body.mood-avocado .emphasis,
+body.mood-avocado .posts .post a.articleAvatar:hover img,
+body.mood-avocado hr,
+body.mood-avocado #shadowbox_overlay {
 	background-color: #777f58;
 	color: #dce6c7;
 }
 
-body.avocado #contentBody .shortMessage ul li,
-body.avocado #prologue,
-body.avocado h1,
-body.avocado #twitter ul li span  {
+body.mood-avocado #contentBody .shortMessage ul li,
+body.mood-avocado #prologue,
+body.mood-avocado h1,
+body.mood-avocado #twitter ul li span  {
 	border-left-color: white;
 	color: #dce6c7;
 }
 
-body.avocado div#contentBody p.geekAlert,
-body.avocado #sideBar .tileItem a.articleAvatar img {
+body.mood-avocado div#contentBody p.geekAlert,
+body.mood-avocado #sideBar .tileItem a.articleAvatar img {
 	background-color: #777f58;
 }
 
-body.avocado #globalNavigation li a,
-body.avocado #search label.superImpose,
-body.avocado a {
+body.mood-avocado #globalNavigation li a,
+body.mood-avocado #search label.superImpose,
+body.mood-avocado a {
 	color: #dce6c7;
 }
 
-body.avocado #mainMenu li#portaltab-contact a:hover {
+body.mood-avocado #mainMenu li#portaltab-contact a:hover {
 	background-color: #777f58;
 	color: #a3ad75;
 }
 
-body.avocado #contentBody p em,
-body.avocado #contentBody h2,
-body.avocado #contentBody h2 a,
-body.avocado a {
+body.mood-avocado #contentBody p em,
+body.mood-avocado #contentBody h2,
+body.mood-avocado #contentBody h2 a,
+body.mood-avocado a {
 	color: #777f58;
 }
 
-body.avocado .posts .post a.articleAvatar,
-body.avocado #sideBar,
-body.avocado #contentBody .shortMessage,.posts .post {
+body.mood-avocado .posts .post a.articleAvatar,
+body.mood-avocado #sideBar,
+body.mood-avocado #contentBody .shortMessage,.posts .post {
 	border-color: #a3ad75;
 }
 
-body.avocado #mainMenu li#portaltab-contact,
-body.avocado #search,
+body.mood-avocado #mainMenu li#portaltab-contact,
+body.mood-avocado #search,
 {
 	border-color: #777f58;
 }
 
-body.avocado #twitter ul li span {
+body.mood-avocado #twitter ul li span {
 	border-left-color: #a3ad75;
 }
 
-body.avocado {
+body.mood-avocado {
 	background-color: #f2f3e7;
 }
 
@@ -2169,20 +2173,20 @@ body.avocado {
 
 /* @group Colour Switcher */
 
-body.mocha #colours li a {
+body.mood-mocha #colours li a {
 	width: 30px !important;
 	height: 30px !important;
 	margin: 0 !important;
 }
 
-body.mocha #colours li.mocha a {
+body.mood-mocha #colours li.mocha a {
 	width: 60px !important;
 	height: 60px !important;
 	margin-top: -15px !important;
 	margin-left: -15px !important;
 }
 
-body.mocha #colours .mocha strong {
+body.mood-mocha #colours .mocha strong {
 	opacity: 1;
 	filter:alpha(opacity=100)
 }
@@ -2191,54 +2195,54 @@ body.mocha #colours .mocha strong {
 
 /* @end */
 
-body.mocha #prologue,
-body.mocha #shadowbox_overlay {
+body.mood-mocha #prologue,
+body.mood-mocha #shadowbox_overlay {
 	background-color: #8b745f;
 }
 
-body.mocha #prologue,
-body.mocha h1 {
+body.mood-mocha #prologue,
+body.mood-mocha h1 {
 	color: #d2baa9;
 }
 
-body.mocha hr,
-body.mocha .emphasis,
-body.mocha .posts .post body.mocha a.articleAvatar:hover img {
+body.mood-mocha hr,
+body.mood-mocha .emphasis,
+body.mood-mocha .posts .post body.mood-mocha a.articleAvatar:hover img {
 	background-color: #d2baa9;
 }
 
-body.mocha div#contentBody p.geekAlert {
+body.mood-mocha div#contentBody p.geekAlert {
 	background-color: #8b745f;
 }
 
-body.mocha #globalNavigation li a {
+body.mood-mocha #globalNavigation li a {
 	color: #d2baa9;
 }
 
-body.mocha #mainMenu li#portaltab-contact,
-body.mocha #search {
+body.mood-mocha #mainMenu li#portaltab-contact,
+body.mood-mocha #search {
 	border-bottom-color: #d2baa9;
 	border-left-color: #d2baa9;
 	border-right-color: #d2baa9;
 }
 
-body.mocha #contentBody p em,
-body.mocha #contentBody h2,
-body.mocha a,
-body.mocha #contentBody .shortMessage ul li {
+body.mood-mocha #contentBody p em,
+body.mood-mocha #contentBody h2,
+body.mood-mocha a,
+body.mood-mocha #contentBody .shortMessage ul li {
 	color: #8b745f;
 }
 
-body.mocha .posts .post a.articleAvatar,
-body.mocha #contentBody .shortMessage,
-body.mocha #mainMenu li#portaltab-contact,
-body.mocha #search,
-body.mocha .posts .post,
-body.mocha #twitter ul li span {
+body.mood-mocha .posts .post a.articleAvatar,
+body.mood-mocha #contentBody .shortMessage,
+body.mood-mocha #mainMenu li#portaltab-contact,
+body.mood-mocha #search,
+body.mood-mocha .posts .post,
+body.mood-mocha #twitter ul li span {
 	border-color: #d2baa9;
 }
 
-body.mocha {
+body.mood-mocha {
 	background-color: #f0e6e3;
 }
 
@@ -2250,20 +2254,20 @@ body.mocha {
 
 /* @group Colour Switcher */
 
-body.topaz #colours li a {
+body.mood-topaz #colours li a {
 	width: 30px !important;
 	height: 30px !important;
 	margin: 0 !important;
 }
 
-body.topaz #colours li.topaz a {
+body.mood-topaz #colours li.topaz a {
 	width: 60px !important;
 	height: 60px !important;
 	margin-top: -15px !important;
 	margin-left: -15px !important;
 }
 
-body.topaz #colours .topaz strong {
+body.mood-topaz #colours .topaz strong {
 	opacity: 1;
 	filter:alpha(opacity=100)
 }
@@ -2272,59 +2276,59 @@ body.topaz #colours .topaz strong {
 
 /* @end */
 
-body.topaz #prologue,
-body.topaz #shadowbox_overlay {
+body.mood-topaz #prologue,
+body.mood-topaz #shadowbox_overlay {
 	background-color: #4e91cb;
 }
 
-body.topaz #prologue ul#languages li,
-body.topaz #prologue ul#languages a,
-body.topaz #prologue,
-body.topaz h1
+body.mood-topaz #prologue ul#languages li,
+body.mood-topaz #prologue ul#languages a,
+body.mood-topaz #prologue,
+body.mood-topaz h1
  {
 	color: #bddceb;
 }
 
-body.topaz #home #prologue ul#languages a:hover {
+body.mood-topaz #home #prologue ul#languages a:hover {
 	color: #4e91cb;
 }
 
-body.topaz hr,
-body.topaz .emphasis,
-body.topaz .posts .post body.topaz a.articleAvatar:hover img,
-body.topaz #sideBar .tileItem a.articleAvatar img {
+body.mood-topaz hr,
+body.mood-topaz .emphasis,
+body.mood-topaz .posts .post body.mood-topaz a.articleAvatar:hover img,
+body.mood-topaz #sideBar .tileItem a.articleAvatar img {
 	background-color: #bddceb;;
 }
 
-body.topaz div#contentBody p.geekAlert {
+body.mood-topaz div#contentBody p.geekAlert {
 	background-color: #4e91cb;
 }
 
-body.topaz #globalNavigation li a {
+body.mood-topaz #globalNavigation li a {
 	color: #bddceb;
 }
 
-body.topaz #mainMenu li#portaltab-contact a:hover {
+body.mood-topaz #mainMenu li#portaltab-contact a:hover {
 	background-color: #bddceb;
 	color: #4e91cb;
 }
 
-body.topaz #contentBody p em,
-body.topaz #contentBody h2,
-body.topaz a,
-body.topaz #contentBody .shortMessage ul li {
+body.mood-topaz #contentBody p em,
+body.mood-topaz #contentBody h2,
+body.mood-topaz a,
+body.mood-topaz #contentBody .shortMessage ul li {
 	color: #4e91cb;
 }
 
-body.topaz .posts .post a.articleAvatar,
-body.topaz #contentBody .shortMessage,
-body.topaz #mainMenu li#portaltab-contact,
-body.topaz #search,
-body.topaz .posts .post {
+body.mood-topaz .posts .post a.articleAvatar,
+body.mood-topaz #contentBody .shortMessage,
+body.mood-topaz #mainMenu li#portaltab-contact,
+body.mood-topaz #search,
+body.mood-topaz .posts .post {
 	border-color: #bddceb;
 }
 
-body.topaz {
+body.mood-topaz {
 	background-color: #eaf3f8;
 }
 
@@ -2336,20 +2340,20 @@ body.topaz {
 
 /* @group Colour Switcher */
 
-body.orchid #colours li a {
+body.mood-orchid #colours li a {
 	width: 30px !important;
 	height: 30px !important;
 	margin: 0 !important;
 }
 
-body.orchid #colours li.orchid a {
+body.mood-orchid #colours li.orchid a {
 	width: 60px !important;
 	height: 60px !important;
 	margin-top: -15px !important;
 	margin-left: -15px !important;
 }
 
-body.orchid #colours .orchid strong {
+body.mood-orchid #colours .orchid strong {
 	opacity: 1;
 	filter:alpha(opacity=100)
 }
@@ -2358,44 +2362,44 @@ body.orchid #colours .orchid strong {
 
 /* @end */
 
-body.orchid #prologue,
-body.orchid #shadowbox_overlay,
-body.orchid div#contentBody p.geekAlert {
+body.mood-orchid #prologue,
+body.mood-orchid #shadowbox_overlay,
+body.mood-orchid div#contentBody p.geekAlert {
 	background-color: #cb4eab;
 }
 
-body.orchid hr,
-body.orchid .emphasis,
-body.orchid div.hr,
-body.orchid .posts .post a.articleAvatar:hover img,
-body.orchid #sideBar .tileItem body.orchid a.articleAvatar img {
+body.mood-orchid hr,
+body.mood-orchid .emphasis,
+body.mood-orchid div.hr,
+body.mood-orchid .posts .post a.articleAvatar:hover img,
+body.mood-orchid #sideBar .tileItem body.mood-orchid a.articleAvatar img {
 	background-color: #fcb6e8;;
 }
 
-body.orchid #mainMenu li#portaltab-contact a:hover {
+body.mood-orchid #mainMenu li#portaltab-contact a:hover {
 	background-color: #fcb6e8;
 	color: #cb4eab;
 }
 
-body.orchid #globalNavigation li a,
-body.orchid #prologue ul#languages li,
-body.orchid #prologue ul#languages a,
-body.orchid #prologue,
-body.orchid h1
+body.mood-orchid #globalNavigation li a,
+body.mood-orchid #prologue ul#languages li,
+body.mood-orchid #prologue ul#languages a,
+body.mood-orchid #prologue,
+body.mood-orchid h1
  {
 	color: #fcb6e8;
 }
 
-body.orchid #contentBody h2,
-body.orchid #contentBody h2 a,
-body.orchid #home #prologue ul#languages a:hover,
-body.orchid #contentBody p em,
-body.orchid a,
-body.orchid #contentBody .shortMessage ul li {
+body.mood-orchid #contentBody h2,
+body.mood-orchid #contentBody h2 a,
+body.mood-orchid #home #prologue ul#languages a:hover,
+body.mood-orchid #contentBody p em,
+body.mood-orchid a,
+body.mood-orchid #contentBody .shortMessage ul li {
 	color: #cb4eab;
 }
 
-body.orchid {
+body.mood-orchid {
 	background-color: #f4e8ed;
 }
 
