@@ -1544,24 +1544,23 @@ p.geekAlert em {
 	text-decoration: underline;
 }
 
-#globalNavigation li.selected a,
-#globalNavigation li.current a {
-	color: white;
+#globalNavigation li.current a,
+.post li.articles a {
+	color: white !important;
 	font-weight: bold;
 }
 
-#globalNavigation li.selected:before,
-#globalNavigation li.current:before {
+#globalNavigation li.current:before,
+.post li.articles a:before {
 	content: '>';
-	font: bold 12px "Courier New", Courier, mono;
+	font: bold 20px "Courier New", Courier, mono;
 	width: 20px;
 	text-align: right;
-	color: white;
-	margin-left: -14px;
+	color: white !important;
+	margin-left: -28px;
 	letter-spacing: 0;
-	opacity: 0.3;
 	float: left;
-	margin-top: 7px;
+	margin-top: 3px;
 }
 
 #globalNavigation li#portaltab-home a {
