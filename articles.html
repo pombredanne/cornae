@@ -1,0 +1,16 @@
+---
+layout: articles
+title: Articles
+---
+	<div class="posts">
+	{% for post in site.posts %}
+	  <article class="post">
+	  	<a href="{{ site.baseurl }}{{ post.url }}">
+	  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
+		    <h2>{{ post.title }}</h2>
+		    <p class="summary">{{ post.summary }}</p>
+	    </a>
+	  </article>
+	{% endfor %}
+	</div>
+
