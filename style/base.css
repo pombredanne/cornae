@@ -1790,7 +1790,7 @@ p.geekAlert em {
 
 /* @group Portfolio */
 
-body#portfolio {
+body.portfolio {
 	background-image: url(portfolio.png), url(grain.png);
 	background-position: 0 0;
 }
