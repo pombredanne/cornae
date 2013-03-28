@@ -1152,6 +1152,7 @@ sup {
 	margin: 0;
 	display: block;
 	padding: 0;
+	user-select: none
 }
 
 #colours li {
@@ -1166,10 +1167,20 @@ sup {
 	text-indent: -1000px;
 	overflow: hidden;
 	float: left;
-	margin: 14px;
+	margin: 0 10px 0 0;
 	right: 0;
-	bottom: 0;
+	bottom: 10px;
 	transition: right 1s;
+	user-select: none
+}
+
+.mood-avocado #colours .avocado,
+.mood-blueberry #colours .blueberry,
+.mood-orchid #colours .orchid,
+.mood-mocha #colours .mocha,
+.mood-topaz #colours .topaz {
+	right: 103px;
+	border-color: white;
 }
 
 #colours li:hover {
@@ -1181,7 +1192,8 @@ sup {
 	right: 20px;
 }
 
-.mood-mocha #colours .avocado {
+.mood-mocha #colours .avocado,
+.mood-orchid #colours .avocado  {
 	right: 40px;
 }
 
@@ -1191,14 +1203,13 @@ sup {
 
 #colours .blueberry {
 	background-color: #3d607e;
-	right: 98px;
+	right: 103px;
 }
 
-.mood-blueberry #colours .blueberry {
-	border-color: white;
-}
-
-.mood-mocha #colours .blueberry {
+.mood-mocha #colours .blueberry,
+.mood-orchid #colours .blueberry,
+.mood-topaz #colours .blueberry,
+.mood-avocado #colours .blueberry {
 	right: 0;
 }
 
@@ -1207,7 +1218,9 @@ sup {
 	right: 0;
 }
 
-.mood-mocha #colours .topaz {
+.mood-mocha #colours .topaz,
+.mood-orchid #colours .topaz,
+.mood-avocado #colours .topaz {
 	right: 20px;
 }
 
@@ -1221,8 +1234,8 @@ sup {
 	right: 40px;
 }
 
-.mood-mocha #colours .mocha {
-	right: 98px;
+.mood-orchid #colours .mocha {
+	right: 60px;
 	border-color: white;
 }
 
@@ -1523,20 +1536,21 @@ p.geekAlert em {
 	left: 3px;
 	letter-spacing: 1px;
 	color: rgba(254,255,254,0.5);
-	background-color: rgba(255,255,255,0.18);
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.30);
-	border: 1px solid rgba(255,254,255,0.04);
-	height: 28px;
+	background-color: transparent;
+	border: none;
+	height: 32px;
 	font-size: 16px;
-	line-height: 10px;
 	right: 3px;
-	padding: 0 0 0 6px;
-	width: 132px;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 12px;
+	width: auto;
+	box-shadow: none;
 }
 
 #search input:focus {
 	color: white;
-	border-color: rgba(255,254,255,0.36);
+	background-color: rgba(255,255,255,0.18);
 }
 
 #search input::-webkit-input-placeholder {
