@@ -1758,18 +1758,18 @@ p.geekAlert em {
 
 /* @group Contact */
 
-#contact {
+body.competences {
 	background-image: url(postStamp.png), url(grain.png);
 	background-position: 0 0;
 	background-repeat: no-repeat, repeat;
 }
 
-#contact #prologue {
+body.competences #prologue {
 	background-image: url(postStamp.png), url(grain.png);
 	background-position: 0 0;
 }
 
-#contact #contentBody {
+body.competences #contentBody {
 	background-image: none;
 }
 
