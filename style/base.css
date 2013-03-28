@@ -94,6 +94,20 @@ a {
 	color: #3d607e;
 }
 
+/* @group Pattern CSS */
+
+.pat-auto-scale {	
+	transform-origin: left top;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.pat-auto-scale.scaled {
+	opacity: 1;
+}
+
+/* @end */
+
 /* @group Images */
 
 img {
