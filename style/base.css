@@ -1546,6 +1546,7 @@ p.geekAlert em {
 	line-height: 12px;
 	width: auto;
 	box-shadow: none;
+	margin: 0;
 }
 
 #search input:focus {
