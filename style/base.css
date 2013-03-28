@@ -4,6 +4,8 @@
 	http://cornae.github.com/cornae/style/base.css
 */
 
+@import url("../libraries/animate.css/animate.min.css");
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,700);
 
 /* @group Reset */
@@ -1171,7 +1173,8 @@ sup {
 	right: 0;
 	bottom: 10px;
 	transition: right 1s;
-	user-select: none
+	user-select: none;
+	-webkit-animation: bounce 1s;
 }
 
 .mood-avocado #colours .avocado,
@@ -1181,6 +1184,7 @@ sup {
 .mood-topaz #colours .topaz {
 	right: 103px;
 	border-color: white;
+	-webkit-animation: bounce 1s;
 }
 
 #colours li:hover {
