@@ -1140,7 +1140,7 @@ sup {
 /* @group Colour Switcher */
 
 #colours {
-	width: 128px;
+	width: 138px;
 	height: 138px;
 	position: absolute;
 	top: 0;
@@ -1151,46 +1151,79 @@ sup {
 	list-style-type: none;
 	margin: 0;
 	display: block;
-	padding: 0 10px 0 0;
+	padding: 0;
 }
 
 #colours li {
-	width: 15px;
-	height: 15px;
+	width: 12px;
+	height: 12px;
 	display: inline-block;
 	border: 2px solid rgba(255,254,255,0.17);
 	border-radius: 50%;
 	box-shadow: inset 0 1px 6px rgba(0,0,0,0.3);	
-	position: relative;
+	position: absolute;
 	transition: tranform 0.4s;
 	text-indent: -1000px;
 	overflow: hidden;
 	float: left;
 	margin: 14px;
+	right: 0;
+	bottom: 0;
+	transition: right 1s;
 }
 
 #colours li:hover {
 	border-color: white;
 }
 
+#colours .avocado {
+	background-color: #bfcb8b;
+	right: 20px;
+}
+
+.mood-mocha #colours .avocado {
+	right: 40px;
+}
+
+.mocha #colours .avocado {
+	right: 40px;
+}
+
 #colours .blueberry {
 	background-color: #3d607e;
+	right: 98px;
+}
+
+.mood-blueberry #colours .blueberry {
+	border-color: white;
+}
+
+.mood-mocha #colours .blueberry {
+	right: 0;
 }
 
 #colours .topaz {
 	background-color: #4e91cb;
+	right: 0;
+}
+
+.mood-mocha #colours .topaz {
+	right: 20px;
 }
 
 #colours .orchid {
 	background-color: #cb4eab;
+	right: 60px;
 }
 
 #colours .mocha {
 	background-color: #8b745f;
+	right: 40px;
 }
 
-#colours .avocado {
-	background-color: #bfcb8b;
+.mood-mocha #colours .mocha {
+	right: 98px;
+	border-color: white;
 }
 
 /* @end */
