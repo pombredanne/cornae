@@ -370,40 +370,6 @@ div.moreRecent ul li img {
 
 /* @end */
 
-/* @group Caption */
-
-#content span.caption {
-	display: inline;
-	margin-right: 10px;
-	float: left;
-}
-
-table.outdent tbody h3 {
-	padding-left: 210px;
-}
-
-#content .caption em,
-.projects .landscapeDescription {
-	height: 0;
-	padding-top: 0;
-	border-bottom-width: 40px;
-	margin-bottom: 40px;
-	display: block;
-	float: left;
-}
-
-#content .caption em,
-.projects .landscapeDescription,
-caption,
-.sideMark {
-	color: gray;
-	font-size: 10px;
-	font-style: italic;
-	line-height: 15px;
-}
-
-/* @end */
-
 /* @group Table */
 
 table {
@@ -965,7 +931,7 @@ sup {
 	display: inline-block;
 }
 
-.posts .post h2:after {
+.posts .post.article h2:after {
 	content: " —";
 }
 
