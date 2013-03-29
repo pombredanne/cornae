@@ -895,9 +895,9 @@ sup {
 	border-bottom: 1px dashed silver;
 }
 
-.posts .post img {
-	margin-right: 0;
-	margin-left: 0;
+.posts .post img,
+#contentBody .posts .post img {
+	max-width: 100%;
 }
 
 .posts .post a {
