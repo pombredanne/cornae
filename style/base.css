@@ -304,6 +304,8 @@ div.moreRecent ul li img {
 
 /* @end */
 
+/* @group To top */
+
 #top {
 	width: 29px;
 	padding-top: 28px;
@@ -322,6 +324,8 @@ div.moreRecent ul li img {
 #top:hover {
 	background-color: rgba(0,0,0,0.5);
 }
+
+/* @end */
 
 /* @group Share */
 
@@ -899,6 +903,18 @@ sup {
 	max-width: 100%;
 }
 
+.posts .post .collection {
+	
+}
+
+.posts .post .collection img {
+	width: 30px;
+}
+
+.posts .post .collection img:first-child {
+	
+}
+
 .posts .post a {
 	text-decoration: none;
 	display: block;
@@ -928,6 +944,21 @@ sup {
 .posts .post p {
 	clear: none;
 	display: inline;
+}
+
+.posts .post .description {
+	float: left;
+	width: 190px;
+	text-align: right;
+	margin-left: -222px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.posts .post .description h4 {
+	display: block;
+	margin-bottom: 0;
 }
 
 .posts .post h4 {

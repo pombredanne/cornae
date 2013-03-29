@@ -11,9 +11,11 @@ title: Portfolio
 			  	<h4>{{ post.title }}</h4>
 			  	<p class="summary">{{ post.summary }}</p>
 			</div>
-			<a href="{{ site.baseurl }}{{ post.url }}#contentBody" class="pat-inject" data-pat-inject="target: self; trigger: autoload-visible">
-		    Loading {{ post.title }}…
-		</a>
+			<figure class="collection">
+				<a href="{{ site.baseurl }}{{ post.url }}#contentBody" class="pat-inject" data-pat-inject="target: self; trigger: autoload-visible">
+			    Loading {{ post.title }}…
+				</a>
+			</figure>
 		</article>
 		{% endif %}
 	{% endfor %}
