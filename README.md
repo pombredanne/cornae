@@ -1,2 +1,1 @@
-jekyll-test
-===========
+Welcome to the personal website of {{ site.author }}. This is where he likes to blog about his professional field (has been a while since blogs got out of fashion), show his work and where he may be contacted.
