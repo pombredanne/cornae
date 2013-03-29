@@ -1571,6 +1571,11 @@ body.portfolio {
 	background-position: 0 0;
 }
 
+body.portfolio #prologue {
+	background-image: url(portfolio.png), url(grain.png);
+	background-position: 0 0;
+}
+
 /* @end */
 
 /* @group Tweets */
