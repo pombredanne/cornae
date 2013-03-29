@@ -2,6 +2,7 @@
 layout: case
 title: Renovation project Singel Amsterdam
 summary: Complete redesign of the interior for an apartment in a monumental building at one of Amsterdam's historic canals. 
+avatar: /portfolio/renovation-singel/11.jpg
 pictures:
   - url: /renovation-singel/0.jpg
     caption: Caption 0
