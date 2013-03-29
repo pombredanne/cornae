@@ -1,0 +1,7 @@
+---
+layout: portfolio
+title: StarDesk
+summary: A collaborative environment for Star Alliance
+---
+
+![alt text]({{ media }}stardesk-1.jpg "My image")  
