@@ -12,13 +12,15 @@ template: portfolio
         {{ content }}
     	<div class="posts">
 		{% for post in site.posts %}
-		  <article class="post">
-		  	<a href="{{ site.baseurl }}{{ post.url }}">
-		  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
-			    <h2>{{ post.date | date: "%d %B %Y" }}: {{ post.title }}</h2>
-			    <p class="summary">{{ post.summary }}</p>
-		    </a>
-		  </article>
+			{% if post.layout == 'case' %}
+			<article class="post">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
+				    <h2>{{ post.date | date: "%d %B %Y" }}: {{ post.title }}</h2>
+				    <p class="summary">{{ post.summary }}</p>
+				</a>
+			</article>
+			{% endif %}
 		{% endfor %}
 		</div>
 	  </div>
