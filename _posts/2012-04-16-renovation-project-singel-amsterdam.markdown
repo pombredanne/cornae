@@ -5,17 +5,17 @@ summary: Complete redesign of the interior for an apartment in a monumental buil
 avatar: /portfolio/renovation-singel/11.jpg
 pictures:
   - url: /renovation-singel/0.jpg
-    caption: Caption 0
+    caption: Bedroom: Video projection wall
   - url: /renovation-singel/1.jpg
-    caption: Caption 1
+    caption: Bedroom: View on bathroom
   - url: /renovation-singel/2.jpg
-    caption: Caption 2
+    caption: Bathroom: Whirlpool
   - url: /renovation-singel/3.jpg
-    caption: Caption 3
+    caption: Bathroom: View from whirlpool
   - url: /renovation-singel/4.jpg
-    caption: Caption 3
+    caption: Bedroom
   - url: /renovation-singel/5.jpg
-    caption: Caption 3
+    caption: Double rain shower 
   - url: /renovation-singel/6.jpg
     caption: Caption 3
   - url: /renovation-singel/6.jpg
