@@ -4,4 +4,4 @@ title: StarDesk
 summary: A collaborative environment for Star Alliance
 ---
 
-![alt text]({{ media }}stardesk-1.jpg "My image")  
+![alt text]({{ site.media }}/stardesk-1.jpg "My image")  
