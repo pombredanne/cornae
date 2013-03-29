@@ -15,7 +15,7 @@ template: case
         </p>
       </div>
       <div id="contentBody">
-          <div class="gallery pat-gallery" data-pat-gallery="hide-overlay: 0">
+          <div class="gallery pat-gallery">
           {% for pic in page.pictures %}
               <a href="{{site.media}}/portfolio/{{ pic.url }}"><img src="{{site.media}}/portfolio/{{ pic.url }}" title="pic.caption" alt="image" /></a>
           {% endfor %}
