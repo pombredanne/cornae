@@ -1,0 +1,14 @@
+---
+layout: case
+title: StarDesk
+summary: A collaborative environment for Star Alliance
+pictures:
+  - url: /stardesk/0.jpg
+    caption: Dashboard
+  - url: /stardesk/1.jpg
+    caption: Workspace
+  - url: /stardesk/2.jpg
+    caption: Document in a workspace
+---
+
+Content
