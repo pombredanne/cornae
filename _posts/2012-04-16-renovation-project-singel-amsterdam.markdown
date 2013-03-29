@@ -4,13 +4,13 @@ title: Renovation project Singel Amsterdam
 summary: Complete redesign of the interior for an apartment in a monumental building at one of Amsterdam's historic canals. 
 pictures:
   - url: /renovation-singel/0.jpg
-    caption: Bedroom: Video projection wall
+    caption: Bedroom, Video projection wall
   - url: /renovation-singel/1.jpg
-    caption: Bedroom: View on bathroom
+    caption: Bedroom, View on bathroom
   - url: /renovation-singel/2.jpg
-    caption: Bathroom: Whirlpool
+    caption: Bathroom, Whirlpool
   - url: /renovation-singel/3.jpg
-    caption: Bathroom: View from whirlpool
+    caption: Bathroom, View from whirlpool
   - url: /renovation-singel/4.jpg
     caption: Bedroom
   - url: /renovation-singel/5.jpg
