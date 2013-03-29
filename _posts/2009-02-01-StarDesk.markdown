@@ -11,6 +11,4 @@ pictures:
     caption: Caption 3
 ---
 
-<!--[![alt text]({{ site.media }}/portfolio/stardesk-1.jpg "My image") ]({{ site.media }}/portfolio/stardesk-1.jpg "Title")-->
-
 Content
