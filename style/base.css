@@ -892,10 +892,10 @@ sup {
 /* @group Article Overview */
 
 .posts .post {
-	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 2em;
 	padding-bottom: 20px;
 	border-bottom: 1px dashed silver;
+	clear: both;
 }
 
 .posts .post img,
@@ -904,15 +904,34 @@ sup {
 }
 
 .posts .post .collection {
-	
+	overflow: hidden;
+}
+
+.posts .post .collection a {
+	float: left;
+	margin-right: 10px;
+}
+
+.posts .post .collection figure,
+#contentBody .posts .post .collection figure {
+	float: left;
+	margin: 0;
+}
+
+.posts .post .collection figure figcaption {
+	display: none;
 }
 
 .posts .post .collection img {
-	width: 30px;
+	margin-right: 10px;
+	float: left;
+	height: 40px;
+	width: auto;
 }
 
-.posts .post .collection img:first-child {
-	
+.posts .post .collection > div.gallery a:first-child > figure > img {
+	width: auto;
+	height: auto;
 }
 
 .posts .post a {
@@ -951,9 +970,9 @@ sup {
 	width: 190px;
 	text-align: right;
 	margin-left: -222px;
-	margin-top: 20px;
 	font-size: 14px;
 	line-height: 1.4;
+	margin-bottom: 2em;
 }
 
 .posts .post .description h4 {
