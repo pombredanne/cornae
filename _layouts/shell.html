@@ -15,46 +15,47 @@
 			});
 	    </script>-->   
 	</head>
-	<body class="{{ page.template }} pat-auto-scale mood-blueberry" data-pat-auto-scale="method: zoom">
+	<body class="{{ page.template }}">
+		<div id="main" class="pat-auto-scale mood-blueberry" data-pat-auto-scale="method: zoom">
+			{{ content }}
 
-		{{ content }}
+			<ul class="navigation" id="globalNavigation">
+				<li id="portaltab-home" class="home">
+					<a href="{{ site.baseurl }}">Home</a>
+				</li>
+				<li class="competences">
+					<a href="{{ site.baseurl }}/competences.html">Competences</a>
+				</li>
+				<li class="articles">
+					<a href="{{ site.baseurl }}/articles.html">Articles</a>
+				</li>
+				<li class="portfolio">
+					<a href="{{ site.baseurl }}/portfolio.html">Portfolio</a>
+				</li>
+			</ul>
 
-		<ul class="navigation" id="globalNavigation">
-			<li id="portaltab-home" class="home">
-				<a href="{{ site.baseurl }}">Home</a>
-			</li>
-			<li class="competences">
-				<a href="{{ site.baseurl }}/competences.html">Competences</a>
-			</li>
-			<li class="articles">
-				<a href="{{ site.baseurl }}/articles.html">Articles</a>
-			</li>
-			<li class="portfolio">
-				<a href="{{ site.baseurl }}/portfolio.html">Portfolio</a>
-			</li>
-		</ul>
-
-        <form action="{{ site.baseurl }}/search-results.html" id="search">
-        	<input type="search" placeholder="Search" name="q" id="tipue_search_input">
-        </form>
-        
-        <ul id="colours">
-			<li class="blueberry pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-blueberry">
-				Blueberry
-			</li>
-			<li class="topaz pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-topaz">
-				Topaz
-			</li>
-			<li class="orchid pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-orchid">
-				Orchid
-			</li>
-			<li class="mocha pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-mocha">
-				Mocha
-			</li>
-			<li class="avocado pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-avocado">
-				Avocado
-			</li>
-        </ul>
+	        <form action="{{ site.baseurl }}/search-results.html" id="search">
+	        	<input type="search" placeholder="Search" name="q" id="tipue_search_input">
+	        </form>
+	        
+	        <ul id="colours">
+				<li class="blueberry pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-blueberry">
+					Blueberry
+				</li>
+				<li class="topaz pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-topaz">
+					Topaz
+				</li>
+				<li class="orchid pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-orchid">
+					Orchid
+				</li>
+				<li class="mocha pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-mocha">
+					Mocha
+				</li>
+				<li class="avocado pat-switch" data-pat-switch="selector: body; remove: mood-*; add: mood-avocado">
+					Avocado
+				</li>
+	        </ul>
+	    </div>
 
         <div class="addthis_toolbox addthis_default_style addthis_32x32_style" id="share">
          	<a class="addthis_button_preferred_1"></a>
