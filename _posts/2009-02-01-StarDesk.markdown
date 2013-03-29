@@ -2,8 +2,6 @@
 layout: case
 title: StarDesk
 summary: A collaborative environment for Star Alliance
-root: .\
-
 pictures:
   - url: {{ site.media }}/portfolio/stardesk-1.jpg
     label: Label 1
