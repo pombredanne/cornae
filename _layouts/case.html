@@ -18,7 +18,7 @@ template: post
       <div id="contentBody">
           <div class="gallery pat-gallery">
           {% for pic in site.pictures %}
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ pic.url }}"><img src="{{ pic.url }}" alt="image" /></a>
           {% endfor %}
           </div>
 
