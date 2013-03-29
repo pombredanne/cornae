@@ -927,6 +927,7 @@ sup {
 	float: left;
 	height: 40px;
 	width: auto;
+	outline: 1px solid rgba(0,0,0,0.2);
 }
 
 .posts .post .collection > div.gallery a:first-child > figure > img {
