@@ -71,17 +71,5 @@ pictures:
     caption: Caption 3
   - url: /renovation-singel/32.jpg
     caption: Caption 3
-  - url: /renovation-singel/33.jpg
-    caption: Caption 3
-  - url: /renovation-singel/34.jpg
-    caption: Caption 3
-  - url: /renovation-singel/35.jpg
-    caption: Caption 3
-  - url: /renovation-singel/36.jpg
-    caption: Caption 3
-  - url: /renovation-singel/37.jpg
-    caption: Caption 3
-  - url: /renovation-singel/38.jpg
-    caption: Caption 3
 ---
 
