@@ -19,9 +19,9 @@ template: case
           {% for pic in page.pictures %}
               <a href="{{site.media}}/portfolio/{{ pic.url }}">
                 <figure>
-                  <img src="{{site.media}}/portfolio/{{ pic.url }}" title="pic.caption" alt="image" />
+                  <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
                   <figcaption>
-                    pic.caption
+                    {{ pic.caption }}
                   </figcaption>
                 </figure>
               </a>
