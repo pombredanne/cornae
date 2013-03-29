@@ -144,11 +144,12 @@ img {
 }
 
 #contentBody figure img {
-	margin-bottom: 0;
+	max-width: 100%;
+	margin-bottom: 0.5em;
 }
 
 #contentBody figure {
-	margin-bottom: 1em;
+	margin-bottom: 11em;
 }
 
 
