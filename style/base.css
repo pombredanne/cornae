@@ -78,9 +78,7 @@ a img {
 /* @end */
 
 body {
-	margin: 0;
-	padding: 0 180px 0 310px;
-	background-color: #e1e6f0;
+	margin: 0;	background-color: #e1e6f0;
 	background-image: url(pattern.png), url(grain.png);
 	background-repeat: no-repeat, repeat;
 	background-attachment: fixed;
@@ -89,9 +87,15 @@ body {
 	color: rgba(0,0,0,0.6);
 	/*text-shadow: white 0 1px 0;*/
 	overflow-x: hidden;
-	width: 830px;
 	display: block;
-	font: 20px/32px Raleway;
+	font: 20px/1.8 Raleway;
+}
+
+#main
+ {
+	
+	width: 830px;
+	padding: 0 180px 0 310px;
 }
 
 a {
