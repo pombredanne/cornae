@@ -5,7 +5,7 @@ title: Welcome
 	<h3>Most recent articles</h3>
 	<div class="posts">
 	{% for post in site.posts %}
-	  <article class="post" class="{{ post.layout }}">
+	  <article class="post {{ post.layout }}">
 	  	<a href="{{ site.baseurl }}{{ post.url }}">
 			{% if post.layout != 'case' %}
 	  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
