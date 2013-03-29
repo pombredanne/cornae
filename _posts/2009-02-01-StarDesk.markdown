@@ -2,7 +2,13 @@
 layout: case
 title: StarDesk
 summary: A collaborative environment for Star Alliance
-
+pictures:
+  - url: {{ site.media }}/portfolio/stardesk-1.jpg
+    caption: Caption 1
+  - url: {{ site.media }}/portfolio/stardesk-2.jpg
+    caption: Caption 2
+  - url: {{ site.media }}/portfolio/stardesk-3.jpg
+    caption: Caption 3
 ---
 
 Content
