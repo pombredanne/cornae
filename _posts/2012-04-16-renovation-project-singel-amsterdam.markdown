@@ -10,43 +10,43 @@ pictures:
   - url: /renovation-singel/13.jpg
     caption: Drawing room — Detail
   - url: /renovation-singel/14.jpg
-    caption: Caption 3
+    caption: Drawing room — View
   - url: /renovation-singel/15.jpg
-    caption: Caption 3
+    caption: Drawing room and kitchen
   - url: /renovation-singel/16.jpg
-    caption: Caption 3
+    caption: Drawing room
   - url: /renovation-singel/17.jpg
-    caption: Caption 3
+    caption: Renovated fireplace
   - url: /renovation-singel/18.jpg
-    caption: Caption 3
+    caption: Kitchen cupboards
   - url: /renovation-singel/19.jpg
-    caption: Caption 3
+    caption: Kitchen table
   - url: /renovation-singel/20.jpg
-    caption: Caption 3
+    caption: Kitchen
   - url: /renovation-singel/21.jpg
-    caption: Caption 3
+    caption: Vestibule
   - url: /renovation-singel/22.jpg
-    caption: Caption 3
+    caption: Vestibule — Niche
   - url: /renovation-singel/23.jpg
-    caption: Caption 3
+    caption: Kitchen with view on drawing room and the canal
   - url: /renovation-singel/24.jpg
-    caption: Caption 3
+    caption: Kitchen
   - url: /renovation-singel/25.jpg
-    caption: Caption 3
+    caption: Cooking island
   - url: /renovation-singel/26.jpg
-    caption: Caption 3
+    caption: Study
   - url: /renovation-singel/27.jpg
-    caption: Caption 3
+    caption: Study — Opened guest sink and espresso machine
   - url: /renovation-singel/28.jpg
-    caption: Caption 3
+    caption: Study with view on cupboards with hidden guest bed
   - url: /renovation-singel/29.jpg
-    caption: Caption 3
+    caption: Study with view on garden
   - url: /renovation-singel/30.jpg
-    caption: Caption 3
+    caption: Portrait of Liesbeth List
   - url: /renovation-singel/31.jpg
-    caption: Caption 3
+    caption: Study
   - url: /renovation-singel/32.jpg
-    caption: Caption 3
+    caption: Guest toilet and shower
   - url: /renovation-singel/0.jpg
     caption: Bedroom — Video projection wall
   - url: /renovation-singel/1.jpg
