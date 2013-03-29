@@ -7,10 +7,10 @@ title: Portfolio
 	{% for post in site.posts %}
 		{% if post.layout == "case" %}
 		<article class="post {{ post.layout }}">
-			<div class="description">
+			<a href="{{ site.baseurl }}{{ post.url }}" class="description">
 			  	<h4>{{ post.title }}</h4>
 			  	<p class="summary">{{ post.summary }}</p>
-			</div>
+			</a>
 			<figure class="collection">
 				<a href="{{ site.baseurl }}{{ post.url }}#contentBody" class="pat-inject" data-pat-inject="target: self::element; trigger: autoload-visible">
 			    Loading {{ post.title }}…

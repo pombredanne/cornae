@@ -973,6 +973,7 @@ sup {
 	font-size: 14px;
 	line-height: 1.4;
 	margin-bottom: 2em;
+	text-decoration: none;
 }
 
 .posts .post .description h4 {
