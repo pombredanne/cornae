@@ -17,7 +17,7 @@ template: post
       </div>
       <div id="contentBody">
           <div class="gallery pat-gallery">
-          {% for pic in post.pictures %}
+          {% for pic in page.pictures %}
               <a href="{{ pic.url }}"><img src="{{ pic.url }}" alt="image" /></a>
           {% endfor %}
           </div>
