@@ -5,14 +5,16 @@ title: Portfolio
 ---
 	<div class="posts">
 	{% for post in site.posts %}
-	  <article class="post {{ post.layout }}">
-	  	<div class="description">
-		  	<h4>{{ post.title }}</h4>
-		  	<p class="summary">{{ post.summary }}</p>
-	  	</div>
-	  	<a href="{{ site.baseurl }}{{ post.url }}#contentBody" class="pat-inject" data-pat-inject="target: self;">
+		{% if post.layout == "case" %}
+		<article class="post {{ post.layout }}">
+			<div class="description">
+			  	<h4>{{ post.title }}</h4>
+			  	<p class="summary">{{ post.summary }}</p>
+			</div>
+			<a href="{{ site.baseurl }}{{ post.url }}#contentBody" class="pat-inject" data-pat-inject="target: self; trigger: autoloading-visible">
 		    Loading {{ post.title }}…
-	    </a>
-	  </article>
+		</a>
+		</article>
+		{% endif %}
 	{% endfor %}
 	</div>
