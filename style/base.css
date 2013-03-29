@@ -140,6 +140,15 @@ img {
 	margin-left: auto;
 	display: block;
 	max-width: 90%;
+	margin-bottom: 1em;
+}
+
+#contentBody figure img {
+	margin-bottom: 0;
+}
+
+#contentBody figure {
+	margin-bottom: 1em;
 }
 
 

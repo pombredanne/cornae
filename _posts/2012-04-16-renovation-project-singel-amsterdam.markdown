@@ -85,4 +85,3 @@ pictures:
     caption: Caption 3
 ---
 
-Content
