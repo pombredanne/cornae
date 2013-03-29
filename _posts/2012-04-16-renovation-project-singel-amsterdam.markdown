@@ -3,34 +3,12 @@ layout: case
 title: Renovation project Singel Amsterdam
 summary: Complete redesign of the interior for an apartment in a monumental building at one of Amsterdam's historic canals. 
 pictures:
-  - url: /renovation-singel/0.jpg
-    caption: Bedroom, Video projection wall
-  - url: /renovation-singel/1.jpg
-    caption: Bedroom, View on bathroom
-  - url: /renovation-singel/2.jpg
-    caption: Bathroom, Whirlpool
-  - url: /renovation-singel/3.jpg
-    caption: Bathroom, View from whirlpool
-  - url: /renovation-singel/4.jpg
-    caption: Bedroom
-  - url: /renovation-singel/5.jpg
-    caption: Double rain shower
-  - url: /renovation-singel/6.jpg
-    caption: Caption 3
-  - url: /renovation-singel/7.jpg
-    caption: Caption 3
-  - url: /renovation-singel/8.jpg
-    caption: Caption 3
-  - url: /renovation-singel/9.jpg
-    caption: Caption 3
-  - url: /renovation-singel/10.jpg
-    caption: Caption 3
   - url: /renovation-singel/11.jpg
-    caption: Caption 3
+    caption: Drawing room — View to the kitchen
   - url: /renovation-singel/12.jpg
-    caption: Caption 3
+    caption: Drawing room
   - url: /renovation-singel/13.jpg
-    caption: Caption 3
+    caption: Drawing room — Detail
   - url: /renovation-singel/14.jpg
     caption: Caption 3
   - url: /renovation-singel/15.jpg
@@ -68,6 +46,28 @@ pictures:
   - url: /renovation-singel/31.jpg
     caption: Caption 3
   - url: /renovation-singel/32.jpg
+    caption: Caption 3
+  - url: /renovation-singel/0.jpg
+    caption: Bedroom — Video projection wall
+  - url: /renovation-singel/1.jpg
+    caption: Bedroom — View on bathroom
+  - url: /renovation-singel/2.jpg
+    caption: Bathroom — Whirlpool
+  - url: /renovation-singel/3.jpg
+    caption: Bathroom, View from whirlpool
+  - url: /renovation-singel/4.jpg
+    caption: Bedroom
+  - url: /renovation-singel/5.jpg
+    caption: Double rain shower
+  - url: /renovation-singel/6.jpg
+    caption: Caption 3
+  - url: /renovation-singel/7.jpg
+    caption: Caption 3
+  - url: /renovation-singel/8.jpg
+    caption: Caption 3
+  - url: /renovation-singel/9.jpg
+    caption: Caption 3
+  - url: /renovation-singel/10.jpg
     caption: Caption 3
 ---
 
