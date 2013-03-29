@@ -931,20 +931,20 @@ sup {
 	display: inline;
 }
 
-.posts .post h2 {
+.posts .post h4 {
 	margin-bottom: 0;
 	display: inline-block;
 }
 
-.posts .post h2:after {
+.posts .post h4:after {
 	content: " —";
 }
 
-.posts .post.case h2 {
+.posts .post.case h4 {
 	margin-bottom: 1em;
 }
 
-.posts .post.case h2:after {
+.posts .post.case h4:after {
 	display: none;
 }
 
