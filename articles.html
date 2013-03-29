@@ -2,17 +2,12 @@
 layout: articles
 title: Articles
 ---
-	<div class="posts">
+	<div class="gallery">
 	{% for post in site.posts %}
 	{% if post.layout != 'case' %}
-		<article class="post">
-			<a href="{{ site.baseurl }}{{ post.url }}">
-				<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
-			    <h2>{{ post.date | date: "%d %B %Y" }}: {{ post.title }}</h2>
-			    <p class="summary">{{ post.summary }}</p>
-			</a>
+		<article class="case">
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 		</article>
 	{% endif %}
 	{% endfor %}
 	</div>
-
