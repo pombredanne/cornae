@@ -779,7 +779,7 @@ sup {
 	height: 138px;
 	position: absolute;
 	top: 0;
-	left: 992px;
+	left: 1002px;
 	border-bottom: 2px solid rgba(254,255,254,0.5);
 	border-left: 2px solid rgba(254,255,254,0.5);
 	border-right: 2px solid rgba(254,255,254,0.5);
@@ -908,31 +908,36 @@ sup {
 }
 
 .posts .post .collection a {
-	float: left;
-	margin-right: 10px;
+	display: inline-block;
 }
 
 .posts .post .collection figure,
 #contentBody .posts .post .collection figure {
-	float: left;
 	margin: 0;
+	display: inline-block;
 }
 
 .posts .post .collection figure figcaption {
 	display: none;
 }
 
-.posts .post .collection img {
-	margin-right: 10px;
-	float: left;
+.posts .post .collection img  {
+	margin-right: 20px;
 	height: 40px;
 	width: auto;
 	outline: 1px solid rgba(0,0,0,0.2);
+	display: inline-block;
+	float: left;
+}
+
+.posts .post .collection img:hover {
+	outline: black;	
 }
 
 .posts .post .collection > div.gallery a:first-child > figure > img {
 	width: auto;
 	height: auto;
+	margin-right: 0;
 }
 
 .posts .post a {
@@ -1226,7 +1231,7 @@ p.geekAlert em {
 	height: 138px;
 	position: absolute;
 	top: 0;
-	left: 848px;
+	left: 858px;
 	border-bottom: 2px solid rgba(254,255,254,0.5);
 	border-left: 2px solid rgba(254,255,254,0.5);
 	border-right: 2px solid rgba(254,255,254,0.5);
@@ -1564,138 +1569,6 @@ body.contact #contentBody {
 body.portfolio {
 	background-image: url(portfolio.png), url(grain.png);
 	background-position: 0 0;
-}
-
-#portfolio p.controls {
-	margin-top: 10px;
-	width: 145px;
-	padding-bottom: 0;
-	clear: left;
-	margin-left: -179px;
-	position: absolute;
-	bottom: 50px;
-}
-
-#portfolio p.controls a {
-	width: 48px;
-	height: 0;
-	overflow: hidden;
-	padding-top: 48px;
-	border: 1px solid gray;
-	-webkit-transition: all 0.4s;
-	display: block;
-}
-
-#portfolio p.controls a:hover {
-	border: 1px solid black;
-}
-
-#portfolio .buttonPrevious {
-	background: url(iconsPortfolio.png) -150px 0;
-	float: right;
-}
-
-#portfolio .buttonNext {
-	background: url(iconsPortfolio.png) -100px 0;
-	float: right;
-	clear: right;
-	margin-top: 4px;
-}
-
-body.portfolio #prologue {
-	background-image: url(portfolio.png), url(grain.png);
-	background-position: 0 0;
-	background-attachment: fixed;
-	background-repeat: no-repeat, repeat;
-}
-
-#portfolio .project {
-	width: 828px;
-	clear: left;
-	margin-bottom: 0;
-	margin-left: -270px;
-	padding-left: 270px;
-	margin-top: 0;
-	padding-top: 20px;
-	padding-bottom: 80px;
-	position: relative;
-}
-
-#portfolio .project h4 {
-	letter-spacing: 1px;
-	line-height: 20px;
-	font-size: 14px;
-	width: 165px;
-	margin-left: -200px;
-	text-align: right;
-	margin-bottom: 10px;
-	float: left;
-}
-
-#portfolio #introduction a:hover strong {
-	background: white url(iconsPortfolio.png) -50px 0;
-}
-
-#portfolio #contentBody .media a,
-#portfolio #contentBody .project object {
-	display: none;
-	width: 100%;
-	-webkit-box-shadow: 0 2px 12px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0 2px 12px rgba(0,0,0,0.2);
-	box-shadow: 0 2px 12px rgba(0,0,0,0.2);
-	border: 1px solid #afafaf;
-}
-
-#portfolio #contentBody p.media {
-	margin-bottom: 0;
-}
-
-
-#portfolio #contentBody .media a:first-child,
-#portfolio #contentBody .project object {
-	display: block
-}
-
-#portfolio #contentBody .media a img {
-	width: 100%;
-	max-width: 100%;
-	display: block;
-}
-
-#portfolio #contentBody .description {
-	width: 145px;
-	font-size: 11px;
-	line-height: 15px;
-	text-align: right;
-	margin-left: -180px;
-	line-height: 15px;
-	float: left;
-	color: #686868;
-	-webkit-transition: all 0.4s;
-	clear: both;
-}
-
-#portfolio a.fancy:first-child{
-	position: relative;
-}
-
-#portfolio a.fancy:first-child:before {
-	content: "Click to enlarge";
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 60px;
-	height: 60px;
-	overflow: hidden;
-	text-indent: -1000px;
-	margin-top: -30px;
-	margin-left: -30px;
-	display: none;
-	background: url(iconEnlarge.png) 0 0;
-}
-
-#portfolio a.fancy:hover:before {
-	display: block;
 }
 
 /* @end */
