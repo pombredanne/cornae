@@ -817,8 +817,9 @@ sup {
 	user-select: none;
 }
 
-.mood-avocado #colours .avocado,
+
 .mood-blueberry #colours .blueberry,
+.mood-avocado #colours .avocado,
 .mood-orchid #colours .orchid,
 .mood-mocha #colours .mocha,
 .mood-topaz #colours .topaz {
@@ -847,7 +848,7 @@ sup {
 
 #colours .blueberry {
 	background-color: #3d607e;
-	right: 103px;
+	right: 0;
 }
 
 .mood-mocha #colours .blueberry,
