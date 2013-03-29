@@ -10,8 +10,8 @@ template: portfolio
       </div>
       <div id="contentBody">
         {{ content }}
-    	<div class="posts">
-<!-- 		{% for post in site.posts %}
+<!--     	<div class="posts">
+		{% for post in site.posts %}
 			{% if post.layout == 'case' %}
 			<article class="post">
 				<a href="{{ site.baseurl }}{{ post.url }}">
@@ -21,12 +21,12 @@ template: portfolio
 				</a>
 			</article>
 			{% endif %}
-		{% endfor %} -->
+		{% endfor %}
 
 		{% for pic in page.pictures %}
 			 <a  href="pic.url">
 			   [![image]({{ pic.url }})](#) {{ pic.label }}
 			 </a>
 		{% endfor %}
-		</div>
+		</div> -->
 	  </div>

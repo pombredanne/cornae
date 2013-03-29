@@ -15,6 +15,16 @@ template: post
         </p>
       </div>
       <div id="contentBody">
+          <div class="gallery pat-gallery">
+          {% for post in site.posts %}
+          {% if post.layout == 'case' %}
+            <article class="case">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </article>
+          {% endif %}
+          {% endfor %}
+          </div>
+
         {{ content }}
 	  </div>
         
