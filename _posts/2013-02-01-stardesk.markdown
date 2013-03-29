@@ -10,5 +10,3 @@ pictures:
   - url: /stardesk/2.jpg
     caption: Document in a workspace
 ---
-
-Content
