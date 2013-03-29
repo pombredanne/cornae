@@ -71,3 +71,4 @@ pictures:
     caption: Caption 3
 ---
 
+Showing here are the 3D drawings that were made before the renovation in which everything was planned to the smallest detail based on real measurements and carefully selected and simulated materials. 
