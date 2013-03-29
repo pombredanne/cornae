@@ -1,8 +1,13 @@
 ---
-layout: portfolio
-title: Portfolio
+layout: articles
+title: Articles
 ---
-	<p>Under construction</p>
-	
-	
-
+	<div class="gallery pat-gallery">
+	{% for post in site.posts %}
+	{% if post.layout != 'case' %}
+		<article class="case">
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</article>
+	{% endif %}
+	{% endfor %}
+	</div>
