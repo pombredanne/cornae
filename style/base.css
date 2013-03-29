@@ -895,6 +895,11 @@ sup {
 	border-bottom: 1px dashed silver;
 }
 
+.posts .post img {
+	margin-right: 0;
+	margin-left: 0;
+}
+
 .posts .post a {
 	text-decoration: none;
 	display: block;
@@ -931,8 +936,16 @@ sup {
 	display: inline-block;
 }
 
-.posts .post.article h2:after {
+.posts .post h2:after {
 	content: " —";
+}
+
+.posts .post.case h2 {
+	margin-bottom: 1em;
+}
+
+.posts .post.case h2:after {
+	display: none;
 }
 
 /* @end */
