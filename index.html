@@ -12,7 +12,7 @@ title: Welcome
 	  		{% endif %}
 		    <h2>{{ post.title }}</h2>
 		    {% if post.layout == 'case' %}
-				{% for pic in page.pictures limit:1 %}
+				{% for pic in post.pictures limit:1 %}
 					<img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
 				{% endfor %}
 		    {% endif %}
