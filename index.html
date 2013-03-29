@@ -7,8 +7,15 @@ title: Welcome
 	{% for post in site.posts %}
 	  <article class="post">
 	  	<a href="{{ site.baseurl }}{{ post.url }}">
+			{% if post.layout != 'case' %}
 	  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
+	  		{% endif %}
 		    <h2>{{ post.title }}</h2>
+		    {% if post.layout == 'case' %}
+				{% for pic in page.pictures limit:1 %}
+					<img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
+				{% endfor %}
+		    {% endif %}
 		    <p class="summary">{{ post.summary }}</p>
 	    </a>
 	  </article>
