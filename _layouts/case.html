@@ -26,6 +26,9 @@ template: case
                 </figure>
               </a>
           {% endfor %}
+          {% for vid in page.video %}
+            <video src="{{site.media}}/portfolio/{{ vid.url }}"></video>
+          {% endfor %}
           </div>
 
         {{ content }}
