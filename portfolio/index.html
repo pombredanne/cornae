@@ -3,7 +3,7 @@ layout: portfolio
 title: Portfolio
 ---
 	<div class="posts" id="posts">
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 		{% if post.layout == "case" %}
 		<article class="post {{ post.layout }}">
 			<a href="{{ site.baseurl }}{{ post.url }}" class="description">
