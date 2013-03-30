@@ -4,7 +4,7 @@ title: 2style4you
 summary: 2style4you is a Dutch fashion shopping website for women that uses an automated styling advice.
 videos: 
   - url: 2style4you/ScreenFlow.mov
-  - caption: The registration process and sales funnel of the site
+    caption: The registration process and sales funnel of the site
 ---
 
 This video requires Apple Quicktime to be installed.
