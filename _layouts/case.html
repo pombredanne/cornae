@@ -16,7 +16,7 @@ template: case
       </div>
       <div id="contentBody">
           <div class="gallery pat-gallery">
-          {% for pic in page.pictures offset: 2 %}
+          {% for pic in page.pictures %}
               <a href="{{site.media}}/portfolio/{{ pic.url }}">
                 <figure>
                   <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />

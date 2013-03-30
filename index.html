@@ -4,7 +4,7 @@ title: Welcome
 ---
 	<h3>Most recent posts</h3>
 	<div class="posts">
-	{% for post in site.posts %}
+	  {% for post in paginator.posts %}
 	  <article class="post {{ post.layout }}">
 	  	<a href="{{ site.baseurl }}{{ post.url }}">
 			{% if post.layout != 'case' %}
@@ -25,6 +25,9 @@ title: Welcome
 		    <p class="summary">{{ post.summary }}</p>
 	    </a>
 	  </article>
-	{% endfor %}
+	  {% endfor %}
+
+	  <a href="/page{{paginator.next_page}}" class="next ">Next</a>
+
 	</div>
 
