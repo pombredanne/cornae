@@ -1,0 +1,9 @@
+---
+layout: post
+title: 2style4you
+summary: 
+2style4you is a Dutch fashion shopping website for women that uses an automated styling advice.
+video: "2style4you/ScreenFlow.mov"
+
+---
+
