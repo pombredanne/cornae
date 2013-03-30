@@ -15,6 +15,9 @@ title: Welcome
 				{% for pic in post.pictures limit:1 %}
 					<img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
 				{% endfor %}
+				{% for video in post.video limit:1 %}
+					<video src="{{site.media}}/portfolio/{{ video.url }}" title="{{ video.caption }}" alt="image" ></video>
+				{% endfor %}
 		    {% endif %}
 		    <p class="summary">{{ post.summary }}</p>
 	    </a>
