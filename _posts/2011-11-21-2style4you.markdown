@@ -7,3 +7,4 @@ videos:
   - caption: The registration process and sales funnel of the site
 ---
 
+This video requires Apple Quicktime to be installed.
