@@ -131,17 +131,25 @@ a {
 
 /* @end */
 
-/* @group Images */
+/* @group Media */
 
 img {
 	border-style: none;
 }
 
-#contentBody img {
+#contentBody img{
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 	max-width: 90%;
+	margin-bottom: 1em;
+}
+
+#contentBody video {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	max-width: 100%;
 	margin-bottom: 1em;
 }
 
