@@ -16,7 +16,7 @@ template: case
       </div>
       <div id="contentBody">
           <div class="gallery pat-gallery">
-          {% for pic in page.pictures %}
+<!--           {% for pic in page.pictures %}
               <a href="{{site.media}}/portfolio/{{ pic.url }}">
                 <figure>
                   <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
@@ -25,7 +25,7 @@ template: case
                   </figcaption>
                 </figure>
               </a>
-          {% endfor %}
+          {% endfor %} -->
           {% for vid in page.video %}
             <video src="{{site.media}}/portfolio/{{ vid.url }}"></video>
           {% endfor %}
