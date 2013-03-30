@@ -27,7 +27,9 @@ template: case
               </a>
           {% endfor %}
           {% for vid in page.videos %}
-            <video src="{{site.media}}/portfolio/{{ vid.url }}"></video>
+            <video controls>
+              <source src="{{site.media}}/portfolio/{{ vid.url }}" type="video/mp4">
+            </video>
           {% endfor %}
           </div>
 
