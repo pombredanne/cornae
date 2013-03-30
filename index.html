@@ -3,7 +3,7 @@ layout: frontpage
 title: Welcome
 ---
 	<h3>Most recent posts</h3>
-	<div class="posts">
+	<div class="posts" id="posts">
 	  {% for post in paginator.posts %}
 	  <article class="post {{ post.layout }}">
 	  	<a href="{{ site.baseurl }}{{ post.url }}">
@@ -26,8 +26,9 @@ title: Welcome
 	    </a>
 	  </article>
 	  {% endfor %}
-
-	  <a href="{{ site.baseurl }}/page{{paginator.next_page}}" class="next ">Next</a>
+	  {% if paginator.next_page %}
+	  <a href="{{ site.baseurl }}/page{{paginator.next_page}}#posts" class="next pat-inject" data-pat-inject="target: self::element; trigger: autoload-visible">Next</a>
+	  {% endif %}
 
 	</div>
 
