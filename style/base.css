@@ -913,8 +913,10 @@ sup {
 	max-width: 100%;
 }
 
-.posts .post .collection {
+.posts .post .collection,
+#contentBody .posts .post .collection {
 	overflow: hidden;
+	margin-bottom: 0;
 }
 
 .posts .post .collection a {
