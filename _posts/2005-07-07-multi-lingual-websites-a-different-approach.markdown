@@ -44,7 +44,7 @@ Some multi lingual websites offer a language choice at their front page or elsew
 
 #### Internationalisation is not localisation
 
-Rob is a good friend of mine. He's American, lives in Amsterdam and English is his native tongue. All though he speaks adequate Dutch as well, it's understandable that he likes to read things in his own language. How annoying for him it must be to discover that every other time he visits a website of an international corporation with a .nl domain he is presented with Dutch language content. Even though his web browser is configured well, with English as his first language.
+Rob is a good friend of mine. He's American, lives in Amsterdam and English is his native tongue. All though he speaks adequate Dutch as well, it's understandable that he likes to read things in his own language. How annoying for him it must be to discover that every other time he visits a website of an international corporation with an .nl domain he is presented with Dutch language content. Even though his web browser is configured well, with English as his first language.
 
 For some obscure reason, a number of web builders assume that one who visits, for instance, a .nl domain, has Dutch as a first language. At the time of writing, a clear example is the website of Sony Ericsson. Sony Ericsson is a company that makes great phones, but learning more about their products can be a real pain if you don't fit exactly into one of their boxes. If you visit [sonyericsson.nl][9], you will only find Dutch language content. Even though most of their content, is available in English as well, but exclusively via the .co.uk domain. Not only is the whole search for the preferred language annoying, if you're interested in finding the nearest dealer or you want to know the local prices, visiting a foreign domain is also hardly helpful either. Unfortunately, Sony Ericsson is in good company, as other big names including: Microsoft, Siemens, Apple, Samsung, Motorola… — well, the list is infinitely long —, make the same mistake, by linking the language content to the domain only.
 
@@ -95,21 +95,21 @@ Changing the graphic representation of words doesn't affect their meaning, nor d
 
 A switch from a language which is offered in a left to right script (such as Latin), to a right to left script (such as Hebrew), should generally not be done without a layout change as well. The reason for this is, that languages, not written from right to left, are not only aligned right by default, but also have an effect on the visual balance of the page layout. Not changing the page layout to the text direction will result in a page layout which feels unnatural to someone who reads a right to left script, even though it might feel natural to someone who is more used to reading left to right scripts. That's why it's usually not enough to mirror only the alignment of the text. If a website has a sidecolumn, it's often best to move it to the other side as well. Here's an example:
 
-![Latin l2r][14]
+![Latin l2r][{{ site.media }}/latin-l2r.png]
 
 Above, you see the old frontpage of cornae.org in English, using Latin script. Now, we switch to Persian, which uses the Arabic alphabet, without touching the layout. It would look something like this:
 
-![http://www.cornae.com/arabicl2r.png][15]
+![http://www.cornae.com/arabicl2r.png][{{ site.media }}/arabic-l2r.png]
 
 This would look as unnatural to a reader of Arabic script as the example below would to a Latin script reader.
 
-![Latin r2l][16]
+![Latin r2l][{{ site.media }}/latin-r2l.png]
 
 The solution is to mirror the complete page layout. It's recommended to also change the order of tabs and menu items if they're displayed in a horizontal fashion.
 
 The example below shows a mirrored page layout, opposed to the layout that was used for Latin script languages. Mind the small details, such as the find button, which moved to the left of the search box. Also the minus- and plus signs of the sidebar widget headers moved to the other side and even the order of the fruit buttons to make it complete.
 
-![Arabic r2l][17]
+![Arabic r2l][{{ site.media }}/arabic-r2l.png]
 
 Different stylesheets may be used to present the pages using the proper layout, without having to touch the structure of the pages.
 
