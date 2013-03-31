@@ -2,7 +2,7 @@
 layout: post
 title: Multi-lingual websites — A different approach
 summary: Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Friesians only spoke Frysk. But things have moved on from here.
-avatar: avatar-multi-lingual-websites.png
+avatar: avatar-multi-lingual.png
 ---
 
 In modern societies, all of the above no longer applies and on the ever expanding world wide web, national borders will look even more trivial tomorrow than today.
