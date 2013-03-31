@@ -102,6 +102,7 @@ body {
 
 a {
 	color: #3d607e;
+	text-decoration: none;
 }
 
 a:before
