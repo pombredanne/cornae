@@ -647,7 +647,6 @@ dl {
 
 blockquote {
 	font-family: Georgia,"Times New Roman",Times,serif !important;
-	font-size: 14px;
 	font-style: italic;
 	font-variant: normal;
 	font-weight: normal;
@@ -665,14 +664,12 @@ blockquote {
 blockquote p {
 	-x-system-font: none;
 	font-family: Georgia,"Times New Roman",Times,serif;
-	font-size: 14px;
 	font-size-adjust: none;
 	font-stretch: normal;
 	font-style: italic;
 	font-variant: normal;
 	font-weight: normal;
 	letter-spacing: 1px;
-	line-height: 25px;
 }
 
 dt {
@@ -699,12 +696,11 @@ code {
 	color: black;
 	margin-top: -2px;
 	padding: 2px;
-	font: 14px "Courier New", Courier, mono;
+	font-family: "Courier New", Courier, mono;
 }
 
 pre {
 	background: rgba(0,0,0,0.1) none repeat scroll 0% 0%;
-	font: 14px/20px "Courier New", Courier, mono;
 	color: black;
 	padding: 10px;
 	overflow: auto;
@@ -712,6 +708,7 @@ pre {
 	text-shadow: rgba(255,254,255,0.77) 0 1px 0;
 	margin-bottom: 20px;
 	border: 1px solid rgba(0,0,0,0.28);
+	font-family: "Courier New", Courier, mono;
 }
 
 pre code {
