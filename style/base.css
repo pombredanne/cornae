@@ -116,6 +116,17 @@ a:before
 	text-align: center;
 }
 
+#prologue .social-links {
+	padding-top: 45px;
+	display: block;
+	padding-bottom: 15px;
+}
+
+#prologue .social-links a,
+#prologue .social-links a:hover {
+	border-style: none;
+}
+
 .social-links a
  {
 	font-size: 7em;
