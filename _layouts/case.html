@@ -29,7 +29,7 @@ template: case
           {% for pic in page.pictures offset: 1 %}
               <a href="{{site.media}}/portfolio/{{ pic.url }}">
                 <figure>
-                  <img src="proxy.boxresizer.com/convert?resize=40x71&source=http://cornae.github.com{{ site.media }}portfolio/{{ pic.url }}"" title="{{ pic.caption }}" alt="image" />
+                  <img src="proxy.boxresizer.com/convert?resize=40x71&source=http://cornae.github.com{{ site.media }}/portfolio/{{ pic.url }}"" title="{{ pic.caption }}" alt="image" />
                   <figcaption>
                     {{ pic.caption }}
                   </figcaption>
