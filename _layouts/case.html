@@ -16,7 +16,8 @@ template: case
       </div>
       <div id="contentBody">
           <div class="gallery pat-gallery">
-            {% for pic in page.pictures limit:1 %}
+            <div id="main-media">
+              {% for pic in page.pictures limit:1 %}
               <a id="main-image" href="{{site.media}}/portfolio/{{ pic.url }}">
                 <figure>
                   <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
@@ -26,6 +27,13 @@ template: case
                 </figure>
               </a>
             {% endfor %}
+            {% for vid in page.videos %}
+              <video controls>
+                <source src="{{site.media}}/portfolio/{{ vid.url }}" type="video/mp4" />
+                {{ video.caption }}
+              </video>
+              {% endfor %}
+            </div>
 
             {% for pic in page.pictures offset: 1 %}
                 <a href="{{site.media}}/portfolio/{{ pic.url }}">
@@ -46,12 +54,6 @@ template: case
             {% endfor %}
             </div>
 
-            {% for vid in page.videos %}
-            <video controls>
-              <source src="{{site.media}}/portfolio/{{ vid.url }}" type="video/mp4" />
-              {{ video.caption }}
-            </video>
-            {% endfor %}
           </div> 
         {{ content }}
 	  </div>
