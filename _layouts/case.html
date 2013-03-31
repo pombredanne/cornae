@@ -18,12 +18,7 @@ template: case
           <div class="gallery pat-gallery">
             {% for pic in page.pictures limit:1 %}
               <a id="main-image" href="{{site.media}}/portfolio/{{ pic.url }}">
-                <figure>
-                  <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
-                  <figcaption>
-                    {{ pic.caption }}
-                  </figcaption>
-                </figure>
+                  <img src="{{site.media}}/portfolio/{{ pic.url }}" />
               </a>
             {% endfor %}
 
