@@ -87,7 +87,7 @@ We fit our content in the structure of X(HT)ML and manipulate it's presentation 
 
 The relation between content, structure and presentation could be seen as a triangle, pointing up. On top, there's the content. At one other corner resides the structure and the third corner is host to the presentation as depicted below. The attributes that indicate the language, belong in the corner of the structure. Few would argue that the way the content looks, such as the colour of the words, is part of the presentation of the content.
 
-![Content triangle][{{ site.media }}/magicTriangle.png]
+![Content triangle]({{ site.media }}/magicTriangle.png)
 
 Changing the graphic representation of words doesn't affect their meaning, nor does language. Therefor I propose to conceive language as just *an aspect of presentation* of content as well. So why put different language versions of the same content in different X(HT)ML documents or even in a different databases? Different language versions could just as well be put together in the same document. Each element, such as paragraphs and headers, may be labeled with the appropriate language tag. Either server side (E.g.: XML/XSL) or client side (E.g: XHTML/Javascript) technology may be applied to filter out tags labeled with languages that are not to be presented to the site's visitor.
 
