@@ -161,24 +161,24 @@ By means of a javascript, all non desired languages are filtered out of the visi
 One may as well choose to group all language versions of the first element together in succession all the languages for the next element, etcetera, like demonstrated the example below:
 
     
-      Multi lingual websites: a different approach
-    
-    
-      Meertalige websites: een frisse blik
-    
-    
-      Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Frysians only spoke Frysk. But things have moved on from here.
-    
-    
-      Ooit was de wereld wonderbaarlijk overzichtelijke planeet. De Italianen aten pasta, alleen de Japanners dronken sake, Amsterdammers spraken Nederlands en de meeste Amerikanen hadden geen paspoort. De tijden zijn echter radicaal veranderd.
-    
-    
-      In modern societies, all of the above no longer applies and on the ever expanding world wide web, national borders will look even more trivial tomorrow than today.
-    
-    
-      In de hedendaagse samenleving is al het bovengenoemde niet meer van toepassing en op het immer uitdijende internet zullen nationale grenzen morgen van nog kleinere betekenis lijken dan vandaag.
-         
-    
+	<h2 lang="en-GB">
+	  Multi lingual websites: <br/>a different approach
+	</h2>
+	<h2 lang="nl-NL">
+	  Meertalige websites: <br/>een frisse blik
+	</h2>
+	<p lang="en-GB">
+	  Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Frysians only spoke Frysk. But things have moved on from here.
+	</p>
+	<p lang="nl-NL">
+	  Ooit was de wereld wonderbaarlijk overzichtelijke planeet. De Italianen aten pasta, alleen de Japanners dronken sake, Amsterdammers spraken Nederlands en de meeste Amerikanen hadden geen paspoort. De tijden zijn echter radicaal veranderd.
+	</p>
+	<p lang="en-GB">
+	  In modern societies, all of the above no longer applies and on the ever expanding world wide web, national borders will look even more trivial tomorrow than today.
+	</p>
+	<p lang="nl-NL">
+	  In de hedendaagse samenleving is al het bovengenoemde niet meer van toepassing en op het immer uitdijende internet zullen nationale grenzen morgen van nog kleinere betekenis lijken dan vandaag.
+	</p>  
 
 The latter method has the advantage that the first paragraphs of each language will be drawn at more or less the same time. The visitor can already start reading the first lines while the rest of the content is still loading, regardless of his preferred language. The drawback is, that users of less advanced mobile readers, will have to scroll after reading each paragraph. Still, all content is availble to them.
 
@@ -208,9 +208,9 @@ Next the script will check if the browser language is available on the page. If 
 
 If the browser language is not available on the page, then the script will make a decision of it's own, based on the value of the very first *lang* attribute that's found on the page. To this language the select box will be set and all other languages are filtered out of the DOM-tree.
 
-This whole process as described above, is illustrated below. The flow chart is also available as a [pdf-file][20].
+This whole process as described above, is illustrated below. The flow chart is also available as a [pdf-file]({{ site.media }}/language-switcher.pdf).
 
-![Language][21]
+![Language]({{ site.media }}/Language-switcher.png)
 
 ### Addendum
 
