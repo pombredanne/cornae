@@ -15,9 +15,11 @@ title: Portfolio
 			    Loading {{ post.title }}…
 				</a>
 
-				<a href="{{ site.baseurl }}{{ post.url }}#thumbs" class="pat-inject" data-pat-inject="target: self::element; trigger: autoload-visible">
-			    Loading {{ post.title }}…
-				</a>
+				<div class="thumbs">
+					<a href="{{ site.baseurl }}{{ post.url }}#thumbs" class="pat-inject" data-pat-inject="target: self::element; trigger: autoload-visible">
+				    Loading {{ post.title }}…
+					</a>
+				</div>
 			</figure>
 		</article>
 		{% endif %}
