@@ -104,6 +104,11 @@ a {
 	color: #3d607e;
 }
 
+a:before
+ {
+	text-decoration: none;
+}
+
 /* @group Bounce */
 
 @-webkit-keyframes bounce-nervous {
