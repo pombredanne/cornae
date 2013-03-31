@@ -117,44 +117,45 @@ Different stylesheets may be used to present the pages using the proper layout, 
 
 As I prefer to provide you with answers, — rather than leaving you with more questions than you had before reading this article — I will propose a concrete model on which all of the above is applied.
 
-**Nerd alert**  
-*The now following information might be of a technical nature.*
+<p class="geekAlert"><strong>Nerd alert</strong><br/> <em>The now following information might be of a technical nature.</em></p>
 
 The model, as proposed below, is based on XHTML pages of which each page contains all of the available languages for that document. Tags containing text or other language sensitive content are labeled with language tags, such as applied on a the paragraph in English, Italian and French, shown in the example below:
 
-    
-      This is a multi lingual website. Despite all efforts it might occur that a certain page is not (completely) available in your preferred language. My apologies for the inconvenience.
-    
-    
-      Questo è un sito multilinguistico. Malgrado tutti i miei sforzi potrebbe accadere che una determinata pagina non sia completamente disponibile nella vostra lingua. Mi scuso per il disagio.
-    
-    
-      Ceci est un site multi-lingue. Malgré les efforts il est bien possible que certains pages ne sont pas dans leurs totalités disponibles dans votre langue préférée. Veuillez nous excuser.
-    
-    
+	<p lang="en-GB">
+	  This is a multi lingual website. Despite all efforts it might occur that a certain page is not (completely) available in your preferred language. My apologies for the inconvenience.
+	</p>
+	
+	<p lang="it-IT">
+	  Questo è un sito multilinguistico. Malgrado tutti i miei sforzi potrebbe accadere che una determinata pagina non sia completamente disponibile nella vostra lingua. Mi scuso per il disagio.
+	</p>
+	
+	<p lang="fr-FR">
+	  Ceci est un site multi-lingue. Malgré les efforts il est bien possible que certains pages ne sont pas dans leurs totalités disponibles dans votre langue préférée. Veuillez nous excuser.
+	</p>    
 
 By means of a javascript, all non desired languages are filtered out of the visible part of the DOM-tree. This is what enables any visitor to perform live language switching without generating any extra line traffic. One might argue that sending all non needed languages over the line results in unnesecary line traffic anyway. We're talking however, merely plain text in most cases. There's is a curve where a new ip-request a document in another language would result in larger waiting time than would be the case with downloading one, slightly larger file. There's also room to play with the order in which languages are taken up in the structure. On way of building the structure is by adding all the content for all languages first and next all the content for the next language, etcetera, showing here:
 
     
-      Multi lingual websites:
-      a different approach
-    
-    
-      Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Frysians only spoke Frysk. But things have moved on from here.
-    
-    
-      In modern societies, all of the above no longer applies and on the ever expanding world wide web, national borders will look even more trivial tomorrow than today.
-    
-    
-      Meertalige websites:
-      een frisse blik
-    
-    
-      Ooit was de wereld wonderbaarlijk overzichtelijke planeet. De Italianen aten pasta, alleen de Japanners dronken sake, Amsterdammers spraken Nederlands en de meeste Amerikanen hadden geen paspoort. De tijden zijn echter radicaal verander
-    
-    
-      In de hedendaagse samenleving is al het bovengenoemde niet meer van toepassing en op het immer uitdijende internet zullen nationale grenzen morgen van nog kleinere betekenis lijken dan vandaag.
-    
+	<h2 lang="en-GB">
+	  Multi lingual websites:<br/>
+	  a different approach
+	</h2>
+	<p lang="en-GB">
+	  Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Frysians only spoke Frysk. But things have moved on from here.
+	</p>
+	<p lang="en-GB">
+	  In modern societies, all of the above no longer applies and on the ever expanding world wide web, national borders will look even more trivial tomorrow than today.
+	</p>
+	<h2 lang="nl-NL">
+	  Meertalige websites:<br/>
+	  een frisse blik
+	</h2>
+	<p lang="nl-NL">
+	  Ooit was de wereld wonderbaarlijk overzichtelijke planeet. De Italianen aten pasta, alleen de Japanners dronken sake, Amsterdammers spraken Nederlands en de meeste Amerikanen hadden geen paspoort. De tijden zijn echter radicaal verander
+	</p>
+	<p lang="nl-NL">
+	  In de hedendaagse samenleving is al het bovengenoemde niet meer van toepassing en op het immer uitdijende internet zullen nationale grenzen morgen van nog kleinere betekenis lijken dan vandaag.
+	</p>
     
 
 One may as well choose to group all language versions of the first element together in succession all the languages for the next element, etcetera, like demonstrated the example below:
