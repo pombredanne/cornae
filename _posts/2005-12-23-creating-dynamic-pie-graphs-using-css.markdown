@@ -117,10 +117,10 @@ The image below, shows the end result in both Internet Explorer 6.0 and an other
 
 * * *
 
- [1]: {{ site.baseurl }}/{{ site.media }}/pie.png
- [2]: {{ site.baseurl }}/{{ site.media }}/pieGraphLayers.png
- [3]: {{ site.baseurl }}/{{ site.media }}/slice.png
- [4]: {{ site.baseurl }}/{{ site.media }}/between.png
+ [1]: {{ site.media }}/pie.png
+ [2]: {{ site.media }}/pieGraphLayers.png
+ [3]: {{ site.media }}/slice.png
+ [4]: {{ site.media }}/between.png
  [5]: http://www.w3.org/Graphics/PNG/
  [6]: http://www.dithered.com/css_filters/css_only/child_selector.html
  [7]: {{ site.baseurl }}/{{ site.media }}/pieGraph/pieGraph.html
