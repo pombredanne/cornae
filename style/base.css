@@ -932,22 +932,21 @@ sup {
 }
 
 .posts .post .collection img  {
+	outline: 1px solid rgba(0,0,0,0.2);
+}
+
+.posts .post .collection .thumbs img
+ {
+	
 	margin-right: 20px;
 	height: 40px;
 	width: auto;
-	outline: 1px solid rgba(0,0,0,0.2);
-	display: inline-block;
 	float: left;
+	display: inline-block;
 }
 
 .posts .post .collection img:hover {
 	outline: black;	
-}
-
-.posts .post .collection > div.gallery a:first-child > figure > img {
-	width: auto;
-	height: auto;
-	margin-right: 0;
 }
 
 .posts .post a {
