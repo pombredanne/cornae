@@ -76,7 +76,7 @@ We now get the following result:
 
 ![Between][4]
 
-We neatly cover the layer with the top layer by simply adding ``to the markup. Now the graph is finished. That is... almost.
+We neatly cover the layer with the top layer by simply adding ``to the markup. Now the graph is finished. That is… almost.
 
 #### The little 'M-problem'
 
