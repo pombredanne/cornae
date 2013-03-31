@@ -1593,22 +1593,22 @@ body.portfolio #prologue {
 
 /* @group Tweets */
 
-#tweets #contentBody ul {
+#contentBody.tweet ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-#tweets #contentBody ul li {
+#contentBody.tweet ul li {
 	list-style-type: none;
 	margin: 0 0 32px;
 	padding: 0;
 	min-height: 68px;
 }
 
-#tweets #contentBody ul li a.tweet_avatar {
+#contentBody.tweet ul li a.tweet_avatar {
 	margin-left: -95px;
-	margin-top: 4px;
+	margin-top: 8px;
 	width: 68px;
 	height: 68px;
 	overflow: hidden;
@@ -1616,12 +1616,13 @@ body.portfolio #prologue {
 	background-color: #a8bbc9;
 }
 
-#tweets #contentBody ul li a.tweet_avatar img {
+#contentBody.tweet ul li a.tweet_avatar img {
 	width: 68px;
 	height: 68px;
+	max-width: 100%;
 }
 
-#tweets #contentBody ul li a {
+#contentBody.tweet ul li a {
 	display: block;
 	font-size: 20px;
 	font-style: normal;
@@ -1631,13 +1632,13 @@ body.portfolio #prologue {
 	margin-bottom: 2px;
 }
 
-#tweets #contentBody ul li span a {
+#contentBody.tweet ul li span a {
 	display: inline;
 	font-style: italic;
 	font-weight: normal;
 }
 
-#tweets #contentBody ul li span.tweet_text {
+#contentBody.tweet ul li span.tweet_text {
 	clear: left;
 	color: gray;
 	font-family: Georgia,"Times New Roman",Times,serif !important;
