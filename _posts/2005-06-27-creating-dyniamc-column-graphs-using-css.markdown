@@ -23,18 +23,13 @@ Difficult, you may think? *Dread not, nor be dismayed*. The good news is: *it's 
 
 The graph itself is positioned inside one large container:
 
-      
-    
-
 To make life easier for the end user, stripes were added to this division, by means of a background image.
 
 Within the division mentioned above, there's a subdivision which is intended to be used for the graph's scale. It's named 'columnGraphScale' and is followed by the divisions for the months.
 
 #### The scale
 
-The markup containing the scale only would look like this:
-
-    
+The markup containing the scale only would look like this: 
      
       700
       680
@@ -47,45 +42,26 @@ The markup containing the scale only would look like this:
       540
       520
       
-     
-    
-    
-
 I choose to make every number dividable by hundred black, corresponding every fifth, darker line in the background.
 
 The CSS for the scale looks like this:
 
-    div#columnGraph p {  
-    
-    font-size: 9px;  
-    
-    margin: 0px;  
-    
-    height: 10px;  
-    
-    width: 25px;  
-    
-    text-align: right;  
-    
-    display: block;  
-    
-    padding: 0px 10px 0px 0px;  
-    
+    div#columnGraph p { 
+    font-size: 9px; 
+    margin: 0px; 
+    height: 10px; 
+    width: 25px; 
+    text-align: right; 
+    display: block; 
+    padding: 0px 10px 0px 0px; 
     overflow: hidden;  
-    
     color: gray;  
-    
     line-height: 9px;  
-    
     background: url(images/body.gif) no-repeat left center;  
-    
     }  
     
-    
     div#columnGraph p b {  
-    
     color: black;  
-    
     }
     
 
