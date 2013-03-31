@@ -102,12 +102,11 @@ body {
 
 a {
 	color: #3d607e;
-	text-decoration: none;
 }
 
 a:before
  {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 /* @group Bounce */
