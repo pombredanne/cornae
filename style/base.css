@@ -117,14 +117,15 @@ a:before
 }
 
 #prologue .social-links {
-	padding-top: 45px;
+	padding-top: 55px;
 	display: block;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 
 #prologue .social-links a,
 #prologue .social-links a:hover {
 	border-style: none;
+	transition: transform 0.1s;
 }
 
 .social-links a
