@@ -109,6 +109,23 @@ a:before
 	text-decoration: none !important;
 }
 
+/* @group Social links
+ */
+
+.social-links a
+ {
+	font-size: 7em;
+}
+
+.social-links a:before
+ {
+	
+}
+
+
+
+/* @end */
+
 /* @group Bounce */
 
 @-webkit-keyframes bounce-nervous {
