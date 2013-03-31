@@ -709,13 +709,14 @@ pre {
 	color: black;
 	padding: 10px;
 	overflow: auto;
-	-webkit-box-shadow: inset 0 1px 6px rgba(0,0,0,0.2);
-	-o-box-shadow: inset 0 1px 6px rgba(0,0,0,0.2);
-	-moz-box-shadow: inset 0 1px 6px rgba(0,0,0,0.2);
-	-webkit-box-shadow: inset 0 1px 6px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
 	text-shadow: rgba(255,254,255,0.77) 0 1px 0;
 	margin-bottom: 20px;
 	border: 1px solid rgba(0,0,0,0.28);
+}
+
+pre code {
+	background-color: transparent;
 }
 
 p.footer {
@@ -1246,7 +1247,6 @@ p.geekAlert {
 	margin-top: 40px;
 	margin-bottom: 20px;
 	text-shadow: rgba(255,254,255,0.64) 0 1px 0;
-	border-radius: 10px;
 	font-size: 12px;
 }
 

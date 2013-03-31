@@ -124,11 +124,9 @@ The model, as proposed below, is based on XHTML pages of which each page contain
 	<p lang="en-GB">
 	  This is a multi lingual website. Despite all efforts it might occur that a certain page is not (completely) available in your preferred language. My apologies for the inconvenience.
 	</p>
-	
 	<p lang="it-IT">
 	  Questo è un sito multilinguistico. Malgrado tutti i miei sforzi potrebbe accadere che una determinata pagina non sia completamente disponibile nella vostra lingua. Mi scuso per il disagio.
 	</p>
-	
 	<p lang="fr-FR">
 	  Ceci est un site multi-lingue. Malgré les efforts il est bien possible que certains pages ne sont pas dans leurs totalités disponibles dans votre langue préférée. Veuillez nous excuser.
 	</p>    
