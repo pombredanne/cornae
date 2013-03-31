@@ -16,10 +16,20 @@ template: case
       </div>
       <div id="contentBody">
           <div class="gallery pat-gallery">
-          {% for pic in page.pictures %}
+          {% for pic in page.pictures limit:1 %}
               <a href="{{site.media}}/portfolio/{{ pic.url }}">
                 <figure>
                   <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
+                  <figcaption>
+                    {{ pic.caption }}
+                  </figcaption>
+                </figure>
+              </a>
+          {% endfor %}
+          {% for pic in page.pictures offset: 1 %}
+              <a href="{{site.media}}/portfolio/{{ pic.url }}">
+                <figure>
+                  <img src="proxy.boxresizer.com/convert?resize=40x71&source=http%3A%2F%2F{{site.media}}%2Fportfolio%2F{{ pic.url }}"" title="{{ pic.caption }}" alt="image" />
                   <figcaption>
                     {{ pic.caption }}
                   </figcaption>
