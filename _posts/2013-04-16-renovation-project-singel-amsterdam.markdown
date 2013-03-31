@@ -60,15 +60,15 @@ pictures:
   - url: renovation-singel/5.jpg
     caption: Double rain shower
   - url: renovation-singel/6.jpg
-    caption: Caption 3
+    caption: Bedroom
   - url: renovation-singel/7.jpg
-    caption: Caption 3
+    caption: Stairs to the bedroom
   - url: renovation-singel/8.jpg
-    caption: Caption 3
+    caption: Combination toilet and bidet
   - url: renovation-singel/9.jpg
-    caption: Caption 3
+    caption: Wash basin
   - url: renovation-singel/10.jpg
-    caption: Caption 3
+    caption: Wash basin
 ---
 
 Showing here are the 3D drawings that were made before the renovation in which everything was planned to the smallest detail based on real measurements and carefully selected and simulated materials. 
