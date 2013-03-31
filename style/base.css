@@ -112,14 +112,32 @@ a:before
 /* @group Social links
  */
 
+.social-links {
+	text-align: center;
+}
+
 .social-links a
  {
 	font-size: 7em;
+	width: 1em;
+	height: 1em;
+	overflow: hidden;
+	display: inline-block;
+	line-height: 0;
+	white-space: nowrap;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-shadow: #000000 0 -2px 2px;
+	transition: transform 0.1s;
 }
 
 .social-links a:before
  {
-	
+	margin: 0 1em 0 0;
+}
+
+.social-links a:hover {
+	transform: scale(1.1)
 }
 
 
