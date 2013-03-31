@@ -17,7 +17,7 @@ As with teaching Mandarin, the creation and maintainence of multi-lingual sites 
 
 Before you can launch a successful multi lingual website, certain issues need to be addressed, including how the webserver chooses what language to present to the specific end user and how to handle pages that need be launched but have not yet been (fully) translated.
 
-In the year 1517 Martin Luther needed no less than ninety five statements to cause a reformation. I will do my best to address all of the issues mentioned before in the next *eight statements*.
+In the year 1517 Martin Luther needed no less than ninety five statements to cause a reformation. I will do my best to address all of the issues mentioned before in the next **eight statements**.
 
 1.  [French isn't French][1] 
  
@@ -67,7 +67,7 @@ Utilising automatic system language detection may smoothen up the visitor's brow
 *   Your Lebanese friend — whom you probably communicate with in French — might have launched you a web browser on his Arabic system. It would be desirable to have a choice of switching to another language at any given moment. 
  
 
-Select boxes are widely used for language- or location switchers. A simple list in the sideline of what other languages are available, the way [wikipedia][10] does, also makes an elegant solution. The advantage of a simple list on each page is that people have direct visual access to the name of their language at all times. One common mistake to indicate the language choice or to indicate the chosen language is flags. Flags have just as little to do with languages as domain names do. Think about it, with multiple countries where languages such as English, French or Arabic is an official language, what flag to use? Or what to do with languages that have no nationality, such as Roma? There's only one answer to the flag problem: if you can get around them, don't use them.
+Select boxes are widely used for language- or location switchers. A simple list in the sideline of what other languages are available, the way [wikipedia](http://www.wikipedia.org)] does, also makes an elegant solution. The advantage of a simple list on each page is that people have direct visual access to the name of their language at all times. One common mistake to indicate the language choice or to indicate the chosen language is flags. Flags have just as little to do with languages as domain names do. Think about it, with multiple countries where languages such as English, French or Arabic is an official language, what flag to use? Or what to do with languages that have no nationality, such as Roma? There's only one answer to the flag problem: if you can get around them, don't use them.
 
 I will address these and other issues in a [proposed model][11], further below.
 
@@ -194,7 +194,7 @@ Each time the select box is set to a another value, this value will be stored in
 
 #### STEP 3: Sniffing the client's preferred language
 
-Browsers declare the user's language first and second the preferred local dialect using [iso 639][18] codes of 2 or 3 digits each. E.g.: American English = en-US. 'Some systems' are less correct in announcing the language code as they could be and they will only state the language itself, not the preferred dialect of that language.
+Browsers declare the user's language first and second the preferred local dialect using [iso 639](http://www.sil.org/) codes of 2 or 3 digits each. E.g.: American English = en-US. 'Some systems' are less correct in announcing the language code as they could be and they will only state the language itself, not the preferred dialect of that language.
 
 If you don't know your client language, find out about it with this [language check][19].
 
@@ -212,6 +212,6 @@ This whole process as described above, is illustrated below. The flow chart is a
 
 ### Addendum
 
-In this model ([working example available][22]), all the actual filtering takes place within the client, with some great advantages to it, including live switching, search engine friendliness and no need for complex server side technology. The application of [Unicode][23] permits you to mix every possible character system in one page. But of course, nothing keeps you from using the same technology for a server side language filter. If your pages derive from XML files, the same *lang* attributes may be applied to the XML. Another mechanism can used to filter out the unwanted languages for a certain request while generating the page.
+In this model, all the actual filtering takes place within the client, with some great advantages to it, including live switching, search engine friendliness and no need for complex server side technology. The application of Unicode permits you to mix every possible character system in one page. But of course, nothing keeps you from using the same technology for a server side language filter. If your pages derive from XML files, the same *lang* attributes may be applied to the XML. Another mechanism can used to filter out the unwanted languages for a certain request while generating the page.
 
 For websites that generate large amounts of traffic every day, the latter method would probably be a fair option. For somewhat smaller scale websites, or websites for which no multi lingual content management system is on for hand, the client side model could more than well fit your needs.

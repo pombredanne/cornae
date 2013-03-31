@@ -578,7 +578,6 @@ p em {
 	font-style: italic;
 	letter-spacing: 0.05em;
 	transition: color 1s ease-out;
-	font-weight: bold;
 }
 
 p strong {
