@@ -18,7 +18,12 @@ template: case
           <div class="gallery pat-gallery">
             {% for pic in page.pictures limit:1 %}
               <a id="main-image" href="{{site.media}}/portfolio/{{ pic.url }}">
-                  <img src="{{site.media}}/portfolio/{{ pic.url }}" />
+                <figure>
+                  <img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
+                  <figcaption>
+                    {{ pic.caption }}
+                  </figcaption>
+                </figure>
               </a>
             {% endfor %}
 
@@ -36,12 +41,7 @@ template: case
             <div id="thumbs" hidden>
             {% for pic in page.pictures offset: 1 %}
                 <a href="{{site.media}}/portfolio/{{ pic.url }}">
-                  <figure>
                     <img width="830" src="http://proxy.boxresizer.com/convert?resize=71x40&source=http://cornae.github.com{{ site.media }}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="image" />
-                    <figcaption>
-                      {{ pic.caption }}
-                    </figcaption>
-                  </figure>
                 </a>
             {% endfor %}
             </div>
