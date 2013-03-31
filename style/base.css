@@ -709,6 +709,7 @@ pre {
 	margin-bottom: 20px;
 	border: 1px solid rgba(0,0,0,0.28);
 	font-family: "Courier New", Courier, mono;
+	line-height: 1.3em;
 }
 
 pre code {
