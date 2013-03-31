@@ -125,7 +125,6 @@ a:before
 	display: inline-block;
 	line-height: 0;
 	white-space: nowrap;
-	text-shadow: #000000 0 -2px 2px;
 	transition: transform 0.1s;
 	margin-right: 3.2%;
 	margin-left: 3.2%;
