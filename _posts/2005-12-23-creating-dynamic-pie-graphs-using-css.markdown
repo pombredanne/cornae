@@ -111,11 +111,8 @@ The image below, shows the end result in both Internet Explorer 6.0 and an other
 ![Pie graph in Internet Explorer][8]
 
 1.  **Left:** The render result in Internet Explorer 6.0.
- 
 2.  **Right:** The render result in modern browsers.
 
-
-* * *
 
  [1]: {{ site.media }}/pie.png
  [2]: {{ site.media }}/pieGraphLayers.png
