@@ -10,6 +10,38 @@ template: contact
         <p class="introduction">
         	As a consultant Human Factors &amp; Web Technologies and CTO at <a href="http://www.informaat.nl">Informaat IPE</a>, Cornelis  is on an ongoing mission to help businesses to design products their  clients really like to use. With his knowledge about fields as  diverse as interior design, visual design, interaction design and front end programming, he supports multi disciplinary teams to reach optimal results and to  reach those fast.</p>
       </div>
-      <div id="contentBody">
+      <div id="contentBody" class="tweet">
         {{ content }}
 	  </div>
+
+	  	 <script type='text/javascript'>
+    jQuery(document).ready(function($) {
+      $(".tweet").tweet({
+        join_text: "auto",
+        username: "cornae",
+        avatar_size: 68,
+        count: 20,
+        auto_join_text_default: "Cornelis said,", 
+        auto_join_text_ed: "Cornelis",
+        auto_join_text_ing: "Cornelis was",
+        auto_join_text_reply: "Cornelis replied",
+        auto_join_text_url: "Cornelis was checking out",
+        loading_text: "loading tweets..."
+      });
+    })   
+    </script>
+      <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-920302-4']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
