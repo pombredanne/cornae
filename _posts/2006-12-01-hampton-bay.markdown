@@ -20,4 +20,4 @@ pictures:
     caption: Roll over detail
 ---
 
-An [interactive mockup]({{ site.media }}/portfolio/hampton-bay/prototype/index.html) of this website is available. 
+Watch the [interactive mockup]({{ site.media }}/portfolio/hampton-bay/prototype/index.html) of this website. 
