@@ -15,4 +15,4 @@ categories [Entertainment][] and [Search Engine/Directory][].
 
   [Entertainment]: http://www.interactivemediaawards.com/winners/certificate.asp?param=48570&cat=1
   [Search Engine/Directory]: http://www.interactivemediaawards.com/winners/certificate.asp?param=48570&cat=2
-  [IMA]: {{ site.media }}/clipblast-website/ima_large_oa.png
+  [IMA]: {{ site.media }}/portfolio/clipblast-website/ima_large_oa.png
