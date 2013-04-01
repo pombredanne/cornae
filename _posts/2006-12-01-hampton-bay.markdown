@@ -19,3 +19,5 @@ pictures:
   - url: hampton-bay/7.png
     caption: Roll over detail
 ---
+
+An [interactive mockup]({{ site.media }}/portfolio/hampton-bay/prototype/index.html) of this website is available. 
