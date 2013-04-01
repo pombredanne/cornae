@@ -651,14 +651,12 @@ blockquote {
 	font-variant: normal;
 	font-weight: normal;
 	line-height: normal;
-	margin-bottom: 32px;
+	margin-bottom: 2em;
 	margin-left: 0pt;
-	margin-top: 30px;
-	padding-left: 14px;
-	padding-right: 14px;
-	padding-top: 5px;
+	margin-top: 1em;
 	text-align: center;
-	text-shadow: 0pt 1px 4px gray;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 blockquote p {
