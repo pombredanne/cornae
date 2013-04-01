@@ -19,13 +19,9 @@ The subject of the field set may be marked by means of a *legend*. A legend desc
 In retrospect it could be said that there is the following list of most important building blocks for forms:
 
 *   Input elements (Free-form input fields, text areas, radio buttons, etc.)
- 
-*   Labels
- 
+*   Labels 
 *   Legends
- 
 *   Fieldsets
- 
 
 This article will illuminate which element has to be used when.
 
