@@ -30,7 +30,7 @@ The HTML version that makes the best out of the Document Object Model is the [XH
 
  [1]: http://www.w3c.org
  [2]: http://www.w3.org/MarkUp/
- [3]: {{ site.baseurl }}/2005/06/16/the-structure-of-html.html
+ [3]: {{ site.baseurl }}/articles/the-structure-of-html.html
  []: http://www.cornae.com/articles/dealing-with-labels
  [5]: http://www.cornae.com/articles/dealing-with-labels
  [6]: http://www.cornae.com/form-follows-function-and-achieving-thereof "Legends of the Form"
