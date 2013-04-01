@@ -1033,6 +1033,10 @@ sup {
 	display: inline;
 }
 
+.posts .post.case p {
+	display: block;
+}
+
 .posts .post .description {
 	float: left;
 	width: 190px;
