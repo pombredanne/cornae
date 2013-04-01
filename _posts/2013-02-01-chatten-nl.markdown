@@ -1,7 +1,7 @@
 ---
 layout: case
 category: cases
-title: Chatten.nl
+title: Chatten.nl iPhone app
 summary: The iPhone app of Chatten.nl allows users to chat with other users of the same application, but also with users who are using the chat application on chatten.nl.
 pictures:
   - url: chatten-nl/home.jpeg
