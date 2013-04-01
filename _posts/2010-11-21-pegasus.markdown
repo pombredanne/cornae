@@ -13,5 +13,13 @@ pictures:
   - url: pegasus/4.png
     caption: Luxury — detail
   - url: pegasus/5.png
-    caption: Contemporary details     
+    caption: Contemporary details 
+  - url: pegasus/7.png
+    caption: Contemporary fixtures
+  - url: pegasus/8.png
+    caption:Product catalgoue
+  - url: pegasus/9.png
+    caption: Menu — detail
+  - url: pegasus/10.png
+    caption: Banner roll-over    
 ---
