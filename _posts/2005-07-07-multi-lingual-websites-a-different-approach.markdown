@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multi-lingual websites — A different approach
-summary: Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Friesians only spoke Frysk. But things have moved on from here.
+summary: Once upon a time the world was a well defined, less complicated place than it is today. The Italians lived on a pasta diet, only Japanese people drank sake and the Frisians only spoke Frysk. But things have moved on from here.
 avatar: avatar-multi-lingual.png
 ---
 
