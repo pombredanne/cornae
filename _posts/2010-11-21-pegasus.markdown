@@ -2,7 +2,7 @@
 layout: case
 category: cases
 title: Pegasus website
-summary:Pegasus is one of the proprietary brands of The Home Depot USA. Cornelis was hired to lead, consult and design UID Consultancy for its dedicated product web site.
+summary: Pegasus is one of the proprietary brands of The Home Depot USA. Cornelis was hired to lead, consult and design UID Consultancy for its dedicated product web site.
 pictures:
   - url: stardesk/0.jpg
     caption: Dashboard
@@ -11,3 +11,4 @@ pictures:
   - url: stardesk/2.jpg
     caption: Document in a workspace
 ---
+pegasus test
