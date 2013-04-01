@@ -1,8 +1,8 @@
 ---
 layout: case
 category: cases
-title: Pegasus
-summary: Pegasus is one of the proprietary brands of The Home Depot USA. Cornelis was hired to lead, consult and design UID Consultancy for its dedicated product web site. 
+title: StarDesk
+summary: A collaborative environment for Star Alliance
 pictures:
   - url: stardesk/0.jpg
     caption: Dashboard
@@ -11,7 +11,3 @@ pictures:
   - url: stardesk/2.jpg
     caption: Document in a workspace
 ---
-
-This highly successful website was awarded with an [Interactive Media Award](http://www.interactivemediaawards.com/winners/certificate.asp?param=59882&cat=1).
-
-[![Interactive Media Award]({{ site.media }}/pegasus/ima2008.png)](http://www.interactivemediaawards.com/winners/certificate.asp?param=59882&cat=1).
