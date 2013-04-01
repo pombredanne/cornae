@@ -10,7 +10,7 @@ pictures:
     caption: Portal
   - url: informaat-website/3.png
     caption: Frontpage
-  - url: informaat-website/4.png
+  - url: informaat-website/4.jpg
     caption: Contact
   - url: informaat-website/carousel.png
     caption: Style switcher
