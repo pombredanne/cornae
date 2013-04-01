@@ -1,0 +1,17 @@
+---
+layout: case
+category: cases
+title: Home hero
+summary: HomeHero™ is a collection of home fire safety products designed to give people more control over their safety and security needs. Cornelis worked as interaction, front-end engineer and technical director on the creation of the HomeHero campaign website. 
+pictures:
+  - url: home-hero/homepage.png
+    caption: Homepage
+---
+
+This highly successful website was awarded with an [Interactive Media
+Award][].
+
+[![IMA][]][Interactive Media Award]
+
+  [Interactive Media Award]: http://www.interactivemediaawards.com/winners/certificate.asp?param=48521&cat=1
+  [IMA]: {{ site.media }}/home-hero/IMAlogo.png
