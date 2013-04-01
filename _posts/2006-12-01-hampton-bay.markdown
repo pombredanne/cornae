@@ -18,10 +18,4 @@ pictures:
     caption: Hampton bay
   - url: hampton-bay/7.png
     caption: Hampton bay
-  - url: hampton-bay/8.png
-    caption: Hampton bay
-  - url: hampton-bay/9.png
-    caption: Hampton bay
-  - url: hampton-bay/10.png
-    caption: Hampton bay
 ---
