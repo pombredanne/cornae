@@ -955,6 +955,10 @@ sup {
 	clear: both;
 }
 
+.posts .post.case {
+	min-height: 446px;
+}
+
 .posts .post img,
 #contentBody .posts .post img {
 	max-width: 100%;
