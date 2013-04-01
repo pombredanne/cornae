@@ -6,21 +6,21 @@ summary: As suggested in the article Form Follows Function and Achieving Thereof
 avatar: avatar-label.png
 ---
 
-A great example of a pattern that really requires the application of visible labels is the postal address entry. Postal address entries may easily contain four, five, or more fields to fill out. The many fields often lead to forms that are lengthier than necessary if all the labels are kept on the left. Another disadvantage of the left-label-layout is that it's far off of the layout of postal addresses on envelopes and letters in the real world.
+A great example of a pattern that really requires the application of visible labels is the postal address entry. Postal address entries may easily contain four, five, or more fields to fill out. The many fields often lead to forms that are lengthier than necessary if all the labels are kept on the left. Another disadvantage of the left-label-layout is that it's far off of the layout of postal adresses on envelopes and letters in the real world.
 
-
+![Verbose address method][1]
 
 If you make the layout of the address group more compact by mimicking a traditional postal address layout, then it will make the form more compact. More importantly: People will be able to fill you an address information in the same fashion they are used to on a postcard. Almost without looking at the labels.
 
-This doesn't make visible labels completely obsolete though. In the example below, a Dutch address layout is applied. Imagine that you would like to send a nice bouquet of flower to your favourite blogger in The Netherlands. But if you've never lived in The Netherlands, then you're not likely to be familiar to this layout. Hence the use of visible labels will be helpful.
+This doesn't make visible labels completely obsolete though. In the example below, a Dutch address layout is applied. Imagine that you would like to send a nice bouquet of flower to your favorite blogger in The Netherlands. But if you've never lived in The Netherlands, then you're not likely to be familiar to this layout. Hence the use of visible labels will be helpful.
 
+![Dutch Address with Super Script Labels][2]
 
+Putting all the labels as superscripts in between the input fields and the term 'Address' as a legend on the left is a great improvement for the layout, but there is an alternative that's even more compact, which I like to call **superimposed labels**.
 
-Putting all the labels as superscripts in between the input fields and the term 'Address' as a legend on the left is a great improvement for the layout, but there is an alternative that's even more compact, which I like to call superimposed labels.
+![Super imposed labels][3]
 
-
-
-Some implementations of this interaction pattern do just pre-fill the values of the input fields with the terms Residence, Street, Postal Code, etc. This is semantically incorrect, because 'Residence' is not a valid value for the field that's called Residence unless there is a place on this planet that is called 'Residence'. A practical issue is that the backend would always receive this value back as a place name, rather than for instance 'Amsterdam'. The backend would have to check whether this field's value is not called "residence" rather than simply checking whether a field was filled out at all for validation purposes. Extra site languages could even further complicate this matter.
+Some implementions of this interaction pattern do just pre-fill the values of the input fields with the terms Residence, Street, Postal Code, etc. This is semantically incorrect, because 'Residence' is not a valid value for the field that's called Residence unless there is a place on this planet that is called 'Residence'. A practical issue is that the backend would always receive this value back as a place name, rather than for instance 'Amsterdam'. The backend would have to check whether this field's value is not called "residence" rather than simply checking whether a field was filled out at all for validation purposes. Extra site languages could even further complicate this matter.
 
 ## The super imposed label solution
 
@@ -30,6 +30,11 @@ The terms street, postal code and son on are labels more than anything else. The
 
 The HTML 5 standard has a solution built in for this, but not with the use of labels, but a certain attribute called 'placeholder' instead. The markup looks like this and it works in most modern browsers:
 
-<input type="text" placeholder="residence" />
+	<input type="text" placeholder="residence" />
+
 If this pattern is picked up quickly by screen readers, then it will become an accessible solution. For now, of all major browsers, only Internet Explorer (9) does not support the pattern. The IE problem could be fixed with a bit of JavaScript that fills in the value of the input field based on the value of the placeholder attribute and to erase that just before submitting the form if it hasn't been altered by the user.
 
+
+ [1]: {{ site.media }}/image_large.png
+ [2]: {{ site.media }}/image_preview1.png/image_preview
+ [3]: {{ site.media }}/image_preview2.png
