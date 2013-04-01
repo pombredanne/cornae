@@ -2,7 +2,7 @@
 layout: post
 category: articles
 title: Dealing with labels
-summary: As suggested in the article Form Follows Function and Achieving Thereof, every input element on a form should ideally have a label. Labels give more meaning to input elements and makes them accessible. This article dives into dealing with labels and input fields for postal addresses on forms.
+summary: As suggested in the article [Form follows function and achieving thereof]({{ site.baseurl }}/articles/form-follows-functions.html), every input element on a form should ideally have a label. Labels give more meaning to input elements and makes them accessible. This article dives into dealing with labels and input fields for postal addresses on forms.
 avatar: avatar-label.png
 ---
 
