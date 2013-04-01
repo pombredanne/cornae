@@ -28,7 +28,7 @@ The terms street, postal code and son on are labels more than anything else. The
 
 ## HTML placeholders
 
-The HTML 5 standard has a solution built in for this, but not with the use of labels, but a certain attribute called 'placeholder' instead. The markup looks like this and it works in most modern browsers:
+The HTML 5 standard has a solution built in for this. Not with the use of labels, but a certain attribute called 'placeholder' instead. The markup looks like this and it works in most modern browsers:
 
 	<input type="text" placeholder="residence" />
 
