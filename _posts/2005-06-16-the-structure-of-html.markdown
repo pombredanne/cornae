@@ -2,7 +2,7 @@
 layout: post
 title: The structure of xHTML
 summary: A concise manual for building a basic xHMTL document for novice.
-avatar: avatar-column-graph.png
+avatar: avatar-structure.png
 ---
 
 ### Tags
