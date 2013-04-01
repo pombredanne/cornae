@@ -1,7 +1,7 @@
 ---
 layout: case
 category: cases
-title: StarDesk
+title: Pegasus
 summary: A collaborative environment for Star Alliance
 pictures:
   - url: stardesk/0.jpg
