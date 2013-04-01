@@ -46,9 +46,9 @@ The international date notation is popular in China. Chinese characters are ofte
 
 #### Norway
 
-- 31.12.2008 (dd.mm.yyyy)
-- 31/12-2008 (dd/mm-yyyy) (used in handwriting, usually without the year attached)
-- 31. desember 2008
+- 31&#46;12&#46;2008 (dd&#46;mm&#46;yyyy)  
+- 31/12-2008 (dd/mm-yyyy) (used in handwriting, usually without the year attached)  
+- 31&#46; desember 2008  
 
 Of all the different formats above, only one notation is used in nearly all of these countries: **31 December 2008**.
 
