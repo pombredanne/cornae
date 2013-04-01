@@ -15,9 +15,11 @@ Where as in old times the code of web pages consisted of text mixed with layout 
 
 By the rules of the DOM, each document is split up in roughly two parts: 'head' and 'body'. The element head contains information on the content of the document. The element body contains all information intended to be presented to the end user.
 
-The animation below ([Apple Quickitme](http://www.apple.com/nl/quicktime/download/) required) explains the structure of the DOM with an abstract model.
+An [animation]({{ site.media }}/structure-of-xhtml.mov) in  [Apple Quicktime](http://www.apple.com/nl/quicktime/download/) format is available to illustrate the structure the DOM by mean of an abstract model.
 
-<video><source="{{ site.media }}/structure-of-xhtml.mov" /><a href="{{ site.media }}/structure-of-xhtml.mov">Video the structure of xHTML</a></video>
+<!--The animation below ([Apple Quickitme](http://www.apple.com/nl/quicktime/download/) required) explains the structure of the DOM with an abstract model.-->
+
+<!--<video><source="{{ site.media }}/structure-of-xhtml.mov" /><a href="{{ site.media }}/structure-of-xhtml.mov">Video the structure of xHTML</a></video>-->
 
 The language that's been used on the internet for the creation of these documents is the well known HTML-format. HTML, which means 'Hypertext Markup Language', was born in the seventies out of the wish to link individual text documents together by assigning the addresses of other documents to certain words. This concept is well known as 'hyperlinking'. Over the years, a number of different versions of the HTML standard have succeeded each other to meet the growing desire for web pages with more advanced scripting possibilities and complex graphical layouts.
 
