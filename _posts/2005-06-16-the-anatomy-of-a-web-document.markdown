@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The structure of xHTML
-summary: A concise manual for building a basic xHMTL document for novice.
-avatar: avatar-structure.png
+summary: An article on the usage of (x)HTML and the application of the Document Object Model (DOM).
+avatar: avatar-anatomy.png
 ---
 
 ## The Document Object Model
