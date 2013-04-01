@@ -4,8 +4,8 @@ category: cases
 title: Kwik-Fit Equalizer
 summary: A price management tool for Kwik-Fit. Part of a large European car garage conglomerate. 
 pictures:
-  - url: kwikfit-equalizer/1.png
+  - url: kwikfit-equalizer/frontpage.png
     caption: Front screen
-  - url: kwikfit-equalizer/2.png
+  - url: kwikfit-equalizer/main-data-view.png
     caption: Main data view
 ---
