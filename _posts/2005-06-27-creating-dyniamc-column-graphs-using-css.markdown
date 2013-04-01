@@ -143,7 +143,7 @@ The images of the inner tube and the outer tube contain a certain top white spac
 
 The month januari was no bad month, as the turnover increased from a measly 492 to a good 660. This gives us, using the formula above, the values 270px and 354px and a matching [graph][5].
 
-In order to make the base of the columns just as neat as the upper part, it has to be covered by an extra division (with [background image][6]). Another another div, containing the column titles is also added and the actual statistic data may be written down the `` of each tube to make sure there can be no misunderstanding about the readout of the results of this year. Problems could occur reading out last year's result, when it sinks behind the inner tube. The outer tube however, is only used as a quick, visual indication to show whether turnovers went up or down and it's value could be left out. I will add this value to markup however in this case the markup below is the result:
+In order to make the base of the columns just as neat as the upper part, it has to be covered by an extra division (with [background image][6]). Another another div, containing the column titles is also added and the actual statistic data may be written down the `a href` of each tube to make sure there can be no misunderstanding about the readout of the results of this year. Problems could occur reading out last year's result, when it sinks behind the inner tube. The outer tube however, is only used as a quick, visual indication to show whether turnovers went up or down and it's value could be left out. I will add this value to markup however in this case the markup below is the result:
           
 	<div>
 	  <a style="height: 270px" href="#">492</a>
