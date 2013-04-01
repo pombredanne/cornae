@@ -82,21 +82,21 @@ The markup looks like this:
 
 For each of those two elements a background image, a width and a z-axis position are set in the CSS.
 
-	  a.oldResult {  
-	    width: 38px;
-	    display: block;
-	    float: left;
-	    position: absolute;  
-	    z-index: 1;
-	    font-size: 9px;
-	    text-decoration: none;  
-	    background: url(images/columGraphColumSkin.gif) repeat-y center top;  
-	    text-align: center;  
-	    padding: 0px;  
-	    margin: 0px 11px 0px 11px;  
-	    bottom: 0px;  
-	    color: black;      
-	    }
+	a.oldResult {  
+	  width: 38px;
+	  display: block;
+	  float: left;
+	  position: absolute;  
+	  z-index: 1;
+	  font-size: 9px;
+	  text-decoration: none;  
+	  background: url(images/columGraphColumSkin.gif) repeat-y center top;  
+	  text-align: center;  
+	  padding: 0px;  
+	  margin: 0px 11px 0px 11px;  
+	  bottom: 0px;  
+	  color: black;      
+	  }
     
 
 An absolute positioning, a z-axis of 1 and the positioning set bottom will make sure that the tubes will grow upwards instead of down. For the background the image [columnGraphColumSkin.gif][2] was used, set vertically aligned top.
@@ -117,25 +117,24 @@ The GIF-format was used to keep all of the above compatible with Microsoft Inter
 
 About the same was applied on the elements 'newResult' as on the elements 'oldResult', but with a z-index of 2, to make sure the inner tube will be drawn in front of the outer tube.
 
-	  a.newResult {  
-	    width: 26px; 
-	    display: block;  
-	    float: left;  
-	    background: url(images/columnGraphColumnCentre-new.gif) no-repeat center top;  
-	    position: absolute;  
-	    z-index: 2;  
-	    font-size: 9px;  
-	    color: black;
-	    text-decoration: none;  
-	    text-align: center;  
-	    margin: 0px 17px 0px 17px;  
-	    padding: 0px;  
-	    bottom: 0px;  
-	    font-weight: bold;  
-	  }
-    
+	 a.newResult { 
+	   width: 26px;
+	   display: block;
+	   float: left;
+	   background: url(images/columnGraphColumnCentre-new.gif) no-repeat center top;  
+	   position: absolute;
+	   z-index: 2;
+	   font-size: 9px;
+	   color: black;
+	   text-decoration: none;
+	   text-align: center;
+	   margin: 0px 17px 0px 17px;
+	   padding: 0px;
+	   bottom: 0px;
+	   font-weight: bold;
+	 }
 
-Both elements are pushed into position within the division that contains them: ``. This division is used for displaying [the column's base][4]. We need this image only in case there is no desire to use the outer tube in the graph.
+Both elements are pushed into position within the division that contains them: `<div class="columnGraphColumn">`. This division is used for displaying [the column's base][4]. We need this image only in case there is no desire to use the outer tube in the graph.
 
 The images of the inner tube and the outer tube contain a certain top white space and the roundness causes the readout height (the horizontal cut through of the tubes' top surface) to differ from the absolute height of the image. This value, including a few pixels that we need at the bottom to finish the bases, say twenty-four pixels, may be added to make up for the difference. The nicest way to to fix this would be to add a bottom margin of twenty-four pixels to the a-element in the CSS. An elegant solution yes, however, MSIE's broken box model redirects this elegant solution straight to the dustbin. Therefore 24 pixels need to be added to each value. On my scale every five pixels equals a difference of ten. In this case the formula is:
 
@@ -143,7 +142,7 @@ The images of the inner tube and the outer tube contain a certain top white spac
 
 The month januari was no bad month, as the turnover increased from a measly 492 to a good 660. This gives us, using the formula above, the values 270px and 354px and a matching [graph][5].
 
-In order to make the base of the columns just as neat as the upper part, it has to be covered by an extra division (with [background image][6]). Another another div, containing the column titles is also added and the actual statistic data may be written down the `a href` of each tube to make sure there can be no misunderstanding about the readout of the results of this year. Problems could occur reading out last year's result, when it sinks behind the inner tube. The outer tube however, is only used as a quick, visual indication to show whether turnovers went up or down and it's value could be left out. I will add this value to markup however in this case the markup below is the result:
+In order to make the base of the columns just as neat as the upper part, it has to be covered by an extra division with a background image. Another another div, containing the column titles is also added and the actual statistic data may be written down the `a href` of each tube to make sure there can be no misunderstanding about the readout of the results of this year. Problems could occur reading out last year's result, when it sinks behind the inner tube. The outer tube however, is only used as a quick, visual indication to show whether turnovers went up or down and it's value could be left out. I will add this value to markup however in this case the markup below is the result:
           
 	<div>
 	  <a style="height: 270px" href="#">492</a>
