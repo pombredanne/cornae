@@ -8,8 +8,6 @@ stunningly deep colours which Cornelis tried to capture on this
 website against a dark background and photography in the old Dutch
 'Claire Obscure' tradition that was already used by Rembrandt van Rijn
 and Johannes Vermeer back in the 17th century.
-
-  [this website]: http://www.uitdeaarde.nl 
 pictures:
   - url: home-hero/homepage.png
     caption: Homepage
