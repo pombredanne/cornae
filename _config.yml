@@ -5,6 +5,9 @@ baseurl: /cornae
 media: /cornae/media
 paginate: 1
 permalink: /:category/:title
+categories:
+- articles
+- cases
 tags:
 - article
 - case
