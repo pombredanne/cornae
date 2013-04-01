@@ -4,50 +4,50 @@ category: cases
 title: Ovarius
 summary: When Cornelis was finishing his multi media studies back in '97, he created a game that features a space ship, which he designed with the 3D modelling and animation tools of the time. Here's a render of the game intro plus a compilation of different parts of the game.
 videos:
-  - url: ovarius-animation/animation.mov
+  - url: ovarius-project/animation.mov
 pictures:
-  - url: ovarius-animation/1.jpg
+  - url: ovarius-project/1.jpg
     caption: Still
-  - url: ovarius-animation/2.jpg
+  - url: ovarius-project/2.jpg
     caption: Still
-  - url: ovarius-animation/3.jpg
+  - url: ovarius-project/3.jpg
     caption: Still
-  - url: ovarius-animation/4.jpg
+  - url: ovarius-project/4.jpg
     caption: Still
-  - url: ovarius-animation/5.jpg
+  - url: ovarius-project/5.jpg
     caption: Still
-  - url: ovarius-animation/6.jpg
+  - url: ovarius-project/6.jpg
     caption: Still
-  - url: ovarius-animation/7.jpg
+  - url: ovarius-project/7.jpg
     caption: Still
-  - url: ovarius-animation/8.jpg
+  - url: ovarius-project/8.jpg
     caption: Still
-  - url: ovarius-animation/9.jpg
+  - url: ovarius-project/9.jpg
     caption: Still
-  - url: ovarius-animation/10.jpg
+  - url: ovarius-project/10.jpg
     caption: Still
-  - url: ovarius-animation/11.jpg
+  - url: ovarius-project/11.jpg
     caption: Still
-  - url: ovarius-animation/12.jpg
+  - url: ovarius-project/12.jpg
     caption: Still
-  - url: ovarius-animation/13.jpg
+  - url: ovarius-project/13.jpg
     caption: Still
-  - url: ovarius-animation/14.jpg
+  - url: ovarius-project/14.jpg
     caption: Still
-  - url: ovarius-animation/15.jpg
+  - url: ovarius-project/15.jpg
     caption: Still
-  - url: ovarius-animation/16.jpg
+  - url: ovarius-project/16.jpg
     caption: Still
-  - url: ovarius-animation/17.jpg
+  - url: ovarius-project/17.jpg
     caption: Still
-  - url: ovarius-animation/18.jpg
+  - url: ovarius-project/18.jpg
     caption: Still
-  - url: ovarius-animation/19.jpg
+  - url: ovarius-project/19.jpg
     caption: Still
-  - url: ovarius-animation/20.jpg
+  - url: ovarius-project/20.jpg
     caption: Still
-  - url: ovarius-animation/21.jpg
+  - url: ovarius-project/21.jpg
     caption: Still
-  - url: ovarius-animation/22.jpg
+  - url: ovarius-project/22.jpg
     caption: Still
 ---
