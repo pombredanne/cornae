@@ -6,11 +6,11 @@ summary: Forms can be dreadfully tricky to style and structure properly. Several
 avatar: avatar-forms.png
 ---
 
-![Score][1]
-
 ### Form Building Blocks
 
 All input elements on a form must be tagged with labels. Labels describe what type of information the form may contain.
+
+![Score][1]
 
 All input elements on a form should also be logically grouped in *field sets*. A field set is a group of form elements that are related towards each other. For instance a yes/no answer with radio buttons or an address input fields group.
 
