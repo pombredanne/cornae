@@ -6,6 +6,8 @@ summary: HomeHero™ is a collection of home fire safety products designed to gi
 pictures:
   - url: home-hero/homepage.png
     caption: Homepage
+  - url: home-hero/ima.png
+    caption: Design award
 ---
 
 This highly successful website was awarded with an [Interactive Media
