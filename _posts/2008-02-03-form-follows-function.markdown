@@ -75,10 +75,10 @@ What becomes clear in this story is that visual layout of a form doesn't have to
 
 A clear and shared nomenclature of form elements based on what things are, rather than what they look like, helps multi disciplinary teams to work more efficiently and to build lean products using reusable and highly maintainable building blocks.
 
- [1]: {{ site.media }}/Vioolsleutelillustratie.png
+ [1]: {{ site.media }}/Vioolsleutel-illustratie.png
  [2]: {{ site.media }}/Concise.png
- [3]: {{ site.media }}/FielsetConcise.png
- [4]: {{ site.media }}/Longerform.png
+ [3]: {{ site.media }}/Fielset-Concise.png
+ [4]: {{ site.media }}/Longer-form.png
  [5]: {{ site.media }}/Combo.png
- [6]: {{ site.media }}/Simpleform.png
- [7]: {{ site.media }}/FieldsetCondensed.png
+ [6]: {{ site.media }}/Simple-form.png
+ [7]: {{ site.media }}/Fieldset-Condensed.png
