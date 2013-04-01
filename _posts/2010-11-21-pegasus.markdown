@@ -26,6 +26,3 @@ pictures:
     caption: Banner roll-over
 ---
 
-This highly successful website was awarded with an [Interactive Media Award](http://www.interactivemediaawards.com/winners/certificate.asp?param=59882&cat=1).
-
-[![Interactive Media Award]({{ site.media }}/pegasus/ima2008.png)](http://www.interactivemediaawards.com/winners/certificate.asp?param=59882&cat=1).
