@@ -1,5 +1,6 @@
 ---
 layout: case
+category: cases
 title: StarDesk
 summary: A collaborative environment for Star Alliance
 pictures:

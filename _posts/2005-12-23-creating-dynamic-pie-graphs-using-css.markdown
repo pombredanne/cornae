@@ -1,5 +1,6 @@
 ---
 layout: post
+category: articles
 title: Creating dynamic pie graphs using CSS
 summary: OAfter all the positive responses to my article on creating dynamic column graphs using CSS, I decided to go one step further and publish a method to create dynamic 3-dimensional pie graphs, again based CSS and xHTML.
 avatar: avatar-pie.png

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: articles
 title: Form follows function and achieving thereof
 summary: In the beginning there was the internet. It was formless and empty and information was hovering on the lines. Then the web was created, to give house to the information. Then there was HTML. It gave structure to the information and the people saw that it was good.
 avatar: avatar-ugly-duckling.png

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: articles
 title: Creating dynamic column graphs using CSS
 summary: An article on producing dynamic, graphically rich column graphs, using structural xHTML and CSS.
 avatar: avatar-column-graph.png

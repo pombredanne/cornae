@@ -1,5 +1,6 @@
 ---
 layout: post
+category: articles
 title: The structure of xHTML
 summary: A concise manual for building a basic xHMTL document for novice.
 avatar: avatar-structure.png

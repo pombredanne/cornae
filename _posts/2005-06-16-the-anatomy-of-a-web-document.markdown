@@ -1,5 +1,6 @@
 ---
 layout: post
+category: articles
 title: Anatomy of a (web) document
 summary: An article on the usage of (x)HTML and the application of the Document Object Model (DOM).
 avatar: avatar-anatomy.png
