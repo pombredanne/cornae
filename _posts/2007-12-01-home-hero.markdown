@@ -17,3 +17,5 @@ Award][].
 
   [Interactive Media Award]: http://www.interactivemediaawards.com/winners/certificate.asp?param=48521&cat=1
   [IMA]: {{ site.media }}/portfolio/home-hero/ima_large_oa.png
+  
+An [interactive mockup]({{ site.media }}/portfolio/home-hero/prototype/index.html) of this website is available. 
