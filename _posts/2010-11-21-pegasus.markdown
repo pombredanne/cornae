@@ -14,10 +14,12 @@ pictures:
     caption: Luxury — detail
   - url: pegasus/5.png
     caption: Contemporary details 
+  - url: pegasus/6.png
+    caption: Faucets, Fixtures and Furniture 
   - url: pegasus/7.png
     caption: Contemporary fixtures
   - url: pegasus/8.png
-    caption:Product catalgoue
+    caption: Product catalgoue
   - url: pegasus/9.png
     caption: Menu — detail
   - url: pegasus/10.png
