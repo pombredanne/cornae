@@ -7,5 +7,5 @@ pictures:
   - url: kwikfit-equalizer/1.png
     caption: Front screen
   - url: kwikfit-equalizer/2.png
-	caption: Main data view
+    caption: Main data view
 ---
