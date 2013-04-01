@@ -35,6 +35,6 @@ The HTML 5 standard has a solution built in for this, but not with the use of la
 If this pattern is picked up quickly by screen readers, then it will become an accessible solution. For now, of all major browsers, only Internet Explorer (9) does not support the pattern. The IE problem could be fixed with a bit of JavaScript that fills in the value of the input field based on the value of the placeholder attribute and to erase that just before submitting the form if it hasn't been altered by the user.
 
 
- [1]: {{ site.media }}/image_large.png
- [2]: {{ site.media }}/image_preview1.png/image_preview
- [3]: {{ site.media }}/image_preview2.png
+ [1]: {{ site.media }}/verbose-address.png
+ [2]: {{ site.media }}/super-script-labels.png
+ [3]: {{ site.media }}/super-imposed-labels.png
