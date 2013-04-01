@@ -10,45 +10,51 @@ avatar: avatar-date-notation.png
 
 A part of the problem is that designers are often faced with international visitors to their websites. Different geographical regions  have their own popular format. Please find an incomplete list of popular formats below.
 
-### ISO 8601 International Date Format
+#### ISO 8601 International Date Format
 
-2008-12-31(ccyy-mm-dd)
+- 2008-12-31(ccyy-mm-dd)
+
 The international date format is adopted by several countries. Many people around the globe have never used this notation however.
 
-### United States of America
+#### United States of America
 
-12/31/2008 (mm/dd/yyyy)
-December 31, 2008
-31 December 2008
-31-Dec-2008
-The month/day/year order is unique to the USA, Canada and the Phillipines.
+- 12/31/2008 (mm/dd/yyyy)
+- December 31, 2008
+- 31 December 2008
+- 31-Dec-2008
 
-### United Kingdom
+The month/day/year order is **unique** to the USA, Canada and the Phillipines.
 
-31/12/2008 (dd-mm-yyyy)
-December 31st, 2008
-31st of December 2008
-31 December 2008
-Kingdom of the Netherlands
+#### United Kingdom
 
-31-12-2008 (dd-mm-yyyy)
-31-12-'08 (dd-mm-yy)
-31 december 2008
-Greater China
+- 31/12/2008 (dd-mm-yyyy)
+- December 31st, 2008
+- 31st of December 2008
+- 31 December 2008
 
-2006年01月29日
+#### Kingdom of the Netherlands
+
+- 31-12-2008 (dd-mm-yyyy)
+- 31-12-'08 (dd-mm-yy)
+- 31 december 2008
+
+#### Greater China
+
+- 2006年01月29日
+
 The international date notation is popular in China. Chinese characters are often used for the words for year, month and day.
 
-### Norway
+#### Norway
 
-31.12.2008 (dd.mm.yyyy)
-31/12-2008 (dd/mm-yyyy) (used in handwriting, usually without the year attached)
-31. desember 2008
-Of all the different formats above, only one notation is used in nearly all of these countries: 31 December 2008.
+- 31.12.2008 (dd.mm.yyyy)
+- 31/12-2008 (dd/mm-yyyy) (used in handwriting, usually without the year attached)
+- 31. desember 2008
 
-The Aztec calendar was the calendar of the Aztec people of Pre-Columbian Mexico. It is one of the Mesoamerican calendars, sharing the basic structure of calendars from throughout ancient Mesoamerica. The Aztec calendar was the most precise calendar until the arrival of computers.
+Of all the different formats above, only one notation is used in nearly all of these countries: **31 December 2008**.
 
+![Aztec Calendar]({{ site.media }}/Aztek-Calendar.png)
 
+> The Aztec calendar was the calendar of the Aztec people of Pre-Columbian Mexico. It is one of the Mesoamerican calendars, sharing the basic structure of calendars from throughout ancient Mesoamerica. The Aztec calendar was the most precise calendar until the arrival of computers.
 
 ## Input methods
 
