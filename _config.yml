@@ -4,7 +4,7 @@ author: Cornelis G. A. Kolbach
 baseurl: /cornae
 media: /cornae/media
 paginate: 1
-permalink: /:category/:title
+permalink: /articles/:title
 categories:
 - articles
 - cases
