@@ -8,14 +8,14 @@ pictures:
     caption: Dashboard
   - url: chatten-nl/0.jpeg
     caption: Workspace
-  - url: chatten-nl/1.jpg
+  - url: chatten-nl/1.jpeg
     caption: Chatrooms
-  - url: chatten-nl/2.jpg
+  - url: chatten-nl/2.jpeg
     caption: Chat
-  - url: chatten-nl/3.jpg
+  - url: chatten-nl/3.jpeg
     caption: Login screen
-  - url: chatten-nl/4.jpg
+  - url: chatten-nl/4.jpeg
     caption: Registration
-  - url: chatten-nl/5.jpg
+  - url: chatten-nl/5.jpeg
     caption: Registration — extended
 ---
