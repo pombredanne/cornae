@@ -1,8 +1,8 @@
 ---
 layout: case
 category: cases
-title: Kwikfit filiaalagenda
-summary: A planning application for Kwikfit. A large European car garage conglomerate. 
+title: Kwik-Fit filiaalagenda
+summary: A planning application for Kwik-Fit. Part of a large European car garage conglomerate. 
 pictures:
   - url: kwikfit-filiaalagenda/1.png
     caption: Home screen
