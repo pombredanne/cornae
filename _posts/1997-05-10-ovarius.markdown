@@ -4,50 +4,50 @@ category: cases
 title: Ovarius
 summary: When Cornelis was finishing his multi media studies back in '97, he created a game that features a space ship, which he designed with the 3D modelling and animation tools of the time. Here's a render of the game intro plus a compilation of different parts of the game.
 videos:
-  - url: ovarius/animation.mov
+  - url: mission-ovarius/animation.mov
 pictures:
-  - url: ovarius/1.jpg
+  - url: mission-ovarius/1.jpg
     caption: Still
-  - url: ovarius/2.jpg
+  - url: mission-ovarius/2.jpg
     caption: Still
-  - url: ovarius/3.jpg
+  - url: mission-ovarius/3.jpg
     caption: Still
-  - url: ovarius/4.jpg
+  - url: mission-ovarius/4.jpg
     caption: Still
-  - url: ovarius/5.jpg
+  - url: mission-ovarius/5.jpg
     caption: Still
-  - url: ovarius/6.jpg
+  - url: mission-ovarius/6.jpg
     caption: Still
-  - url: ovarius/7.jpg
+  - url: mission-ovarius/7.jpg
     caption: Still
-  - url: ovarius/8.jpg
+  - url: mission-ovarius/8.jpg
     caption: Still
-  - url: ovarius/9.jpg
+  - url: mission-ovarius/9.jpg
     caption: Still
-  - url: ovarius/10.jpg
+  - url: mission-ovarius/10.jpg
     caption: Still
-  - url: ovarius/11.jpg
+  - url: mission-ovarius/11.jpg
     caption: Still
-  - url: ovarius/12.jpg
+  - url: mission-ovarius/12.jpg
     caption: Still
-  - url: ovarius/13.jpg
+  - url: mission-ovarius/13.jpg
     caption: Still
-  - url: ovarius/14.jpg
+  - url: mission-ovarius/14.jpg
     caption: Still
-  - url: ovarius/15.jpg
+  - url: mission-ovarius/15.jpg
     caption: Still
-  - url: ovarius/16.jpg
+  - url: mission-ovarius/16.jpg
     caption: Still
-  - url: ovarius/17.jpg
+  - url: mission-ovarius/17.jpg
     caption: Still
-  - url: ovarius/18.jpg
+  - url: mission-ovarius/18.jpg
     caption: Still
-  - url: ovarius/19.jpg
+  - url: mission-ovarius/19.jpg
     caption: Still
-  - url: ovarius/20.jpg
+  - url: mission-ovarius/20.jpg
     caption: Still
-  - url: ovarius/21.jpg
+  - url: mission-ovarius/21.jpg
     caption: Still
-  - url: ovarius/22.jpg
+  - url: mission-ovarius/22.jpg
     caption: Still
 ---
