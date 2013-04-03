@@ -2,7 +2,7 @@
 layout: case
 category: cases
 title: Ovarius
-summary: When Cornelis was finishing his multi media studies back in 1997, he created a game that features a space ship, which he designed with the 3D modelling and animation tools of the time.
+summary: When Cornelis was finishing his multi media studies back in 1997, he created a game that features a space ship, which he designed with the 3D modelling and animation tools of that time.
 pictures:
   - url: mission-ovarius/1.jpg
     caption: Still
