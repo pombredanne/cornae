@@ -10,7 +10,7 @@ title: Welcome
 			{% if post.layout != 'case' %}
 	  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
 	  		{% endif %}
-		    <h4>{{ post.title }}</h4>
+		    <h4>{% if post.layout == 'case' %}Showcase: {% endif %}{{ post.title }}</h4>
 		    {% if post.layout == 'case' %}
 				{% for pic in post.pictures limit:1 %}
 					<img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="" />
