@@ -1,8 +1,8 @@
 twitter: cornae
 title: Cornae
 author: Cornelis G. A. Kolbach
-baseurl: /cornae
-media: /cornae/media
+baseurl: /
+media: /media
 paginate: 1
 permalink: /articles/:title
 categories:
